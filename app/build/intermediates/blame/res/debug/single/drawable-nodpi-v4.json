@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_browsertabs.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-nodpi/bg_browsertabs.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_urlbar.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-nodpi/bg_urlbar.png"
+    }
+]

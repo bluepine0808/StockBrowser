@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-land/nav_screen.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-land/nav_screen.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-land/page_info.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-land/page_info.xml"
+    }
+]

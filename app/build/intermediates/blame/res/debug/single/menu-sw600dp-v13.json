@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/menu-sw600dp-v13/combined.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/menu-sw600dp/combined.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/menu-sw600dp-v13/history.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/menu-sw600dp/history.xml"
+    }
+]

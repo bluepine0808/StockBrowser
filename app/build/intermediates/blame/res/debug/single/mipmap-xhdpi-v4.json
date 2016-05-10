@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher_shortcut_browser_bookmark.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/mipmap-xhdpi/ic_launcher_shortcut_browser_bookmark.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher_browser.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/mipmap-xhdpi/ic_launcher_browser.png"
+    }
+]

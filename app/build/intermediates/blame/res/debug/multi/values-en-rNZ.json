@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/values-en-rNZ/values-en-rNZ.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 17,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-en-rNZ/donottranslate-search_engines.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 896,
+                        "endLine": 27,
+                        "endColumn": 17,
+                        "endOffset": 1028
+                    }
+                }
+            }
+        ]
+    }
+]

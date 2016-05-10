@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/thumb_google.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/thumb_google.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/favicon_cyanogenmod.ico",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/favicon_cyanogenmod.ico"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/folder_view.ktpl",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/folder_view.ktpl"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/favicon_cmwiki.ico",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/favicon_cmwiki.ico"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/thumb_cyanogenmod.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/thumb_cyanogenmod.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/thumb_cmwiki.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/thumb_cmwiki.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/most_visited.ktpl",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/most_visited.ktpl"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/raw/favicon_google.ico",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/raw/favicon_google.ico"
+    }
+]

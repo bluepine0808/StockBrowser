@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/snapshot_item.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-sw600dp/snapshot_item.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/pick_bookmark.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-sw600dp/pick_bookmark.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/title_bar_nav.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-sw600dp/title_bar_nav.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/title_bar_autologin.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-sw600dp/title_bar_autologin.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/suggestion_item.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-sw600dp/suggestion_item.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/history.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-sw600dp/history.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/title_bar_snapshot.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/layout-sw600dp/title_bar_snapshot.xml"
+    }
+]

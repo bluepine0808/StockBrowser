@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/values-nb-rNO/values-nb-rNO.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 17,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-nb-rNO/donottranslate-search_engines.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 896,
+                        "endLine": 29,
+                        "endColumn": 17,
+                        "endOffset": 1076
+                    }
+                }
+            }
+        ]
+    }
+]

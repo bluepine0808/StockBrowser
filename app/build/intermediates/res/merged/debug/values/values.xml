@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="abcsok" translatable="false">
+    <item>ABC Søk</item>
+    <item>abcsok.no</item>
+    <item>http://abcsok.no/favicon.ico</item>
+    <item>http://abcsok.no/index.html?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="altavista_se" translatable="false">
+    <item>AltaVista</item>
+    <item>se.altavista.com</item>
+    <item>http://se.altavista.com/favicon.ico</item>
+    <item>http://se.altavista.com/web/results?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="ask_de" translatable="false">
+    <item>Ask.com Deutschland</item>
+    <item>de.ask.com</item>
+    <item>http://de.ask.com/favicon.ico</item>
+    <item>http://de.ask.com/web?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://ss.de.ask.com/query?q={searchTerms}&amp;li=ff</item>
+  </string-array>
+    <string-array name="ask_es" translatable="false">
+    <item>Ask.com España</item>
+    <item>es.ask.com</item>
+    <item>http://es.ask.com/favicon.ico</item>
+    <item>http://es.ask.com/web?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://ss.es.ask.com/query?q={searchTerms}&amp;li=ff</item>
+  </string-array>
+    <string-array name="ask_it" translatable="false">
+    <item>Ask.com Italia</item>
+    <item>it.ask.com</item>
+    <item>http://it.ask.com/favicon.ico</item>
+    <item>http://it.ask.com/web?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://ss.it.ask.com/query?q={searchTerms}&amp;li=ff</item>
+  </string-array>
+    <string-array name="ask_nl" translatable="false">
+    <item>Ask.com Nederland</item>
+    <item>nl.ask.com</item>
+    <item>http://nl.ask.com/favicon.ico</item>
+    <item>http://nl.ask.com/web?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://ss.nl.ask.com/query?q={searchTerms}&amp;li=ff</item>
+  </string-array>
+    <string-array name="ask_uk" translatable="false">
+    <item>Ask Jeeves</item>
+    <item>uk.ask.com</item>
+    <item>http://uk.ask.com/favicon.ico</item>
+    <item>http://uk.ask.com/web?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://ss.uk.ask.com/query?q={searchTerms}&amp;li=ff</item>
+  </string-array>
+    <string-array name="atlas_cz" translatable="false">
+    <item>Atlas</item>
+    <item>atlas.cz</item>
+    <item>http://img.atlas.cz/favicon.ico</item>
+    <item>http://search.atlas.cz/?q={searchTerms}</item>
+    <item>windows-1250</item>
+    <item/>
+  </string-array>
+    <string-array name="baidu" translatable="false">
+    <item>百度</item>
+    <item>baidu.com</item>
+    <item>http://www.baidu.com/favicon.ico</item>
+    <item>http://www.baidu.com/s?wd={searchTerms}</item>
+    <item>GB2312</item>
+    <item/>
+  </string-array>
+    <string-array name="bing" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_cs_CZ" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=cs-CZ&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_da_DK" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=da-DK&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_de_AT" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=de-AT&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_de_CH" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=de-CH&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_de_DE" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=de-DE&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_el_GR" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=el-GR&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_en_AU" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=en-AU&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_en_GB" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=en-GB&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_en_IE" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=en-IE&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_en_NZ" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=en-NZ&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_en_SG" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=en-SG&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_en_ZA" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=en-ZA&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_es_ES" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=es-ES&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_fr_BE" translatable="false">
+    <item>Bing</item>
+    <item/>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=fr-BE&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_fr_CH" translatable="false">
+    <item>Bing</item>
+    <item/>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=fr-CH&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_fr_FR" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=fr-FR&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_it_IT" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=it-IT&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_ja_JP" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=ja-JP&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_nb_NO" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=nb-NO&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_nl_BE" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=nl-BE&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_nl_NL" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=nl-NL&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_pl_PL" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=pl-PL&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_pt_BR" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=pt-BR&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_pt_PT" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=pt-PT&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_ru_RU" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=ru-RU&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_sv_SE" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=sv-SE&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_tr_TR" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=tr-TR&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_zh_CN" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=zh-CN&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_zh_HK" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=zh-HK&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <string-array name="bing_zh_TW" translatable="false">
+    <item>Bing</item>
+    <item>bing.com</item>
+    <item>http://www.bing.com/s/wlflag.ico</item>
+    <item>http://www.bing.com/search?setmkt=zh-TW&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://api.bing.com/osjson.aspx?query={searchTerms}&amp;language={language}</item>
+  </string-array>
+    <array name="bookmark_preloads">
+        <item>@raw/favicon_google</item>
+        <item>@raw/thumb_google</item>
+        <item>@raw/favicon_cyanogenmod</item>
+        <item>@raw/thumb_cyanogenmod</item>
+        <item>@raw/favicon_cmwiki</item>
+        <item>@raw/thumb_cmwiki</item>
+    </array>
+    <string-array name="bookmarks" translatable="false">
+        <item>Google</item>
+        <item>http://www.google.com</item>
+        <item>CyanogenMod</item>
+        <item>http://www.cyanogenmod.org</item>
+        <item>CyanogenMod Wiki</item>
+        <item>http://wiki.cyanogenmod.org/w/Main_Page</item>
+    </string-array>
+    <string-array name="centrum_cz" translatable="false">
+    <item>Centrum.cz</item>
+    <item>centrum.cz</item>
+    <item>http://img.centrum.cz/6/vy2/o/favicon.ico</item>
+    <item>http://search.centrum.cz/index.php?charset={inputEncoding}&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="daum" translatable="false">
+    <item>Daum</item>
+    <item>daum.net</item>
+    <item>http://search.daum.net/favicon.ico</item>
+    <item>http://search.daum.net/search?q={searchTerms}</item>
+    <item>EUC-KR</item>
+    <item>http://sug.search.daum.net/search_nsuggest?mod=fxjson&amp;q={searchTerms}</item>
+  </string-array>
+    <string-array name="duckduckgo" translatable="false">
+    <item>DuckDuckGo</item>
+    <item>duckduckgo.com</item>
+    <item>https://duckduckgo.com/favicon.ico</item>
+    <item>https://duckduckgo.com/?q={searchTerms}&amp;t=cyanogenmod</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="duckduckgo_en_gb" translatable="false">
+    <item>DuckDuckGo (UK)</item>
+    <item>duckduckgo.com</item>
+    <item>https://duckduckgo.com/favicon.ico</item>
+    <item>https://duckduckgo.com/?q={searchTerms}%20r:uk&amp;t=cyanogenmod</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="eniro_se" translatable="false">
+    <item>Eniro</item>
+    <item>eniro.se</item>
+    <item>http://eniro.se/favicon.ico</item>
+    <item>http://eniro.se/query?search_word={searchTerms}&amp;what=web_local</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="goo" translatable="false">
+    <item>goo</item>
+    <item>search.goo.ne.jp</item>
+    <item>http://goo.ne.jp/favicon.ico</item>
+    <item>http://search.goo.ne.jp/web.jsp?MT={searchTerms}&amp;IE={inputEncoding}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="google" translatable="false">
+    <item>Google</item>
+    <item>google.com</item>
+    <item>https://www.google.com/favicon.ico</item>
+    <item>https://www.google.com/search?ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>https://www.google.com/complete/search?client=android&amp;q={searchTerms}</item>
+  </string-array>
+    <string-array name="hispavista" translatable="false">
+    <item>hispavista</item>
+    <item>hispavista.com</item>
+    <item>http://buscar.hispavista.com/favicon.ico</item>
+    <item>http://buscar.hispavista.com/?cadena={searchTerms}</item>
+    <item>iso-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="in" translatable="false">
+    <item>in.gr</item>
+    <item>in.gr</item>
+    <item>http://www.in.gr/favicon.ico</item>
+    <item>http://find.in.gr/?qs={searchTerms}</item>
+    <item>ISO-8859-7</item>
+    <item/>
+  </string-array>
+    <string-array name="kvasir" translatable="false">
+    <item>Kvasir</item>
+    <item>kvasir.no</item>
+    <item>http://www.kvasir.no/img/favicon.ico</item>
+    <item>http://www.kvasir.no/nettsok/searchResult.html?searchExpr={searchTerms}</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="libero" translatable="false">
+    <item>Libero</item>
+    <item>libero.it</item>
+    <item>http://arianna.libero.it/favicon.ico</item>
+    <item>http://arianna.libero.it/search/abin/integrata.cgi?query={searchTerms}</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="mail_ru" translatable="false">
+    <item>\@MAIL.RU</item>
+    <item>mail.ru</item>
+    <item>http://img.go.mail.ru/favicon.ico</item>
+    <item>http://go.mail.ru/search?q={searchTerms}</item>
+    <item>windows-1251</item>
+    <item/>
+  </string-array>
+    <string-array name="mynet" translatable="false">
+    <item>MYNET</item>
+    <item>mynet.com</item>
+    <item>http://img.mynet.com/mynetfavori.ico</item>
+    <item>http://arama.mynet.com/search.aspx?q={searchTerms}&amp;pg=q</item>
+    <item>windows-1254</item>
+    <item/>
+  </string-array>
+    <string-array name="nate" translatable="false">
+    <item>네이트닷컴</item>
+    <item>nate.com</item>
+    <item>http://img.nate.com/search/v2/ico/favicon.ico</item>
+    <item>http://search.nate.com/search/all.html?q={searchTerms}</item>
+    <item>EUC-KR</item>
+    <item/>
+  </string-array>
+    <string-array name="naver" translatable="false">
+    <item>네이버</item>
+    <item>naver.com</item>
+    <item>http://search.naver.com/favicon.ico</item>
+    <item>http://search.naver.com/search.naver?ie={inputEncoding}&amp;query={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://ac.search.naver.com/nx/ac?of=os&amp;ie={inputEncoding}&amp;oe=utf-8&amp;q={searchTerms}</item>
+  </string-array>
+    <string-array name="netsprint" translatable="false">
+    <item>NetSprint</item>
+    <item>netsprint.pl</item>
+    <item>http://netsprint.pl/favicon.ico</item>
+    <item>http://www.netsprint.pl/serwis/search?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="onet" translatable="false">
+    <item>Onet.pl</item>
+    <item>onet.pl</item>
+    <item>http://szukaj.onet.pl/favicon.ico</item>
+    <item>http://szukaj.onet.pl/query.html?qt={searchTerms}</item>
+    <item>ISO-8859-2</item>
+    <item/>
+  </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Always on</item>
+        <item>On demand</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_content_plugins_values" translatable="false">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_data_preload_choices">
+        <item>Never</item>
+        <item>Only on Wi-Fi</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_data_preload_values" translatable="false">
+        <item><ns1:g>@string/pref_data_preload_value_never</ns1:g></item>
+        <item><ns1:g>@string/pref_data_preload_value_wifi_only</ns1:g></item>
+        <item><ns1:g>@string/pref_data_preload_value_always</ns1:g></item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <!-- No need to translate a EUC-KR part, and there is no string length limits. -->
+        <item>Korean (EUC-KR)</item>
+        <!-- TODO: We should add a lot more encodings.  -->
+    </string-array>
+    <string-array name="pref_default_text_encoding_values" translatable="false">
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Far</item>
+        <item>Medium</item>
+        <item>Close</item>
+    </string-array>
+    <string-array name="pref_default_zoom_values" translatable="false">
+        <item><ns1:g>FAR</ns1:g></item>
+        <item><ns1:g>MEDIUM</ns1:g></item>
+        <item><ns1:g>CLOSE</ns1:g></item>
+    </string-array>
+    <string-array name="pref_development_ua_choices" translatable="false">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Froyo-N1</item>
+        <item>Honeycomb-Xoom</item>
+    </string-array>
+    <string-array name="pref_development_ua_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <!-- Setting choice to set the homepage to the current page [CHAR LIMIT=40] -->
+        <item>Current page</item>
+        <!-- Setting choice to set the homepage to a blank page [CHAR LIMIT=40] -->
+        <item>Blank page</item>
+        <!-- Setting choice to set the homepage to the default page [CHAR LIMIT=40] -->
+        <item>Default page</item>
+        <!-- Setting choice to set the homepage to the "Most Visited" homepage feature, which is a list of most visited sites [CHAR LIMIT=40] -->
+        <item>Most visited sites</item>
+        <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_homepage_values" translatable="false">
+        <item>current</item>
+        <item>blank</item>
+        <item>default</item>
+        <item>most_visited</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_choices">
+        <item>Never</item>
+        <item>Only on Wi-Fi</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_link_prefetch_values" translatable="false">
+        <item><ns1:g>@string/pref_link_prefetch_value_never</ns1:g></item>
+        <item><ns1:g>@string/pref_link_prefetch_value_wifi_only</ns1:g></item>
+        <item><ns1:g>@string/pref_link_prefetch_value_always</ns1:g></item>
+    </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="rambler" translatable="false">
+    <item>Rambler</item>
+    <item>rambler.ru</item>
+    <item>http://www.rambler.ru/favicon.ico</item>
+    <item>http://www.rambler.ru/search?words={searchTerms}</item>
+    <item>windows-1251</item>
+    <item/>
+  </string-array>
+    <string-array name="rednano" translatable="false">
+    <item>Rednano</item>
+    <item>rednano.sg</item>
+    <item>http://rednano.sg/favicon.ico</item>
+    <item>http://rednano.sg/sfe/lwi.action?querystring={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="sapo" translatable="false">
+    <item>SAPO</item>
+    <item>sapo.pt</item>
+    <item>http://imgs.sapo.pt/images/sapo.ico</item>
+    <item>http://pesquisa.sapo.pt/?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://pesquisa.sapo.pt/livesapo?q={searchTerms}</item>
+  </string-array>
+    <string-array name="search_de_CH" translatable="false">
+    <item>search.ch</item>
+    <item>search.ch</item>
+    <item>http://www.search.ch/favicon.ico</item>
+    <item>http://www.search.ch/index.de.html?q={searchTerms}</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="search_engines">
+    <item>google</item>
+    <item>yahoo</item>
+    <item>bing</item>
+    <item>duckduckgo</item>
+  </string-array>
+    <string-array name="search_fr_CH" translatable="false">
+    <item>search.ch</item>
+    <item/>
+    <item>http://www.search.ch/favicon.ico</item>
+    <item>http://www.search.ch/index.fr.html?q={searchTerms}</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="seznam" translatable="false">
+    <item>Seznam</item>
+    <item>seznam.cz</item>
+    <item>http://1.im.cz/szn/img/favicon.ico</item>
+    <item>http://search.seznam.cz/?q={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://suggest.fulltext.seznam.cz/?dict=fulltext_ff&amp;phrase={searchTerms}&amp;encoding={inputEncoding}&amp;response_encoding=utf-8</item>
+  </string-array>
+    <string-array name="spray" translatable="false">
+    <item>Spray</item>
+    <item>spray.se</item>
+    <item>http://www.eniro.se/favicon.ico</item>
+    <item>http://www.eniro.se/query?ax=spray&amp;search_word={searchTerms}&amp;what=web</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="terra_es" translatable="false">
+    <item>Terra</item>
+    <item>terra.es</item>
+    <item>http://buscador.terra.es/favicon.ico</item>
+    <item>http://buscador.terra.es/Default.aspx?query={searchTerms}&amp;source=Search</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="tut" translatable="false">
+    <item>TUT.BY</item>
+    <item>tut.by</item>
+    <item>http://www.tut.by/favicon.ico</item>
+    <item>http://search.tut.by/?query={searchTerms}</item>
+    <item>windows-1251</item>
+    <item/>
+  </string-array>
+    <string-array name="uol" translatable="false">
+    <item>UOL Busca</item>
+    <item>busca.uol.com.br</item>
+    <item>http://busca.uol.com.br/favicon.ico</item>
+    <item>http://busca.uol.com.br/web/?q={searchTerms}</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="virgilio" translatable="false">
+    <item>Virgilio</item>
+    <item>virgilio.it</item>
+    <item>http://ricerca.alice.it/favicon.ico</item>
+    <item>http://ricerca.alice.it/ricerca?qs={searchTerms}</item>
+    <item>ISO-8859-1</item>
+    <item/>
+  </string-array>
+    <string-array name="wp" translatable="false">
+    <item>Wirtualna Polska</item>
+    <item>wp.pl</item>
+    <item>http://szukaj.wp.pl/favicon.ico</item>
+    <item>http://szukaj.wp.pl/szukaj.html?szukaj={searchTerms}</item>
+    <item>ISO-8859-2</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo" translatable="false">
+    <item>Yahoo!</item>
+    <item>yahoo.com</item>
+    <item>http://search.yahoo.com/favicon.ico</item>
+    <item>http://search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_at" translatable="false">
+    <item>Yahoo! Suche</item>
+    <item>at.yahoo.com</item>
+    <item>http://at.search.yahoo.com/favicon.ico</item>
+    <item>http://at.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_au" translatable="false">
+    <item>Yahoo!7</item>
+    <item>au.yahoo.com</item>
+    <item>http://au.search.yahoo.com/favicon.ico</item>
+    <item>http://au.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://aue-sayt.ff.search.yahoo.com/gossip-au-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_br" translatable="false">
+    <item>Yahoo! Brasil</item>
+    <item>br.yahoo.com</item>
+    <item>http://br.search.yahoo.com/favicon.ico</item>
+    <item>http://br.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://br-sayt.ff.search.yahoo.com/gossip-br-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_ch" translatable="false">
+    <item>Yahoo! Suche</item>
+    <item>ch.yahoo.com</item>
+    <item>http://ch.search.yahoo.com/favicon.ico</item>
+    <item>http://ch.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_cn" translatable="false">
+    <item>中国雅虎</item>
+    <item>cn.yahoo.com</item>
+    <item>http://search.cn.yahoo.com/favicon.ico</item>
+    <item>http://search.cn.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>GB2312</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_de" translatable="false">
+    <item>Yahoo! Deutschland</item>
+    <item>de.yahoo.com</item>
+    <item>http://de.search.yahoo.com/favicon.ico</item>
+    <item>http://de.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://de-sayt.ff.search.yahoo.com/gossip-de-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_dk" translatable="false">
+    <item>Yahoo! Danmark</item>
+    <item>dk.yahoo.com</item>
+    <item>http://dk.search.yahoo.com/favicon.ico</item>
+    <item>http://dk.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_es" translatable="false">
+    <item>Yahoo! España</item>
+    <item>es.yahoo.com</item>
+    <item>http://es.search.yahoo.com/favicon.ico</item>
+    <item>http://es.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://es-sayt.ff.search.yahoo.com/gossip-es-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_fr" translatable="false">
+    <item>Yahoo! France</item>
+    <item>fr.yahoo.com</item>
+    <item>http://fr.search.yahoo.com/favicon.ico</item>
+    <item>http://fr.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://fr-sayt.ff.search.yahoo.com/gossip-fr-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_hk" translatable="false">
+    <item>Yahoo! Hong Kong</item>
+    <item>hk.yahoo.com</item>
+    <item>http://hk.search.yahoo.com/favicon.ico</item>
+    <item>http://hk.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_it" translatable="false">
+    <item>Yahoo! Italia</item>
+    <item>it.yahoo.com</item>
+    <item>http://it.search.yahoo.com/favicon.ico</item>
+    <item>http://it.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://it-sayt.ff.search.yahoo.com/gossip-it-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_jp" translatable="false">
+    <item>Yahoo! JAPAN</item>
+    <item>yahoo.co.jp</item>
+    <item>http://search.yahoo.co.jp/favicon.ico</item>
+    <item>http://search.yahoo.co.jp/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_kr" translatable="false">
+    <item>야후! 코리아</item>
+    <item>kr.yahoo.com</item>
+    <item>http://kr.search.yahoo.com/favicon.ico</item>
+    <item>http://kr.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://kr.atc.search.yahoo.com/atcx.php?property=main&amp;ot=fxjson&amp;ei=utf8&amp;eo=utf8&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_nl" translatable="false">
+    <item>Yahoo! Nederland</item>
+    <item>nl.yahoo.com</item>
+    <item>http://nl.search.yahoo.com/favicon.ico</item>
+    <item>http://nl.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_no" translatable="false">
+    <item>Yahoo! Norge</item>
+    <item>no.yahoo.com</item>
+    <item>http://no.search.yahoo.com/favicon.ico</item>
+    <item>http://no.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_nz" translatable="false">
+    <item>Yahoo!Xtra</item>
+    <item>nz.yahoo.com</item>
+    <item>http://nz.search.yahoo.com/favicon.ico</item>
+    <item>http://nz.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://aue-sayt.ff.search.yahoo.com/gossip-nz-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_se" translatable="false">
+    <item>Yahoo! Sverige</item>
+    <item>se.yahoo.com</item>
+    <item>http://se.search.yahoo.com/favicon.ico</item>
+    <item>http://se.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_sg" translatable="false">
+    <item>Yahoo! Singapore</item>
+    <item>sg.yahoo.com</item>
+    <item>http://sg.search.yahoo.com/favicon.ico</item>
+    <item>http://sg.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://sg-sayt.ff.search.yahoo.com/gossip-sg-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yahoo_tw" translatable="false">
+    <item>Yahoo!奇摩</item>
+    <item>tw.yahoo.com</item>
+    <item>http://tw.search.yahoo.com/favicon.ico</item>
+    <item>http://tw.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item/>
+  </string-array>
+    <string-array name="yahoo_uk" translatable="false">
+    <item>Yahoo! UK &amp; Ireland</item>
+    <item>uk.yahoo.com</item>
+    <item>http://uk.search.yahoo.com/favicon.ico</item>
+    <item>http://uk.search.yahoo.com/search?ei={inputEncoding}&amp;fr=crmas&amp;p={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://uk-sayt.ff.search.yahoo.com/gossip-uk-sayt?output=fxjson&amp;command={searchTerms}</item>
+  </string-array>
+    <string-array name="yandex_ru" translatable="false">
+    <item>Яндекс</item>
+    <item>yandex.ru</item>
+    <item>http://yandex.ru/favicon.ico</item>
+    <item>http://yandex.ru/yandsearch?text={searchTerms}</item>
+    <item>UTF-8</item>
+    <item>http://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}</item>
+  </string-array>
+    <bool name="hide_nav_buttons">true</bool>
+    <bool name="hide_title">true</bool>
+    <bool name="isTablet">false</bool>
+    <bool name="menu_show_bookmarks">true</bool>
+    <bool name="menu_show_navigation">true</bool>
+    <color name="accent">#1b5e20</color>
+    <color name="anim_screen_image_view_background">@color/white</color>
+    <color name="autologin_bar_text_color">@android:color/primary_text_light</color>
+    <color name="black">#212121</color>
+    <color name="bookmarkListFaviconBackground">#23ffffff</color>
+    <color name="bookmarkWidgetDivider">#383847</color>
+    <color name="bookmarkWidgetFaviconBackground">#23ffffff</color>
+    <color name="bookmarkWidgetFolderBackground">#A0383847</color>
+    <color name="bookmarkWidgetHeader">#383847</color>
+    <color name="bookmarkWidgetItemBackground">#2b2b3c</color>
+    <color name="bookmark_sync_wizard_background">@android:color/black</color>
+    <color name="bookmark_sync_wizard_confirm_background">@android:color/black</color>
+    <color name="bookmark_thumbnail_label_text_color">#AAAAAA</color>
+    <color name="bookmark_thumbnail_widget_folder_label_text_color">@android:color/white</color>
+    <color name="bookmark_thumbnail_widget_label_text_color">@android:color/white</color>
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="floating_action_button_touch_tint">#388e3c</color>
+    <color name="nav_screen_background">@color/white</color>
+    <color name="navtab_bg">#80606060</color>
+    <color name="preference_list_image_view_background">#404040</color>
+    <color name="primary">#4caf50</color>
+    <color name="primary_dark">#388e3c</color>
+    <color name="qcMenuBackground">#C0000000</color>
+    <color name="qc_normal">#4caf50</color>
+    <color name="qc_selected">#388e3c</color>
+    <color name="qc_sub">#2e7d32</color>
+    <color name="qc_tab_nr">#2e7d32</color>
+    <color name="qc_tab_title_text_color">#DDDDDD</color>
+    <color name="select_account_description_background">@android:color/black</color>
+    <color name="snapshot_item_date_text_color">#AAAAAA</color>
+    <color name="snapshot_item_text_color">@android:color/white</color>
+    <color name="snapshot_item_title_text_color">#AAAAAA</color>
+    <color name="suggestion_item_hint_text_color">@color/black</color>
+    <color name="suggestion_item_secondary_hint_text_color">@color/black</color>
+    <color name="suggestion_item_secondary_text_color">@color/black</color>
+    <color name="suggestion_item_text_color">@color/black</color>
+    <color name="tabFaviconBackground">#4caf50</color>
+    <color name="tabFocusHighlight">#FF99CC00</color>
+    <color name="tabViewTitleBackground">#D0000000</color>
+    <color name="title_bar_autologin_background">#FBF0A0</color>
+    <color name="title_bar_autologin_error_text_color">#dd6826</color>
+    <color name="trasparent">#00000000</color>
+    <color name="white">#fafafa</color>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
+    <dimen name="add_button_margin">16dp</dimen>
+    <dimen name="bookmarkThumbnailHeight">80dip</dimen>
+    <dimen name="bookmarkThumbnailWidth">90dip</dimen>
+    <dimen name="bookmark_widget_favicon_size">26dip</dimen>
+    <dimen name="bookmark_widget_thumb_size">32dip</dimen>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="combo_horizontalSpacing">6dip</dimen>
+    <dimen name="combo_paddingTop">0dip</dimen>
+    <dimen name="diameter">48dp</dimen>
+    <dimen name="elevation_high">4dp</dimen>
+    <dimen name="elevation_low">1dp</dimen>
+    <dimen name="favicon_padded_size">20dip</dimen>
+    <dimen name="favicon_size">16dip</dimen>
+    <dimen name="folder_selector_height">181dip</dimen>
+    <dimen name="list_favicon_corner_radius">3dip</dimen>
+    <dimen name="list_favicon_padding">5dip</dimen>
+    <dimen name="max_tab_width">300dp</dimen>
+    <dimen name="menu_height">32dip</dimen>
+    <dimen name="menu_width">240dip</dimen>
+    <dimen name="mv_border_width">2px</dimen>
+    <dimen name="mv_item_width">80px</dimen>
+    <dimen name="mv_item_width_portrait">80px</dimen>
+    <dimen name="mv_max_width">450px</dimen>
+    <dimen name="nav_tab_height">160dip</dimen>
+    <dimen name="nav_tab_spacing">8dp</dimen>
+    <dimen name="nav_tab_text_normal">18sp</dimen>
+    <dimen name="nav_tab_text_small">14sp</dimen>
+    <dimen name="nav_tab_titleheight">24dip</dimen>
+    <dimen name="nav_tab_width">240dip</dimen>
+    <dimen name="preference_screen_side_margin">0dp</dimen>
+    <dimen name="preference_screen_side_margin_negative">0dp</dimen>
+    <dimen name="preference_widget_width">56dp</dimen>
+    <dimen name="progress_bar_margin">-11dip</dimen>
+    <dimen name="qc_item_size">40dip</dimen>
+    <dimen name="qc_radius_increment">80dip</dimen>
+    <dimen name="qc_radius_start">65dip</dimen>
+    <dimen name="qc_slop">10dip</dimen>
+    <dimen name="qc_tab_title_height">24dip</dimen>
+    <dimen name="qc_thumb_height">100dip</dimen>
+    <dimen name="qc_thumb_width">150dip</dimen>
+    <dimen name="qc_touch_offset">15dip</dimen>
+    <dimen name="suggest_item_padding">8dp</dimen>
+    <dimen name="tab_addoverlap">14dp</dimen>
+    <dimen name="tab_favicon_corner_radius">2dip</dimen>
+    <dimen name="tab_first_padding_left">12dp</dimen>
+    <dimen name="tab_focus_stroke">2dip</dimen>
+    <dimen name="tab_height">44dp</dimen>
+    <dimen name="tab_overlap">8dp</dimen>
+    <dimen name="tab_padding_top">12dp</dimen>
+    <dimen name="tab_slice">15.5dp</dimen>
+    <dimen name="tab_thumbnail_height">160dip</dimen>
+    <dimen name="tab_thumbnail_width">240dip</dimen>
+    <dimen name="tab_view_thumbnail_height">76dip</dimen>
+    <dimen name="tab_width">180dp</dimen>
+    <dimen name="toolbar_height">52dip</dimen>
+    <dimen name="widgetColumnWidth">80dip</dimen>
+    <dimen name="widgetHorizontalSpacing">6dip</dimen>
+    <dimen name="widgetItemMinHeight">48dip</dimen>
+    <dimen name="widgetThumbnailHeight">94dip</dimen>
+    <dimen name="widgetVerticalSpacing">6dip</dimen>
+    <item name="child_id" type="id"/>
+    <item name="child_position" type="id"/>
+    <item name="group_position" type="id"/>
+    <item name="load_object" type="id"/>
+    <item name="position" type="id"/>
+    <item name="tab_view" type="id"/>
+    <integer name="comboViewFadeInDuration">500</integer>
+    <integer name="max_bookmark_columns">5</integer>
+    <integer name="max_suggest_lines_landscape">5</integer>
+    <integer name="max_suggest_lines_portrait">4</integer>
+    <integer name="max_tabs">64</integer>
+    <integer name="most_visits_limit">10</integer>
+    <integer name="tabFadeDuration">400</integer>
+    <integer name="tab_animation_duration">400</integer>
+    <integer name="titlebar_animation_duration">300</integer>
+    <string name="accessibility_button_addbookmark">Bookmark page</string>
+    <string name="accessibility_button_back">Go back</string>
+    <string name="accessibility_button_bookmarks">Bookmarks</string>
+    <string name="accessibility_button_bookmarks_folder_up">Previous folder</string>
+    <string name="accessibility_button_clear">Clear input</string>
+    <string name="accessibility_button_closetab">Close tab</string>
+    <string name="accessibility_button_forward">Go forward</string>
+    <string name="accessibility_button_go">Go</string>
+    <string name="accessibility_button_homescreen">Home screen</string>
+    <string name="accessibility_button_more">More options</string>
+    <string name="accessibility_button_navscreen">Page manager</string>
+    <string name="accessibility_button_newincognitotab">Open new incognito tab</string>
+    <string name="accessibility_button_newtab">Open new tab</string>
+    <string name="accessibility_button_refresh">Refresh page</string>
+    <string name="accessibility_button_search">Search</string>
+    <string name="accessibility_button_stop">Stop page load</string>
+    <string name="accessibility_button_uaswitch">Switch user agent</string>
+    <string name="accessibility_button_voice">Start voice search</string>
+    <string name="accessibility_state_frozen">Saved page</string>
+    <string name="accessibility_state_incognito">Incognito page</string>
+    <string name="accessibility_transition_navscreen">Tab management</string>
+    <string name="account">Account</string>
+    <string msgid="4833571985009544332" name="account_chooser_dialog_title">Choose account</string>
+    <string name="action">Sign in</string>
+    <string name="add_bookmark_short">Add</string>
+    <string name="add_new_bookmark">Add bookmark</string>
+    <string name="add_to_bookmarks_menu_option">Bookmarks</string>
+    <string name="add_to_homescreen_menu_option">Home screen</string>
+    <string name="add_to_other_folder_menu_option">Other folder</string>
+    <string name="added_to_bookmarks">Added to bookmarks.</string>
+    <string name="allow">Allow</string>
+    <string name="application_name">Browser</string>
+    <string name="autofill_profile_editor_address_line_1">Address line 1:</string>
+    <string name="autofill_profile_editor_address_line_1_hint">Street address, P.O. box, c/o</string>
+    <string name="autofill_profile_editor_address_line_2">Address line 2:</string>
+    <string name="autofill_profile_editor_address_line_2_hint">Apartment, suite, unit, building, floor, etc.</string>
+    <string name="autofill_profile_editor_city">City/Town:</string>
+    <string name="autofill_profile_editor_company_name">Company name:</string>
+    <string name="autofill_profile_editor_country">Country:</string>
+    <string name="autofill_profile_editor_delete_profile">Delete</string>
+    <string name="autofill_profile_editor_email_address">Email:</string>
+    <string name="autofill_profile_editor_heading">Type the text you want to auto-fill in web forms.</string>
+    <string name="autofill_profile_editor_name">Full name:</string>
+    <string name="autofill_profile_editor_phone_number">Phone:</string>
+    <string name="autofill_profile_editor_phone_number_invalid">Invalid phone number.</string>
+    <string name="autofill_profile_editor_save_profile">Save</string>
+    <string name="autofill_profile_editor_state">State/Province/Region:</string>
+    <string name="autofill_profile_editor_zip_code">Zip code:</string>
+    <string name="autofill_profile_successful_delete">Auto-fill text deleted.</string>
+    <string name="autofill_profile_successful_save">Auto-fill text saved.</string>
+    <string name="autofill_setup_dialog_message">The browser can automatically complete web forms like this one. Do you want to set up your auto-fill text?</string>
+    <string name="autofill_setup_dialog_negative_toast">You can always set up your auto-fill text from the Browser > Settings > General screen.</string>
+    <string name="autologin_bar_error">Couldn\'t sign in.</string>
+    <string name="autologin_bar_hide_text">Hide</string>
+    <string name="autologin_bar_login_text">Sign in</string>
+    <string name="autologin_bar_text">Sign in as</string>
+    <string name="back">Back</string>
+    <string name="block">Block</string>
+    <string name="bookmark_cannot_save_url">This URL can\'t be bookmarked.</string>
+    <string name="bookmark_list_view">List</string>
+    <string name="bookmark_needs_title">"Bookmark must have a name."</string>
+    <string name="bookmark_needs_url">"Bookmark must have a location."</string>
+    <string name="bookmark_not_saved">Couldn\'t save bookmark.</string>
+    <string name="bookmark_page">Bookmark last-viewed page</string>
+    <string name="bookmark_saved">Saved to bookmarks.</string>
+    <string name="bookmark_this_page">Bookmark this page</string>
+    <string name="bookmark_thumbnail_view">Thumbnails</string>
+    <string name="bookmark_url_not_valid">This URL isn\'t valid.</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="bookmarks_add_page">Save bookmark</string>
+    <string name="bookmarks_search">Browser</string>
+    <string name="browserFrameFileErrorLabel">File problem</string>
+    <string name="browserFrameFormResubmitLabel"/>
+    <string name="browserFrameFormResubmitMessage">The page you\'re trying to view contains data that has already been submitted (\"POSTDATA\"). If you resend the data, any action the form on the page carried out (such as a search or online purchase) will be repeated.</string>
+    <string name="browserFrameNetworkErrorLabel">Connection problem</string>
+    <string name="browser_bookmarks_page_bookmarks_text">Bookmarks</string>
+    <string name="browser_error_title">Browser error</string>
+    <string name="browser_history">Recently-visited pages</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_download">Can only download \"http\" or \"https\" URLs.</string>
+    <string name="choose_upload">Choose file for upload</string>
+    <string name="choosertitle_sharevia">Share via</string>
+    <string name="clear">Clear</string>
+    <string name="clear_history">Clear history</string>
+    <string name="close_other_tabs">Close other tabs</string>
+    <string name="containing_folder">Add to</string>
+    <string name="contextheader_folder_bookmarkcount"><ns1:g id="bookmark_count">%d</ns1:g> bookmarks</string>
+    <string name="contextheader_folder_empty">Empty folder</string>
+    <string name="contextmenu_add_contact">Add contact</string>
+    <string name="contextmenu_copy">Copy</string>
+    <string name="contextmenu_copylink">Copy link URL</string>
+    <string name="contextmenu_dial_dot">Dial\u2026</string>
+    <string name="contextmenu_download_image">Save image</string>
+    <string name="contextmenu_map">Map</string>
+    <string name="contextmenu_openlink">Open</string>
+    <string name="contextmenu_openlink_incognito_newwindow">Open in new incognito tab</string>
+    <string name="contextmenu_openlink_incognito_newwindow_background">Open in new incognito background tab</string>
+    <string name="contextmenu_openlink_newwindow">Open in new tab</string>
+    <string name="contextmenu_openlink_newwindow_background">Open in new background tab</string>
+    <string name="contextmenu_savelink">Save link</string>
+    <string name="contextmenu_send_mail">Send email</string>
+    <string name="contextmenu_set_wallpaper">Set as wallpaper</string>
+    <string name="contextmenu_sharelink">Share link</string>
+    <string name="contextmenu_view_image">View image</string>
+    <string name="copy_page_url">Copy page URL</string>
+    <string name="create_shortcut_bookmark">Add shortcut to home</string>
+    <string name="current_page">from\u0020</string>
+    <string name="defaultBookmarksUpButton">Bookmarks</string>
+    <string name="delete_bookmark_warning">Delete bookmark \"<ns1:g id="bookmark">%s</ns1:g>\"?</string>
+    <string name="delete_folder">Delete folder</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="disable_autofill">Disable auto-fill</string>
+    <string name="do_not_save">Cancel</string>
+    <string name="download_no_sdcard_dlg_msg" product="default">An SD card is required to download <ns1:g id="filename">%s</ns1:g>.</string>
+    <string name="download_no_sdcard_dlg_msg2" product="nosdcard">USB storage is required to download <ns1:g id="filename">%s</ns1:g>.</string>
+    <string name="download_no_sdcard_dlg_title" product="default">No SD card</string>
+    <string name="download_no_sdcard_dlg_title2" product="nosdcard">USB storage unavailable</string>
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">The SD card is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+    <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">The USB storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD card unavailable</string>
+    <string name="download_sdcard_busy_dlg_title2" product="nosdcard">USB storage unavailable</string>
+    <string name="dump_nav" translatable="false">Dump navigation cache</string>
+    <string name="edit_bookmark">Edit bookmark</string>
+    <string name="edit_folder">Edit folder</string>
+    <string name="empty_bookmarks_folder">No bookmarks.</string>
+    <string name="empty_history">No browser history.</string>
+    <string name="empty_snapshots_folder">No saved pages.</string>
+    <string name="error_console_eval_button_text" translatable="false">Evaluate</string>
+    <string name="error_console_eval_text_hint" translatable="false">Evaluate JavaScript</string>
+    <string name="error_console_header_text_maximized" translatable="false">JavaScript console</string>
+    <string name="error_console_header_text_minimized" translatable="false">Show JavaScript console</string>
+    <string name="error_permissions">The app does not have critical permissions needed to run. Please check your permissions settings.</string>
+    <string name="forward">Forward</string>
+    <string name="full_screen_summary">Enable immersive navigation</string>
+    <string name="full_screen_title">Fullscreen</string>
+    <string name="geolocation_permissions_prompt_dont_share">Decline</string>
+    <string name="geolocation_permissions_prompt_message"><ns1:g example="maps.google.com" id="website origin">%s</ns1:g> wants to know your location</string>
+    <string name="geolocation_permissions_prompt_remember">Remember preference</string>
+    <string name="geolocation_permissions_prompt_share">Share location</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location. Change this on the Settings > Advanced > Website screen.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">This site cannot access your location. Change this on the Settings > Advanced > Website screen.</string>
+    <string name="geolocation_settings_page_dialog_cancel_button">Cancel</string>
+    <string name="geolocation_settings_page_dialog_message">Clear location access for this website?</string>
+    <string name="geolocation_settings_page_dialog_ok_button">OK</string>
+    <string name="geolocation_settings_page_summary_allowed">This site can currently access your location</string>
+    <string name="geolocation_settings_page_summary_not_allowed">This site can\'t currently access your location</string>
+    <string name="geolocation_settings_page_title">Clear location access</string>
+    <string name="go_home">Homepage</string>
+    <string name="goto_dot">Go</string>
+    <string name="history">History</string>
+    <string name="homepage_base" translatable="false">
+        https://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+    <string name="homepage_set">Homepage set.</string>
+    <string name="http">http://</string>
+    <string name="import_bookmarks_dialog_add">Add bookmarks to Google account</string>
+    <string name="import_bookmarks_dialog_confirm_add">Add bookmarks currently on this device and begin syncing bookmarks with <ns1:g example="account@example.com" id="Google account">%s</ns1:g>?</string>
+    <string name="import_bookmarks_dialog_confirm_delete">Delete bookmarks currently on this device and begin syncing bookmarks with <ns1:g example="account@example.com" id="Google account">%s</ns1:g>?</string>
+    <string name="import_bookmarks_dialog_delete_select_account">Delete bookmarks currently on this device and begin syncing with Google account</string>
+    <string name="import_bookmarks_dialog_description">Bookmarks on this device are not yet associated with a Google account. Save these bookmarks by adding them to an account. Delete these bookmarks if you don\'t want to sync them.</string>
+    <string name="import_bookmarks_dialog_import">Add your Android bookmarks to bookmarks for <ns1:g example="account@example.com" id="Google account">%s</ns1:g></string>
+    <string name="import_bookmarks_dialog_remove">Delete bookmarks</string>
+    <string name="import_bookmarks_dialog_select_add_account">Add bookmarks currently on this device and begin syncing with Google account</string>
+    <string name="import_bookmarks_dialog_title">Sync with Google account</string>
+    <string name="import_bookmarks_wizard_cancel">Cancel</string>
+    <string name="import_bookmarks_wizard_done">Done</string>
+    <string name="import_bookmarks_wizard_next">Next</string>
+    <string name="import_bookmarks_wizard_previous">Previous</string>
+    <string name="instant_search_label">Google with Instant (Labs)</string>
+    <string name="js_engine_flags" translatable="false">Set JS flags</string>
+    <string name="loadSuspended">The browser can\'t load this page because there\'s
+      no Internet connection.</string>
+    <string name="loadSuspendedTitle">No connection</string>
+    <string name="loading_video">Loading video\u2026</string>
+    <string name="local_bookmarks">Local</string>
+    <string name="location">Address</string>
+    <string name="max_tabs_warning">No more tabs available</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_save_snapshot">Save for offline reading</string>
+    <string name="menu_share_url">Share</string>
+    <string name="menu_view_download">Downloads</string>
+    <string name="name">Label</string>
+    <string name="new_folder">New folder</string>
+    <string name="new_incognito_tab">New incognito tab</string>
+    <string name="new_tab">New tab</string>
+    <string name="no_subfolders">No subfolders.</string>
+    <string name="ok">OK</string>
+    <string name="onehand_summary">Easier web navigation with swipes and quick actions</string>
+    <string name="onehand_title">OneHand Navigation</string>
+    <string name="open_all_in_new_window">Open all in new tabs</string>
+    <string name="open_bookmark">Open</string>
+    <string name="other_bookmarks">Other Bookmarks</string>
+    <string name="page_info">Page info</string>
+    <string name="page_info_address">Address:</string>
+    <string name="page_info_view">View page info</string>
+    <string name="password">Password</string>
+    <string name="permission_not_granted_dialog_message">The permission to write to external storage was not granted. Cannot download.</string>
+    <string name="permission_not_granted_dialog_title">Permission not granted</string>
+    <string name="permission_preload_label">Preload results</string>
+    <string name="permissions_prompt_allow">Allow</string>
+    <string name="permissions_prompt_deny">Deny</string>
+    <string name="permissions_prompt_message"><ns1:g example="maps.google.com" id="website origin">%s</ns1:g> wants to use your <ns1:g example="camera, microphone" id="resources">%s</ns1:g>.</string>
+    <string name="permissions_prompt_remember">Remember preference</string>
+    <string name="popup_window_attempt">Allow this site to open a
+      pop-up window?</string>
+    <string name="pref_accessibility_title">Accessibility</string>
+    <string name="pref_allow_apptabs">Allow multiple tabs per app</string>
+    <string name="pref_autofill_enabled">Form auto-fill</string>
+    <string name="pref_autofill_enabled_summary">Fill out web forms with a single touch</string>
+    <string name="pref_autofill_profile_editor">Auto-fill text</string>
+    <string name="pref_autofill_profile_editor_summary">Set up text to auto-fill in web forms</string>
+    <string name="pref_autologin_progress">Signing into Google sites using <ns1:g>%s</ns1:g></string>
+    <string name="pref_autologin_title">Automatic Google signin</string>
+    <string name="pref_content_autofit">Auto-fit pages</string>
+    <string name="pref_content_autofit_summary">Format webpages to fit the screen</string>
+    <string name="pref_content_block_popups">Block pop-ups</string>
+    <string name="pref_content_homepage">Set homepage</string>
+    <string name="pref_content_javascript">Enable JavaScript</string>
+    <string name="pref_content_load_images">Load images</string>
+    <string name="pref_content_load_images_summary">Display images on web pages</string>
+    <string name="pref_content_load_page">Open pages in overview</string>
+    <string name="pref_content_load_page_summary">Show overview of newly-opened pages</string>
+    <string name="pref_content_open_in_background">Open in background</string>
+    <string name="pref_content_open_in_background_summary">Open new tabs behind the current tab</string>
+    <string name="pref_content_plugins">Enable plug-ins</string>
+    <string name="pref_content_search_engine">Set search engine</string>
+    <string name="pref_content_search_engine_summary">Choose a search engine</string>
+    <string name="pref_content_title">Page content</string>
+    <string name="pref_content_ua">User agent</string>
+    <string name="pref_data_preload_default_value" translatable="false">@string/pref_data_preload_value_wifi_only</string>
+    <string name="pref_data_preload_dialogtitle">Search result preloading</string>
+    <string name="pref_data_preload_summary">Allow browser to preload high confidence search results in the background</string>
+    <string name="pref_data_preload_title">Search result preloading</string>
+    <string name="pref_data_preload_value_always" translatable="false">ALWAYS</string>
+    <string name="pref_data_preload_value_never" translatable="false">NEVER</string>
+    <string name="pref_data_preload_value_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_data_title">Bandwidth management</string>
+    <string name="pref_default_text_encoding">Text encoding</string>
+    <string name="pref_default_text_encoding_default" translatable="false">Latin-1</string>
+    <string name="pref_default_text_encoding_dialogtitle">Text encoding</string>
+    <string name="pref_default_zoom">Default zoom</string>
+    <string name="pref_default_zoom_dialogtitle">Default zoom</string>
+    <string name="pref_development_cpu_upload_path" translatable="false">Enable Cpu Upload Path</string>
+    <string name="pref_development_error_console" translatable="false">Show JavaScript Console</string>
+    <string name="pref_development_hardware_accel" translatable="false">Enable OpenGL Rendering</string>
+    <string name="pref_development_hardware_accel_skia" translatable="false">Enable HW Accelerated Skia</string>
+    <string name="pref_development_nav_dump" translatable="false">Enable nav cache dump</string>
+    <string name="pref_development_normal_rendering" translatable="false">Normal rendering</string>
+    <string name="pref_development_reset_prelogin" translatable="false">Reset prelogin</string>
+    <string name="pref_development_single_column_rendering" translatable="false">Single column rendering</string>
+    <string name="pref_development_title">Debug</string>
+    <string name="pref_development_trace" translatable="false">Enable tracing</string>
+    <string name="pref_development_uastring" translatable="false">UAString</string>
+    <string name="pref_development_viewport" translatable="false">Use wide viewport</string>
+    <string name="pref_development_visual_indicator" translatable="false">Enable Visual Indicator</string>
+    <string name="pref_extras_reset_default">Reset to default</string>
+    <string name="pref_extras_reset_default_dlg">Revert settings to default values?</string>
+    <string name="pref_extras_reset_default_summary">Restore default settings</string>
+    <string name="pref_extras_reset_default_title">Reset defaults</string>
+    <string name="pref_extras_title">Advanced</string>
+    <string name="pref_extras_website_settings">Website settings</string>
+    <string name="pref_extras_website_settings_summary">Advanced settings for individual websites</string>
+    <string name="pref_font_size_category">Text size</string>
+    <string name="pref_force_userscalable">Force enable zoom</string>
+    <string name="pref_force_userscalable_summary">Override a website\'s request to control zoom behavior</string>
+    <string name="pref_general_autofill_title">Auto-fill</string>
+    <string name="pref_general_sync_title">Sync</string>
+    <string name="pref_general_title">General</string>
+    <string name="pref_interface_title">Interface</string>
+    <string name="pref_inverted">Inverted rendering</string>
+    <string name="pref_inverted_category">Inverted screen rendering</string>
+    <string name="pref_inverted_contrast">Contrast</string>
+    <string name="pref_inverted_summary">Black becomes white and vice versa</string>
+    <string name="pref_lab_fullscreen">Fullscreen</string>
+    <string name="pref_lab_fullscreen_summary">
+      Use fullscreen mode to hide the status bar</string>
+    <string name="pref_lab_quick_controls">Quick controls</string>
+    <string name="pref_lab_quick_controls_summary">
+        Slide thumb from the left or right edge to open quick controls and hide app and URL bars</string>
+    <string name="pref_lab_title">Labs</string>
+    <string name="pref_link_prefetch_default_value" translatable="false">@string/pref_link_prefetch_value_wifi_only</string>
+    <string name="pref_link_prefetch_dialogtitle">Web page preloading</string>
+    <string name="pref_link_prefetch_summary">Allow browser to preload linked web pages in the background</string>
+    <string name="pref_link_prefetch_title">Web page preloading</string>
+    <string name="pref_link_prefetch_value_always" translatable="false">ALWAYS</string>
+    <string name="pref_link_prefetch_value_never" translatable="false">NEVER</string>
+    <string name="pref_link_prefetch_value_wifi_only" translatable="false">WIFI_ONLY</string>
+    <string name="pref_min_font_size">Minimum font size</string>
+    <string name="pref_min_font_size_value"><ns1:g id="font_size">%d</ns1:g>pt</string>
+    <string name="pref_privacy_clear_cache">Clear cache</string>
+    <string name="pref_privacy_clear_cache_dlg">Delete locally cached content and databases?</string>
+    <string name="pref_privacy_clear_cache_summary">Clear locally cached content and databases</string>
+    <string name="pref_privacy_clear_cookies">Clear all cookie data</string>
+    <string name="pref_privacy_clear_cookies_dlg">Delete all cookies?</string>
+    <string name="pref_privacy_clear_cookies_summary">Clear all browser cookies</string>
+    <string name="pref_privacy_clear_form_data">Clear form data</string>
+    <string name="pref_privacy_clear_form_data_dlg">Delete all saved form data?</string>
+    <string name="pref_privacy_clear_form_data_summary">Clear all saved form data</string>
+    <string name="pref_privacy_clear_geolocation_access">Clear location access</string>
+    <string name="pref_privacy_clear_geolocation_access_dlg">Clear website location access?</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">Clear location access for all websites</string>
+    <string name="pref_privacy_clear_history">Clear history</string>
+    <string name="pref_privacy_clear_history_dlg">Delete the browser navigation history?</string>
+    <string name="pref_privacy_clear_history_summary">Clear the browser navigation history</string>
+    <string name="pref_privacy_clear_passwords">Clear passwords</string>
+    <string name="pref_privacy_clear_passwords_dlg">Delete all saved passwords?</string>
+    <string name="pref_privacy_clear_passwords_summary">Clear all saved passwords</string>
+    <string name="pref_privacy_cookies_title">Cookies</string>
+    <string name="pref_privacy_enable_geolocation">Enable location</string>
+    <string name="pref_privacy_enable_geolocation_summary">Allow sites to request access to your location</string>
+    <string name="pref_privacy_formdata_title">Form data</string>
+    <string name="pref_privacy_location_title">Location</string>
+    <string name="pref_privacy_security_title">Privacy &amp; security</string>
+    <string name="pref_security_accept_cookies">Accept cookies</string>
+    <string name="pref_security_accept_cookies_summary">Allow sites to save and read cookie data</string>
+    <string name="pref_security_passwords_title">Passwords</string>
+    <string name="pref_security_remember_passwords">Remember passwords</string>
+    <string name="pref_security_remember_passwords_summary">Save usernames and passwords for websites</string>
+    <string name="pref_security_save_form_data">Remember form data</string>
+    <string name="pref_security_save_form_data_summary">Remember data I type in forms for later use</string>
+    <string name="pref_security_show_security_warning">Show security warnings</string>
+    <string name="pref_security_show_security_warning_summary">Show warning if there\'s a problem with a site\'s security</string>
+    <string name="pref_set_homepage_to">Set to</string>
+    <string name="pref_text_zoom">Text scaling</string>
+    <string name="pref_use_instant_search">Google Instant</string>
+    <string name="pref_use_instant_search_summary">
+      Use Google Instant when you use Google Search, to show results as you
+      type (this can increase data use).</string>
+    <string name="pref_zoom_on_double_tap">Zoom on double-tap</string>
+    <string name="preview">Preview</string>
+    <string name="progress_dialog_setting_wallpaper">Setting wallpaper\u2026</string>
+    <string name="reload">Refresh</string>
+    <string name="remove">Remove</string>
+    <string name="remove_bookmark">Delete bookmark</string>
+    <string name="remove_from_bookmarks">Remove from bookmarks</string>
+    <string name="remove_history_item">Remove from history</string>
+    <string name="remove_snapshot">Delete saved page</string>
+    <string name="removed_from_bookmarks">Removed from bookmarks.</string>
+    <string name="replace">Replace</string>
+    <string name="resource_audio_capture">microphone</string>
+    <string name="resource_protected_media_id">protected media ID</string>
+    <string name="resource_video_capture">camera</string>
+    <string name="rlz_access_point">Y1</string>
+    <string name="save">OK</string>
+    <string name="save_to_bookmarks">Save to bookmarks</string>
+    <string name="saving_snapshot">Saving\u2026</string>
+    <string name="search_button_text">Go</string>
+    <string name="search_hint">Search or type URL</string>
+    <string name="search_label" translatable="false">Browser</string>
+    <string name="search_settings_description">Bookmarks and web history</string>
+    <string name="search_the_web">Search the web</string>
+    <string name="security_warning">Security warning</string>
+    <string name="select_dot">Select text</string>
+    <string name="set_as_homepage">Set as homepage</string>
+    <string name="share_page">Share page</string>
+    <string name="shortcut_bookmark">Bookmark</string>
+    <string name="shortcut_bookmark_title">Choose a bookmark</string>
+    <string name="sign_in_to">Sign in to <ns1:g id="hostname">%s1</ns1:g> \"<ns1:g id="realm">%s2</ns1:g>\"</string>
+    <string name="snapshot_failed">Couldn\'t save for offline reading.</string>
+    <string name="snapshot_go_live">Go live</string>
+    <string name="ssl_continue">Continue</string>
+    <string name="ssl_date_invalid">This certificate has an invalid date.</string>
+    <string name="ssl_expired">This certificate has expired.</string>
+    <string name="ssl_go_back">Go back</string>
+    <string name="ssl_invalid">This certificate is invalid.</string>
+    <string name="ssl_mismatch">The name of the site doesn\'t match the name on the certificate.</string>
+    <string name="ssl_not_yet_valid">This certificate isn\'t valid yet.</string>
+    <string name="ssl_unknown">Unknown certificate error.</string>
+    <string name="ssl_untrusted">This certificate isn\'t from a trusted authority.</string>
+    <string name="ssl_warnings_header">There are problems with the security certificate for this site.</string>
+    <string name="stop">Stop</string>
+    <string name="stopping">Stopping\u2026</string>
+    <string name="tab_bookmarks">Bookmarks</string>
+    <string name="tab_history">History</string>
+    <string name="tab_most_visited">Most visited</string>
+    <string name="tab_snapshots">Saved pages</string>
+    <string name="title_bar_loading">Loading\u2026</string>
+    <string name="too_many_subwindows_dialog_message">Only one pop-up can be open
+      at a time.</string>
+    <string name="too_many_subwindows_dialog_title">Pop-up already open</string>
+    <string name="too_many_windows_dialog_message">Can\'t open a new tab until you close one.</string>
+    <string name="too_many_windows_dialog_title">Tab limit reached</string>
+    <string name="ua_switcher_desktop">Request desktop site</string>
+    <string name="uploads_disabled">File uploads are disabled.</string>
+    <string name="username">Name</string>
+    <string name="view_certificate">View certificate</string>
+    <string name="website_settings_clear_all">Clear all</string>
+    <string name="website_settings_clear_all_dialog_cancel_button">Cancel</string>
+    <string name="website_settings_clear_all_dialog_message">Delete all website data and location permissions?</string>
+    <string name="website_settings_clear_all_dialog_ok_button">OK</string>
+    <string name="webstorage_clear_data_dialog_cancel_button">Cancel</string>
+    <string name="webstorage_clear_data_dialog_message">Delete all data stored by this website?</string>
+    <string name="webstorage_clear_data_dialog_ok_button">OK</string>
+    <string name="webstorage_clear_data_title">Clear stored data</string>
+    <string name="webstorage_origin_summary_mb_stored">MB stored on your phone</string>
+    <string name="webstorage_outofspace_notification_text">Touch to free up space.</string>
+    <string name="webstorage_outofspace_notification_title">Browser storage full</string>
+    <style name="ActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@color/primary</item>
+    </style>
+    <style name="ActionBarStyle" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:background">@color/primary</item>
+        <item name="android:displayOptions"/>
+    </style>
+    <style name="AutofillProfileEditText" parent="@style/AutofillProfileTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:imeOptions">flagNoExtractUi|actionNext</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AutofillProfileTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="BookmarkTheme" parent="@android:Theme.Material">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="BrowserButton">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+    </style>
+    <style name="BrowserTheme" parent="@android:Theme.Material.Light">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:popupBackground">@color/white</item>
+    </style>
+    <style name="HoloIcon">
+        <item name="android:layout_marginLeft">16dip</item>
+    </style>
+    <style name="LoginButtonTheme" parent="@android:Widget.Holo.Light.Button"/>
+    <style name="LoginSpinnerTheme" parent="@android:Widget.Holo.Light.Spinner"/>
+    <style name="PreferencesTheme" parent="@android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+    <style name="ShortcutTheme" parent="@android:Theme.Material.DialogWhenLarge">
+    </style>
+    <style name="SuggestionLineMedium" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="SuggestionLineSmall" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Suggestions" parent="@android:style/Widget.Material.AutoCompleteTextView">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+    </style>
+    <style name="TabTitleSelected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TabTitleUnselected" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TitleBar">
+        <item name="android:windowEnterAnimation">@anim/title_bar_enter</item>
+        <item name="android:windowExitAnimation">@anim/title_bar_exit</item>
+    </style>
+    <style name="Widget.UrlInputView" parent="BrowserTheme">
+        <!--item name="android:colorAccent">@color/accent</item-->
+    </style>
+</resources>

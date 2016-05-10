@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/bandwidth_preferences.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/bandwidth_preferences.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/bookmarkthumbnailwidget_info.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/bookmarkthumbnailwidget_info.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/preference_headers.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/preference_headers.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/interface_preferences.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/interface_preferences.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/general_preferences.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/general_preferences.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/debug_preferences.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/debug_preferences.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/advanced_preferences.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/advanced_preferences.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/accessibility_preferences.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/accessibility_preferences.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/searchable.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/searchable.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/privacy_security_preferences.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/privacy_security_preferences.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/file_paths.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/file_paths.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/xml/bookmarks_searchable.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/xml/bookmarks_searchable.xml"
+    }
+]

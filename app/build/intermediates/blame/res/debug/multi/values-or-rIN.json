@@ -1,0 +1,273 @@
+[
+    {
+        "outputFile": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/values-or-rIN/values-or-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 74,
+                    "endOffset": 125
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 837,
+                        "endColumn": 72,
+                        "endOffset": 907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 130,
+                    "endColumn": 64,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 2,
+                        "startOffset": 2131,
+                        "endColumn": 62,
+                        "endOffset": 2191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endColumn": 103,
+                    "endOffset": 294
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1014,
+                        "endColumn": 101,
+                        "endOffset": 1113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 299,
+                    "endColumn": 122,
+                    "endOffset": 417
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1234,
+                        "endColumn": 120,
+                        "endOffset": 1352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 422,
+                    "endColumn": 50,
+                    "endOffset": 468
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 2,
+                        "startOffset": 2194,
+                        "endColumn": 48,
+                        "endOffset": 2240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 473,
+                    "endColumn": 155,
+                    "endOffset": 624
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 2,
+                        "startOffset": 2243,
+                        "endColumn": 153,
+                        "endOffset": 2394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 629,
+                    "endColumn": 79,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 2,
+                        "startOffset": 1612,
+                        "endColumn": 77,
+                        "endOffset": 1687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 62,
+                    "endOffset": 767
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 2,
+                        "startOffset": 1551,
+                        "endColumn": 60,
+                        "endOffset": 1609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 772,
+                    "endColumn": 98,
+                    "endOffset": 866
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 2,
+                        "startOffset": 1772,
+                        "endColumn": 96,
+                        "endOffset": 1866
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 871,
+                    "endColumn": 64,
+                    "endOffset": 931
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 2,
+                        "startOffset": 1709,
+                        "endColumn": 62,
+                        "endOffset": 1769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 936,
+                    "endColumn": 147,
+                    "endOffset": 1079
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 2,
+                        "startOffset": 1985,
+                        "endColumn": 145,
+                        "endOffset": 2128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1084,
+                    "endColumn": 89,
+                    "endOffset": 1169
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 2,
+                        "startOffset": 1897,
+                        "endColumn": 87,
+                        "endOffset": 1982
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1174,
+                    "endColumn": 57,
+                    "endOffset": 1227
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1383,
+                        "endColumn": 55,
+                        "endOffset": 1436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1232,
+                    "endColumn": 58,
+                    "endOffset": 1286
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-or-rIN/cm_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1472,
+                        "endColumn": 56,
+                        "endOffset": 1526
+                    }
+                }
+            }
+        ]
+    }
+]

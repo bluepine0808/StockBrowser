@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/autologin_exit.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/autologin_exit.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/button_elevation.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/button_elevation.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/title_bar_enter.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/title_bar_enter.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/title_bar_exit.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/title_bar_exit.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/autologin_enter.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/autologin_enter.xml"
+    }
+]

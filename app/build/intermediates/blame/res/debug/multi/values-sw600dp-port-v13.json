@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/values-sw600dp-port-v13/values-sw600dp-port-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-sw600dp-port/bools.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 757,
+                        "endColumn": 40,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 54,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-sw600dp-port/dimensions.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 826,
+                        "endColumn": 54,
+                        "endOffset": 876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 50,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-sw600dp-port/dimensions.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 721,
+                        "endColumn": 50,
+                        "endOffset": 767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 53,
+                    "endOffset": 251
+                },
+                "from": {
+                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-sw600dp-port/dimensions.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 53,
+                        "endOffset": 821
+                    }
+                }
+            }
+        ]
+    }
+]

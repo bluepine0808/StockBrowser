@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">true</bool>
+    <bool name="menu_show_bookmarks">false</bool>
+    <bool name="menu_show_navigation">false</bool>
+    <dimen name="add_bookmark_width">500dip</dimen>
+    <dimen name="bookmarkThumbnailHeight">120dip</dimen>
+    <dimen name="bookmarkThumbnailWidth">180dip</dimen>
+    <dimen name="combo_horizontalSpacing">8dip</dimen>
+    <dimen name="combo_paddingTop">50dip</dimen>
+    <dimen name="favicon_padded_size">28dip</dimen>
+    <dimen name="mv_border_width">3px</dimen>
+    <dimen name="mv_item_width">231px</dimen>
+    <dimen name="mv_item_width_portrait">213px</dimen>
+    <dimen name="mv_max_width">1010px</dimen>
+    <dimen name="qc_item_size">48dip</dimen>
+    <dimen name="qc_radius_increment">90dip</dimen>
+    <dimen name="qc_radius_start">75dip</dimen>
+    <dimen name="qc_slop">15dip</dimen>
+    <dimen name="qc_tab_title_height">30dip</dimen>
+    <dimen name="qc_thumb_height">160dip</dimen>
+    <dimen name="qc_thumb_width">240dip</dimen>
+    <dimen name="qc_touch_offset">15dip</dimen>
+    <dimen name="suggest_item_padding">8dp</dimen>
+    <dimen name="tab_thumbnail_height">@dimen/qc_thumb_height</dimen>
+    <dimen name="tab_thumbnail_width">@dimen/qc_thumb_width</dimen>
+    <dimen name="toolbar_height">48dip</dimen>
+    <dimen name="widgetColumnWidth">130dip</dimen>
+    <dimen name="widgetThumbnailHeight">104dip</dimen>
+    <integer name="max_suggest_lines_landscape">5</integer>
+    <integer name="max_suggest_lines_portrait">12</integer>
+    <style name="ActionBarStyle" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:background">@color/primary</item>
+    </style>
+    <style name="BrowserTheme" parent="@android:Theme.Material">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:actionBarSize">64dip</item>
+    </style>
+    <style name="DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:popupBackground">#fafafa</item>
+    </style>
+    <style name="Suggestions" parent="@android:style/Widget.Material.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+    </style>
+</resources>

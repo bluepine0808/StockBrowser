@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ronny/source/StockBrowser/app/src/main/assets"><file name="html/flashtest.html" path="/home/ronny/source/StockBrowser/app/src/main/assets/html/flashtest.html"/></source><source path="/home/ronny/source/StockBrowser/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/ronny/source/StockBrowser/app/src/debug/assets"/></dataSet></merger>

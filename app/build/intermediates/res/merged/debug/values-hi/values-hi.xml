@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="pref_content_plugins_choices">
+    <item msgid="6745108155096660725">"हमेशा चालू"</item>
+    <item msgid="2484126708670016519">"मांग पर"</item>
+    <item msgid="8547442717307793863">"बंद"</item>
+  </string-array>
+    <string-array name="pref_data_preload_choices">
+    <item msgid="5180466923190095508">"कभी नहीं"</item>
+    <item msgid="1791664748778640002">"केवल Wi-Fi पर"</item>
+    <item msgid="3944061253437827617">"हमेशा"</item>
+  </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+    <item msgid="7275223955790513818">"Latin-1 (ISO-8859-1)"</item>
+    <item msgid="2456597866837587140">"Unicode (UTF-8)"</item>
+    <item msgid="6122474363777211732">"चीनी (GBK)"</item>
+    <item msgid="373372275931607040">"Chinese (Big5)"</item>
+    <item msgid="891615911084608570">"जापानी (ISO-2022-JP)"</item>
+    <item msgid="5589150448475151241">"जापानी (SHIFT_JIS)"</item>
+    <item msgid="7356792686950371843">"जापानी (EUC-JP)"</item>
+    <item msgid="2193955365569270096">"कोरियाई (EUC-KR)"</item>
+  </string-array>
+    <string-array name="pref_default_zoom_choices">
+    <item msgid="549583171195154919">"दूर"</item>
+    <item msgid="5619034257768161024">"मध्यम"</item>
+    <item msgid="3840999588443167001">"बंद करें"</item>
+  </string-array>
+    <string-array name="pref_homepage_choices">
+    <item msgid="844041670142910837">"वर्तमान पृष्ठ"</item>
+    <item msgid="4430498748295169195">"खाली पृष्ठ"</item>
+    <item msgid="5747608191946904074">"डिफ़ॉल्ट पृष्ठ"</item>
+    <item msgid="6092441301001006473">"सर्वाधिक देखी गई साइटें"</item>
+    <item msgid="6569304572171444894">"अन्य"</item>
+  </string-array>
+    <string-array name="pref_link_prefetch_choices">
+    <item msgid="4889781230398008031">"कभी नहीं"</item>
+    <item msgid="1908465963242077428">"केवल Wi-Fi पर"</item>
+    <item msgid="7647277566998527142">"हमेशा"</item>
+  </string-array>
+    <string-array name="pref_text_size_choices">
+    <item msgid="4952686548944739548">"बहुत छोटा"</item>
+    <item msgid="1950030433642671460">"छोटा"</item>
+    <item msgid="4338347520133294584">"सामान्य"</item>
+    <item msgid="5043128215356351184">"बड़ा"</item>
+    <item msgid="7201512237890458902">"बहुत बड़ा"</item>
+  </string-array>
+    <string msgid="4787844912630006181" name="accessibility_button_addbookmark">"पृष्ठ को बुकमार्क करें"</string>
+    <string msgid="6194680634245279407" name="accessibility_button_back">"वापस जाएं"</string>
+    <string msgid="7435055677299151649" name="accessibility_button_bookmarks">"बुकमार्क"</string>
+    <string msgid="9179389954714270505" name="accessibility_button_bookmarks_folder_up">"पिछला फ़ोल्डर"</string>
+    <string msgid="6943152307986161598" name="accessibility_button_clear">"इनपुट साफ़ करें"</string>
+    <string msgid="6954807842756927737" name="accessibility_button_closetab">"टैब बंद करें"</string>
+    <string msgid="1236827218480658168" name="accessibility_button_forward">"अग्रेषित करें"</string>
+    <string msgid="1182818872083055958" name="accessibility_button_go">"जाएं"</string>
+    <string msgid="3054251446394224216" name="accessibility_button_more">"अधिक विकल्प"</string>
+    <string msgid="9142904748728713075" name="accessibility_button_navscreen">"पृष्ठ प्रबंधक"</string>
+    <string msgid="5254901889040012964" name="accessibility_button_newincognitotab">"नया गुप्त टैब खोलें"</string>
+    <string msgid="4116986240706315748" name="accessibility_button_newtab">"नया टैब खोलें"</string>
+    <string msgid="1023441396241841313" name="accessibility_button_refresh">"पृष्ठ रीफ्रेश करें"</string>
+    <string msgid="5357014102136055376" name="accessibility_button_search">"खोजें"</string>
+    <string msgid="6793644120043222148" name="accessibility_button_stop">"पृष्ठ लोड करना रोकें"</string>
+    <string msgid="6286804719724282339" name="accessibility_button_uaswitch">"उपयोगकर्ता एजेंट स्विच करें"</string>
+    <string msgid="152016375096083337" name="accessibility_button_voice">"ध्‍वनि खोज प्रारंभ करें"</string>
+    <string msgid="8041539250447035570" name="accessibility_state_frozen">"सहेजे गए पृष्ठ"</string>
+    <string msgid="5786038488425202355" name="accessibility_state_incognito">"गुप्त पृष्ठ"</string>
+    <string msgid="2734915619351519547" name="accessibility_transition_navscreen">"टैब प्रबंधन"</string>
+    <string msgid="5179824606448077042" name="account">"खाता"</string>
+    <string msgid="3314204833188808194" name="account_chooser_dialog_title">"खाता चुनें"</string>
+    <string msgid="183105774472071343" name="action">"साइन इन करें"</string>
+    <string msgid="3783984330998103735" name="add_bookmark_short">"जोड़ें"</string>
+    <string msgid="3158497555612337238" name="add_new_bookmark">"बुकमार्क जोड़ें"</string>
+    <string msgid="4449323955122214389" name="add_to_bookmarks_menu_option">"बुकमार्क"</string>
+    <string msgid="1461447829242963790" name="add_to_homescreen_menu_option">"होम स्क्रीन"</string>
+    <string msgid="5947586525822134105" name="add_to_other_folder_menu_option">"अन्य फ़ोल्डर"</string>
+    <string msgid="4028710765672851635" name="added_to_bookmarks">"बुकमार्क में जोड़ा गया."</string>
+    <string msgid="1157313689171991335" name="allow">"अनुमति दें"</string>
+    <string msgid="1935869255545976415" name="application_name">"ब्राउज़र"</string>
+    <string msgid="836433242509243081" name="autofill_profile_editor_address_line_1">"पता पंक्ति 1:"</string>
+    <string msgid="5965659598509327172" name="autofill_profile_editor_address_line_1_hint">"सड़क का पता, पी.ओ. बॉक्स, द्वारा"</string>
+    <string msgid="8194745202893822479" name="autofill_profile_editor_address_line_2">"पता पंक्ति 2:"</string>
+    <string msgid="8529642768127569254" name="autofill_profile_editor_address_line_2_hint">"अपार्टमेंट, सुइट, इकाई, भवन, मंजिल इत्यादि."</string>
+    <string msgid="7306716145784997135" name="autofill_profile_editor_city">"शहर/कस्बा:"</string>
+    <string msgid="2813443159949210417" name="autofill_profile_editor_company_name">"कंपनी का नाम:"</string>
+    <string msgid="7234470301239156656" name="autofill_profile_editor_country">"देश:"</string>
+    <string msgid="3098369314558164153" name="autofill_profile_editor_delete_profile">"हटाएं"</string>
+    <string msgid="7967585896612797173" name="autofill_profile_editor_email_address">"ईमेल:"</string>
+    <string msgid="4798644544927738078" name="autofill_profile_editor_heading">"वह पाठ लिखें जो आप वेब फ़ॉर्म में स्‍वचालित रूप से भरना चाहते हैं."</string>
+    <string msgid="8566130291459685955" name="autofill_profile_editor_name">"पूरा नाम:"</string>
+    <string msgid="4938852821413729276" name="autofill_profile_editor_phone_number">"फ़ोन:"</string>
+    <string msgid="6795411298467068957" name="autofill_profile_editor_phone_number_invalid">"अमान्य फ़ोन नंबर."</string>
+    <string msgid="3230301454458581157" name="autofill_profile_editor_save_profile">"सहेजें"</string>
+    <string msgid="2150403366835080407" name="autofill_profile_editor_state">"राज्य/प्रांत/क्षेत्र:"</string>
+    <string msgid="283668573295656671" name="autofill_profile_editor_zip_code">"ज़िप कोड:"</string>
+    <string msgid="1790262652460723127" name="autofill_profile_successful_delete">"स्‍वत: भरण पाठ हटाया गया."</string>
+    <string msgid="5691459703493331983" name="autofill_profile_successful_save">"स्‍वत: भरण पाठ सहेजा गया."</string>
+    <string msgid="7123905786076456503" name="autofill_setup_dialog_message">"इसकी तरह ब्राउज़र स्‍वचालित रूप से वेब फ़ॉर्म पूर्ण कर सकता है. क्‍या आप अपना स्‍वत: भरण पाठ सेट करना चाहते हैं?"</string>
+    <string msgid="3288881675232206984" name="autofill_setup_dialog_negative_toast">"आप कभी भी ब्राउज़र > सेटिंग > सामान्‍य स्‍क्रीन से अपना स्‍वत: भरण पाठ सेट कर सकते हैं."</string>
+    <string msgid="7470001207395920811" name="autologin_bar_error">"साइन इन नहीं हो सका."</string>
+    <string msgid="3629355974385859580" name="autologin_bar_hide_text">"छुपाएं"</string>
+    <string msgid="3336615320510851879" name="autologin_bar_login_text">"साइन इन"</string>
+    <string msgid="3684581827167173371" name="autologin_bar_text">"इस रूप में साइन इन करें"</string>
+    <string msgid="8414603107175713668" name="back">"वापस जाएं"</string>
+    <string msgid="9172175889884707800" name="block">"अवरुद्ध करें"</string>
+    <string msgid="7836064647943671126" name="bookmark_cannot_save_url">"इस URL को बुकमार्क नहीं किया जा सकता."</string>
+    <string msgid="7848510619500937839" name="bookmark_list_view">"सूची"</string>
+    <string msgid="6245900436119218187" name="bookmark_needs_title">"बुकमार्क का कोई नाम अवश्य होना चाहिए."</string>
+    <string msgid="7809876865972755158" name="bookmark_needs_url">"बुकमार्क का कोई स्थान होना चाहिए."</string>
+    <string msgid="1077732557310662080" name="bookmark_not_saved">"बुकमार्क सहेज नहीं सका."</string>
+    <string msgid="6845189305130307274" name="bookmark_page">"देखे गए अंतिम पृष्ठ को बुकमार्क करें"</string>
+    <string msgid="2766434679871317557" name="bookmark_saved">"बुकमार्क में सहेजा गया."</string>
+    <string msgid="7530739804320811054" name="bookmark_this_page">"यह पृष्ठ बुकमार्क करें"</string>
+    <string msgid="3164068314718522138" name="bookmark_thumbnail_view">"थंबनेल"</string>
+    <string msgid="4917440933384496211" name="bookmark_url_not_valid">"यह URL मान्‍य नहीं है."</string>
+    <string msgid="1961279134885867815" name="bookmarks">"बुकमार्क"</string>
+    <string msgid="3093456701072617702" name="bookmarks_add_page">"बुकमार्क सहेजें"</string>
+    <string msgid="5229596268214362873" name="bookmarks_search">"ब्राउज़र"</string>
+    <string msgid="4703792279852977350" name="browserFrameFileErrorLabel">"फ़ाइल की समस्‍या"</string>
+    <string msgid="2385512101948178841" name="browserFrameFormResubmitLabel"/>
+    <string msgid="5244059279866705254" name="browserFrameFormResubmitMessage">"जिस पृष्ठ को आप देखने का प्रयास कर रहे हैं उसमें ऐसा डेटा है जो पहले ही सबमिट कर दिया गया है (\"POSTDATA\"). यदि आप डेटा को फिर से भेजते हैं, तो पृष्ठ पर की गई क्रिया (जैसे कोई खोज या ऑनलाइन खरीदी) को दोहराया जाएगा."</string>
+    <string msgid="8102515020625680714" name="browserFrameNetworkErrorLabel">"कनेक्शन समस्या"</string>
+    <string msgid="6787605028726162673" name="browser_bookmarks_page_bookmarks_text">"बुकमार्क"</string>
+    <string msgid="2979476257919939232" name="browser_history">"हाल ही में देखे गए पृष्ठ"</string>
+    <string msgid="3017274947407233702" name="cancel">"रद्द करें"</string>
+    <string msgid="8150552478556798780" name="cannot_download">"केवल \"http\" या \"https\" URL डाउनलोड कर सकता है."</string>
+    <string msgid="3649366287575002063" name="choose_upload">"अपलोड के लिए फ़ाइल चुनें"</string>
+    <string msgid="4600490613341909086" name="choosertitle_sharevia">"इसके द्वारा साझा करें"</string>
+    <string msgid="7070043081700011461" name="clear">"साफ़ करें"</string>
+    <string msgid="5998307092715979619" name="clear_history">"इतिहास साफ़ करें"</string>
+    <string msgid="7693157495148282778" name="close_other_tabs">"अन्य टैब बंद करें"</string>
+    <string msgid="6771180232953030479" name="containing_folder">"इसमें जोड़ें"</string>
+    <string msgid="353987136645619089" name="contextheader_folder_bookmarkcount">"<ns1:g id="BOOKMARK_COUNT">%d</ns1:g> बुकमार्क"</string>
+    <string msgid="974171637803391651" name="contextheader_folder_empty">"खाली फ़ोल्डर"</string>
+    <string msgid="3183511922223645716" name="contextmenu_add_contact">"संपर्क जोड़ें"</string>
+    <string msgid="398860586635404030" name="contextmenu_copy">"प्रतिलिपि बनाएं"</string>
+    <string msgid="5153657160294534270" name="contextmenu_copylink">"लिंक URL की प्रतिलिपि बनाएं"</string>
+    <string msgid="5856550683415933806" name="contextmenu_dial_dot">"डायल करें…"</string>
+    <string msgid="4243829645180686912" name="contextmenu_download_image">"चित्र सहेजें"</string>
+    <string msgid="7471390435434034912" name="contextmenu_map">"मानचित्र"</string>
+    <string msgid="7237961252214188935" name="contextmenu_openlink">"खोलें"</string>
+    <string msgid="1205313604181761403" name="contextmenu_openlink_newwindow">"नए टैब में खोलें"</string>
+    <string msgid="4690381019116746687" name="contextmenu_openlink_newwindow_background">"नए पृष्ठभूमि टैब में खोलें"</string>
+    <string msgid="5508554930832538184" name="contextmenu_savelink">"लिंक सहेजें"</string>
+    <string msgid="1014513374828775660" name="contextmenu_send_mail">"ईमेल भेजें"</string>
+    <string msgid="3691902960115350686" name="contextmenu_set_wallpaper">"वॉलपेपर के रूप में सेट करें"</string>
+    <string msgid="5392275392280130331" name="contextmenu_sharelink">"लिंक साझा करें"</string>
+    <string msgid="3870625602053600905" name="contextmenu_view_image">"चित्र देखें"</string>
+    <string msgid="1188679152608889555" name="copy_page_url">"पृष्ठ url की प्रतिलिपि बनाएं"</string>
+    <string msgid="1995095662095484289" name="create_shortcut_bookmark">"होम के लिए शॉर्टकट जोड़ें"</string>
+    <string msgid="7510129573681663135" name="current_page">"से "</string>
+    <string msgid="2303951020715704735" name="defaultBookmarksUpButton">"बुकमार्क"</string>
+    <string msgid="7825328496411904321" name="delete_bookmark_warning">"\"<ns1:g id="BOOKMARK">%s</ns1:g>\" बुकमार्क हटाएं?"</string>
+    <string msgid="2046483129024501116" name="delete_folder">"फ़ोल्डर हटाएं"</string>
+    <string msgid="8305901059849400354" name="disable_autofill">"स्‍वत: भरण अक्षम करें"</string>
+    <string msgid="6777633870113477714" name="do_not_save">"रद्द करें"</string>
+    <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"<ns1:g id="FILENAME">%s</ns1:g> डाउनलोड करने के लिए एक SD कार्ड की आवश्यकता है."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">" <ns1:g id="FILENAME">%s</ns1:g> डाउनलोड करने के लिए USB संग्रहण की आवश्यकता है."</string>
+    <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"कोई SD कार्ड नहीं"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"USB संग्रहण अनुपलब्ध"</string>
+    <string msgid="2599683668575349559" name="download_pending">"डाउनलोड प्रारंभ कर रहा है…"</string>
+    <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"SD कार्ड व्यस्त है. डाउनलोड की अनुमति देने के लिए, सूचना में USB संग्रहण बंद करें स्पर्श करें."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"USB संग्रहण व्यस्त है. डाउनलोड की अनुमति देने के लिए, सूचना में USB संग्रहण बंद करें को स्पर्श करें."</string>
+    <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"SD कार्ड अनुपलब्ध"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"USB संग्रहण अनुपलब्ध"</string>
+    <string msgid="5024089053490231905" name="edit_bookmark">"बुकमार्क संपादित करें"</string>
+    <string msgid="621817453133656156" name="edit_folder">"फ़ोल्‍डर संपादित करें"</string>
+    <string msgid="6239830231917618556" name="empty_bookmarks_folder">"कोई बुकमार्क नहीं."</string>
+    <string msgid="7013369425484218985" name="empty_history">"कोई ब्राउज़र इतिहास नहीं."</string>
+    <string msgid="7675378008107026013" name="empty_snapshots_folder">"कोई सहेजा गया पृष्ठ नहीं."</string>
+    <string msgid="4288210890526641577" name="forward">"अग्रेषित करें"</string>
+    <string msgid="6303025160237860300" name="geolocation_permissions_prompt_dont_share">"अस्वीकारें"</string>
+    <string msgid="356796102004052471" name="geolocation_permissions_prompt_message">"<ns1:g id="WEBSITE_ORIGIN">%s</ns1:g> की इच्छा आपका स्थान जानने की है"</string>
+    <string msgid="3118526300707348308" name="geolocation_permissions_prompt_remember">"प्राथमिकता याद रखें"</string>
+    <string msgid="9084486342048347976" name="geolocation_permissions_prompt_share">"स्थान साझा करें"</string>
+    <string msgid="7201417941112726112" name="geolocation_permissions_prompt_toast_allowed">"यह साइट आपके स्‍थान पर पहुंच सकती है. इसे सेटिंग > उन्‍नत > वेबसाइट स्‍क्रीन पर बदलें."</string>
+    <string msgid="156443445797377409" name="geolocation_permissions_prompt_toast_disallowed">"यह साइट आपके स्‍थान पर नहीं पहुंच सकती. इसे सेटिंग > उन्‍नत > वेबसाइट स्‍क्रीन पर बदलें."</string>
+    <string msgid="7941036504673409747" name="geolocation_settings_page_dialog_cancel_button">"रद्द करें"</string>
+    <string msgid="8772923416296868537" name="geolocation_settings_page_dialog_message">"इस वेबसाइट के लिए स्थान पहुंच साफ़ करें?"</string>
+    <string msgid="2113465477131017852" name="geolocation_settings_page_dialog_ok_button">"ठीक"</string>
+    <string msgid="9180251524290811398" name="geolocation_settings_page_summary_allowed">"अभी यह साइट आपके स्थान पर पहुंच सकती है"</string>
+    <string msgid="7941769772784366199" name="geolocation_settings_page_summary_not_allowed">"अभी यह साइट आपके स्थान पर नहीं पहुंच सकती"</string>
+    <string msgid="1745477985097536528" name="geolocation_settings_page_title">"स्थान पहुंच साफ़ करें"</string>
+    <string msgid="109129207276086793" name="go_home">"मुखपृष्ठ"</string>
+    <string msgid="3895839050522602723" name="goto_dot">"जाएं"</string>
+    <string msgid="2451240511251410032" name="history">"इतिहास"</string>
+    <string msgid="8768087280310966395" name="homepage_set">"मुखपृष्ठ सेट हुआ."</string>
+    <string msgid="2163722670597250102" name="http">"http://"</string>
+    <string msgid="1743359725294101189" name="import_bookmarks_dialog_add">"Google खाते में बुकमार्क जोड़ें"</string>
+    <string msgid="8942794112340838111" name="import_bookmarks_dialog_confirm_add">"इस उपकरण पर वर्तमान में मौजूद बुकमार्क जोड़ें और <ns1:g id="GOOGLE_ACCOUNT">%s</ns1:g> के साथ बुकमार्क समन्वयित करना प्रारंभ करें?"</string>
+    <string msgid="2204771572755630570" name="import_bookmarks_dialog_confirm_delete">"इस उपकरण पर वर्तमान में मौजूद बुकमार्क हटाएं और <ns1:g id="GOOGLE_ACCOUNT">%s</ns1:g> से बुकमार्क समन्‍वयित करना प्रारंभ करें?"</string>
+    <string msgid="4333848003180415516" name="import_bookmarks_dialog_delete_select_account">"इस उपकरण पर वर्तमान में मौजूद बुकमार्क हटाएं और Google खाते के साथ समन्‍वयित करना प्रारंभ करें"</string>
+    <string msgid="2362897194870789609" name="import_bookmarks_dialog_description">"इस उपकरण के बुकमार्क अभी तक किसी Google खाते से संबद्ध नहीं हैं. इन बुकमार्क को किसी खाते में जोड़कर सहेजें. यदि आप इन बुकमार्क को समन्‍वयित करना नहीं चाहते हैं तो उन्‍हें हटा दें."</string>
+    <string msgid="6933613853573899218" name="import_bookmarks_dialog_import">"<ns1:g id="GOOGLE_ACCOUNT">%s</ns1:g> के बुकमार्क के लिए अपने Android बुकमार्क जोड़ें"</string>
+    <string msgid="5984607822851800902" name="import_bookmarks_dialog_remove">"बुकमार्क हटाएं"</string>
+    <string msgid="7643058662272484895" name="import_bookmarks_dialog_select_add_account">"इस उपकरण पर वर्तमान में मौजूद बुकमार्क जोड़ें और Google खाते के साथ समन्वयित करना प्रारंभ करें"</string>
+    <string msgid="3325557652271172128" name="import_bookmarks_dialog_title">"Google खाते से समन्वयन करें"</string>
+    <string msgid="4936061122806506634" name="import_bookmarks_wizard_cancel">"रद्द करें"</string>
+    <string msgid="1446247092194489191" name="import_bookmarks_wizard_done">"पूर्ण"</string>
+    <string msgid="7578143961884352676" name="import_bookmarks_wizard_next">"अगला"</string>
+    <string msgid="8551440353688257031" name="import_bookmarks_wizard_previous">"पिछला"</string>
+    <string msgid="8769284297650716935" name="instant_search_label">"झटपट के साथ Google (लैब)"</string>
+    <string msgid="3843343290039218668" name="loadSuspended">"इंटरनेट कनेक्‍शन नहीं होने के कारण ब्राउज़र यह पृष्ठ लोड नहीं कर सकता."</string>
+    <string msgid="6453376579109644551" name="loadSuspendedTitle">"कोई कनेक्शन नहीं"</string>
+    <string msgid="7886324933131962321" name="loading_video">"वीडियो लोड हो रहा है..."</string>
+    <string msgid="533816851415228520" name="local_bookmarks">"स्थानीय"</string>
+    <string msgid="3411848697912600125" name="location">"पता"</string>
+    <string msgid="4122034303809457570" name="max_tabs_warning">"और अधिक टैब उपलब्ध नहीं हैं"</string>
+    <string msgid="6709237687234102240" name="menu_preferences">"सेटिंग"</string>
+    <string msgid="6935080344031126139" name="menu_save_snapshot">"ऑफ़लाइन पढ़ने के लिए सहेजें"</string>
+    <string msgid="5851814357333739700" name="menu_share_url">"साझा करें"</string>
+    <string msgid="2124570321712995120" name="menu_view_download">"डाउनलोड"</string>
+    <string msgid="5462672162695365387" name="name">"लेबल"</string>
+    <string msgid="7743540149088867917" name="new_folder">"नया फ़ोल्डर"</string>
+    <string msgid="3606197964239039478" name="new_incognito_tab">"नया गुप्त टैब"</string>
+    <string msgid="7971857320679510529" name="new_tab">"नया टैब"</string>
+    <string msgid="3303645239686962674" name="no_subfolders">"कोई सबफ़ोल्डर नहीं."</string>
+    <string msgid="1509280796718850364" name="ok">"ठीक"</string>
+    <string msgid="455786763426575293" name="open_all_in_new_window">"सभी को नए टैब में खोलें"</string>
+    <string msgid="8473581305759935790" name="open_bookmark">"खोलें"</string>
+    <string msgid="8021889794475657319" name="other_bookmarks">"अन्य बुकमार्क"</string>
+    <string msgid="4048529256302257195" name="page_info">"पृष्ठ जानकारी"</string>
+    <string msgid="2222306609532903254" name="page_info_address">"पता:"</string>
+    <string msgid="5303490449842635158" name="page_info_view">"पृष्ठ जानकारी देखें"</string>
+    <string msgid="1177138552305184404" name="password">"पासवर्ड"</string>
+    <string msgid="4856971662337877316" name="permission_preload_label">"परिणाम प्रीलोड करें"</string>
+    <string msgid="31565781154067629" name="popup_window_attempt">"इस साइट को पॉप-अप विंडो खोलने दें?"</string>
+    <string msgid="5127836981587423215" name="pref_accessibility_title">"पहुंच-योग्यता"</string>
+    <string msgid="1325989799080202871" name="pref_allow_apptabs">"हर एप्‍लि. हेतु एकाधिक टैब की अनुमति दें"</string>
+    <string msgid="1015751713312396713" name="pref_autofill_enabled">"फ़ॉर्म स्‍वत: भरण"</string>
+    <string msgid="7659954073892471496" name="pref_autofill_enabled_summary">"एक बार स्‍पर्श करके वेब फ़ॉर्म भरें"</string>
+    <string msgid="8934844472922113166" name="pref_autofill_profile_editor">"स्‍वत: भरण पाठ"</string>
+    <string msgid="4864447251676856190" name="pref_autofill_profile_editor_summary">"वेब फ़ॉर्म में स्‍वत: भरण के लिए पाठ सेट करें"</string>
+    <string msgid="8333244467048833461" name="pref_autologin_progress">"<ns1:g id="ID_1">%s</ns1:g> का उपयोग करते हुए Google साइटें में साइन इन कर रहा है"</string>
+    <string msgid="4421187193809267096" name="pref_autologin_title">"स्‍वचालित Google साइन इन"</string>
+    <string msgid="8260474534053660809" name="pref_content_autofit">"स्वतः फ़िट पृष्ठ"</string>
+    <string msgid="324810555822572112" name="pref_content_autofit_summary">"स्‍क्रीन में फ़िट करने के लिए वेबपृष्ठों को प्रारूपित करें"</string>
+    <string msgid="4158524847764470895" name="pref_content_block_popups">"पॉप-अप अवरुद्ध करें"</string>
+    <string msgid="3324574611613105696" name="pref_content_homepage">"मुखपृष्ठ सेट करें"</string>
+    <string msgid="4570972030299516843" name="pref_content_javascript">"JavaScript सक्षम करें"</string>
+    <string msgid="2125616852957377561" name="pref_content_load_images">"चित्र लोड करें"</string>
+    <string msgid="5055874125248398584" name="pref_content_load_images_summary">"वेब पृष्ठों पर चित्र दिखाएं"</string>
+    <string msgid="2219810141690955452" name="pref_content_load_page">"पृष्ठों को ओवरव्यू में खोलें"</string>
+    <string msgid="9168803276420332955" name="pref_content_load_page_summary">"नए खोले गए पृष्ठों का ओवरव्यू दिखाएं"</string>
+    <string msgid="824123779725118663" name="pref_content_open_in_background">"पृष्ठभूमि में खोलें"</string>
+    <string msgid="955411158407739504" name="pref_content_open_in_background_summary">"वर्तमान टैब के पीछे नए टैब खोलें"</string>
+    <string msgid="7231944644794301582" name="pref_content_plugins">"प्लग-इन सक्षम करें"</string>
+    <string msgid="1620101310821644144" name="pref_content_search_engine">"खोज इंजन सेट करें"</string>
+    <string msgid="304003941861818133" name="pref_content_search_engine_summary">"कोई खोज इंजन चुनें"</string>
+    <string msgid="3834107397725342174" name="pref_content_title">"पृष्ठ सामग्री"</string>
+    <string msgid="8421297746110796536" name="pref_data_preload_dialogtitle">"खोज परिणाम प्रीलोड हो रहा है"</string>
+    <string msgid="3809168910751382727" name="pref_data_preload_summary">"ब्राउज़र को पृष्ठभूमि में अधिक विश्‍वसनीय खोज परिणाम प्रीलोड करने दें"</string>
+    <string msgid="4479320472980292873" name="pref_data_preload_title">"खोज परिणाम प्रीलोड हो रहा है"</string>
+    <string msgid="7255058703417796578" name="pref_data_title">"बैंडविड्थ प्रबंधन"</string>
+    <string msgid="5742965543955558478" name="pref_default_text_encoding">"पाठ एन्कोडिंग"</string>
+    <string msgid="5508255018084978547" name="pref_default_text_encoding_dialogtitle">"पाठ एन्कोडिंग"</string>
+    <string msgid="8076142259097187395" name="pref_default_zoom">"डिफ़ॉल्ट ज़ूम"</string>
+    <string msgid="6095974367125109021" name="pref_default_zoom_dialogtitle">"डिफ़ॉल्ट ज़ूम"</string>
+    <string msgid="3263854204533056480" name="pref_development_title">"डीबग करें"</string>
+    <string msgid="8904000515846202110" name="pref_extras_reset_default">"डिफ़ॉल्ट पर रीसेट करें"</string>
+    <string msgid="7922814420184322450" name="pref_extras_reset_default_dlg">"सेटिंग को डिफ़ॉल्ट मान पर लौटाएं?"</string>
+    <string msgid="4247870778270414501" name="pref_extras_reset_default_summary">"डिफ़ॉल्ट सेटिंग पुनर्स्थापित करें"</string>
+    <string msgid="3579760449455761762" name="pref_extras_reset_default_title">"डिफ़ॉल्ट रीसेट करें"</string>
+    <string msgid="7075456173747370647" name="pref_extras_title">"उन्नत"</string>
+    <string msgid="67866640052455549" name="pref_extras_website_settings">"वेबसाइट सेटिंग"</string>
+    <string msgid="1656771443223494406" name="pref_extras_website_settings_summary">"वैयक्तिक वेबसाइट के लिए उन्नत सेटिंग"</string>
+    <string msgid="6683754355084218254" name="pref_font_size_category">"पाठ का आकार"</string>
+    <string msgid="5641500562399892621" name="pref_force_userscalable">"ज़ूम  सक्षम करना बाध्‍य करें"</string>
+    <string msgid="3613242300617172230" name="pref_force_userscalable_summary">"ज़ूम व्‍यवहार के नियंत्रण हेतु वेबसाइट अनुरोध ओवरराइड करें"</string>
+    <string msgid="547881256865816858" name="pref_general_autofill_title">"स्‍वत: भरण"</string>
+    <string msgid="3138637035975860324" name="pref_general_sync_title">"समन्वयित करें"</string>
+    <string msgid="1946872771219249323" name="pref_general_title">"सामान्य"</string>
+    <string msgid="7613556986776824112" name="pref_inverted">"विपरीत रेंडरिंग"</string>
+    <string msgid="1280639705117152207" name="pref_inverted_category">"विपरीत स्‍क्रीन रेंडरिंग"</string>
+    <string msgid="8527441236225288169" name="pref_inverted_contrast">"कंट्रास्ट"</string>
+    <string msgid="7357225897413923085" name="pref_inverted_summary">"काला रंग सफ़ेद हो जाता है और सफ़ेद काला"</string>
+    <string msgid="8173609016657987973" name="pref_lab_fullscreen">"फ़ुलस्‍क्रीन"</string>
+    <string msgid="7694738112219376740" name="pref_lab_fullscreen_summary">"स्‍थिति बार छुपाने के लिए पूर्ण स्‍क्रीन मोड का उपयोग करें"</string>
+    <string msgid="3267606522082281367" name="pref_lab_quick_controls">"त्‍वरित नियंत्रण"</string>
+    <string msgid="3149664132600968775" name="pref_lab_quick_controls_summary">"त्‍वरित नियंत्रण खोलने हेतु अंगूठे को बाएं या दाएं किनारे की ओर स्‍लाइड करें और एप्‍लि. और URL बार छुपाएं"</string>
+    <string msgid="5571091610359629423" name="pref_lab_title">"लैब"</string>
+    <string msgid="3804646141622839765" name="pref_link_prefetch_dialogtitle">"वेब पृष्ठ प्रीलोड करना"</string>
+    <string msgid="6558181497993206817" name="pref_link_prefetch_summary">"ब्राउज़र को लिंक किए गए वेब पृष्ठों को पृष्ठभूमि में प्रीलोड करने दें"</string>
+    <string msgid="4123685219009241072" name="pref_link_prefetch_title">"वेब पृष्ठ प्रीलोड करना"</string>
+    <string msgid="8811125835817449131" name="pref_min_font_size">"न्यूनतम फ़ॉन्ट आकार"</string>
+    <string msgid="2924708480509060209" name="pref_min_font_size_value">"<ns1:g id="FONT_SIZE">%d</ns1:g>pt"</string>
+    <string msgid="3380316479925886998" name="pref_privacy_clear_cache">"कैश साफ़ करें"</string>
+    <string msgid="4344512581716422465" name="pref_privacy_clear_cache_dlg">"स्‍थानीय रूप से संचित सामग्री और डेटाबेस हटाएं?"</string>
+    <string msgid="2216463577207991454" name="pref_privacy_clear_cache_summary">"स्थानीय रूप से कैश की गई सामग्री और डेटाबेस साफ़ करें"</string>
+    <string msgid="3095583579133780331" name="pref_privacy_clear_cookies">"सभी कुकी डेटा साफ़ करें"</string>
+    <string msgid="1493252163164621278" name="pref_privacy_clear_cookies_dlg">"सभी कुकी हटाएं?"</string>
+    <string msgid="6962742063990677520" name="pref_privacy_clear_cookies_summary">"सभी ब्राउज़र कुकी साफ़ करें"</string>
+    <string msgid="4232668196344383987" name="pref_privacy_clear_form_data">"फ़ॉर्म डेटा साफ़ करें"</string>
+    <string msgid="8205626042241338983" name="pref_privacy_clear_form_data_dlg">"सभी सहेजा गया फ़ॉर्म डेटा साफ़ करें?"</string>
+    <string msgid="7702091143640546200" name="pref_privacy_clear_form_data_summary">"सभी सहेजा गया फ़ॉर्म डेटा साफ़ करें"</string>
+    <string msgid="6649680770030042980" name="pref_privacy_clear_geolocation_access">"स्थान पहुंच साफ़ करें"</string>
+    <string msgid="3190928760598034346" name="pref_privacy_clear_geolocation_access_dlg">"वेबसाइट स्‍थान पहुंच साफ़ करें?"</string>
+    <string msgid="7750143359497314679" name="pref_privacy_clear_geolocation_access_summary">"सभी वेबसाइट के लिए स्थान पहुंच साफ़ करें"</string>
+    <string msgid="8723795508825198477" name="pref_privacy_clear_history">"इतिहास साफ़ करें"</string>
+    <string msgid="6934317391642846227" name="pref_privacy_clear_history_dlg">"ब्राउज़र नेविगेशन इतिहास हटाएं?"</string>
+    <string msgid="6868501330708940734" name="pref_privacy_clear_history_summary">"ब्राउज़र नेविगेशन इतिहास साफ़ करें"</string>
+    <string msgid="4750234112289277480" name="pref_privacy_clear_passwords">"पासवर्ड साफ़ करें"</string>
+    <string msgid="5836576259947160045" name="pref_privacy_clear_passwords_dlg">"सहेजे गए सभी पासवर्ड साफ़ करें?"</string>
+    <string msgid="8856782718942903335" name="pref_privacy_clear_passwords_summary">"सहेजे गए सभी पासवर्ड साफ़ करें"</string>
+    <string msgid="6763274282214830526" name="pref_privacy_cookies_title">"कुकी"</string>
+    <string msgid="1395040170290765686" name="pref_privacy_enable_geolocation">"स्थान सक्षम करें"</string>
+    <string msgid="8437020934664306205" name="pref_privacy_enable_geolocation_summary">"साइट को आपके स्थान पर पहुंच के अनुरोध की अनुमति दें"</string>
+    <string msgid="6549813837982050424" name="pref_privacy_formdata_title">"फ़ॉर्म डेटा"</string>
+    <string msgid="7458378016606081067" name="pref_privacy_location_title">"स्थान"</string>
+    <string msgid="3480313968942160914" name="pref_privacy_security_title">"गोपनीयता और सुरक्षा"</string>
+    <string msgid="3201367661925047989" name="pref_security_accept_cookies">"कुकी स्वीकारें"</string>
+    <string msgid="1907951236154433751" name="pref_security_accept_cookies_summary">"साइटों को \"कुकी\" डेटा सहेजने और पढ़ने दें"</string>
+    <string msgid="5734190542383756711" name="pref_security_passwords_title">"पासवर्ड"</string>
+    <string msgid="6492957683454529549" name="pref_security_remember_passwords">"पासवर्ड याद रखें"</string>
+    <string msgid="256388703356349137" name="pref_security_remember_passwords_summary">"वेबसाइट के लिए उपयोगकर्ता नाम और पासवर्ड सहेजें"</string>
+    <string msgid="1213669802810198893" name="pref_security_save_form_data">"फ़ॉर्म डेटा याद रखें"</string>
+    <string msgid="4994074685153708026" name="pref_security_save_form_data_summary">"मेरे द्वारा फ़ॉर्म में लिखे गए डेटा को बाद में उपयोग के लिए याद रखें"</string>
+    <string msgid="8901135676266754559" name="pref_security_show_security_warning">"सुरक्षा चेतावनियां दिखाएं"</string>
+    <string msgid="5260098316025397525" name="pref_security_show_security_warning_summary">"यदि साइट की सुरक्षा में कोई समस्या हो, तो चेतावनी दिखाएं"</string>
+    <string msgid="7838684355145561242" name="pref_set_homepage_to">"इस पर सेट करें"</string>
+    <string msgid="5171056101805125497" name="pref_text_zoom">"पाठ स्‍केल करना"</string>
+    <string msgid="1119176077760723740" name="pref_use_instant_search">"Google झटपट"</string>
+    <string msgid="839320474961917522" name="pref_use_instant_search_summary">"Google खोज का उपयोग करते समय आपके लिखते ही परिणाम प्रदर्शित करने के लिए Google झटपट का उपयोग करें (इससे उपयोग किए गए डेटा की मात्रा बढ़ सकती है)."</string>
+    <string msgid="902786475250741795" name="pref_zoom_on_double_tap">"डबल-टैप पर ज़ूम करें"</string>
+    <string msgid="6450823514561689038" name="preview">"पूर्वावलोकन"</string>
+    <string msgid="2031391201442335889" name="progress_dialog_setting_wallpaper">"वॉलपेपर सेट कर रहा है..."</string>
+    <string msgid="8585220783228408062" name="reload">"रीफ़्रेश करें"</string>
+    <string msgid="7820112494467011374" name="remove">"निकालें"</string>
+    <string msgid="8407495852801410891" name="remove_bookmark">"बुकमार्क हटाएं"</string>
+    <string msgid="4374080666576982775" name="remove_from_bookmarks">"बुकमार्क से निकालें"</string>
+    <string msgid="5021424935726728618" name="remove_history_item">"इतिहास से निकालें"</string>
+    <string msgid="1624447424544976849" name="remove_snapshot">"सहेजा गया पृष्ठ हटाएं"</string>
+    <string msgid="546648923924996722" name="removed_from_bookmarks">"बुकमार्क से निकाला गया."</string>
+    <string msgid="4843033491070384047" name="replace">"बदलें"</string>
+    <string msgid="7165847807377650632" name="rlz_access_point">"Y1"</string>
+    <string msgid="5922311934992468496" name="save">"ठीक"</string>
+    <string msgid="1679286010089780932" name="save_to_bookmarks">"बुकमार्क में सहेजें"</string>
+    <string msgid="1693789062351182809" name="saving_snapshot">"सहेजा जा रहा है…"</string>
+    <string msgid="5235226933877634410" name="search_button_text">"जाएं"</string>
+    <string msgid="4647356319916631820" name="search_hint">"URL खोजें या लिखें"</string>
+    <string msgid="1422401062529014107" name="search_settings_description">"बुकमार्क और वेब इतिहास"</string>
+    <string msgid="6046130189241962337" name="search_the_web">"वेब पर खोजें"</string>
+    <string msgid="6607795404322797541" name="security_warning">"सुरक्षा चेतावनी"</string>
+    <string msgid="6299170761900561967" name="select_dot">"पाठ को चुनें"</string>
+    <string msgid="4752937379414905560" name="set_as_homepage">"मुखपृष्ठ के रूप में सेट करें"</string>
+    <string msgid="593756995297268343" name="share_page">"पृष्ठ साझा करें"</string>
+    <string msgid="3974876480401135895" name="shortcut_bookmark">"बुकमार्क"</string>
+    <string msgid="7570786275916681296" name="shortcut_bookmark_title">"कोई बुकमार्क चुनें"</string>
+    <string msgid="5939425800148759165" name="sign_in_to">"<ns1:g id="HOSTNAME">%s1</ns1:g> \"<ns1:g id="REALM">%s2</ns1:g>\" में साइन इन करें"</string>
+    <string msgid="4584580873565876033" name="snapshot_failed">"ऑफ़लाइन पढ़ने के लिए सहेजा नहीं जा सका."</string>
+    <string msgid="1209542802541168497" name="snapshot_go_live">"लाइव हो जाएं"</string>
+    <string msgid="8031515015829358457" name="ssl_continue">"जारी रखें"</string>
+    <string msgid="3705563379257285534" name="ssl_date_invalid">"इस प्रमाणपत्र में एक अमान्‍य दिनांक है."</string>
+    <string msgid="5739349389499575559" name="ssl_expired">"इस प्रमाणपत्र की समय सीमा समाप्त हो गई है."</string>
+    <string msgid="4598951822061593819" name="ssl_go_back">"वापस जाएं"</string>
+    <string msgid="9041704741505449967" name="ssl_invalid">"यह प्रमाणपत्र अमान्य है."</string>
+    <string msgid="3809794439740523641" name="ssl_mismatch">"साइट का नाम, प्रमाणपत्र के नाम से मिलान नहीं करता."</string>
+    <string msgid="8193083327719048247" name="ssl_not_yet_valid">"यह प्रमाणपत्र अभी तक मान्य नहीं है."</string>
+    <string msgid="5679243486524754571" name="ssl_unknown">"अज्ञात प्रमाणपत्र त्रुटि."</string>
+    <string msgid="7754507359360636447" name="ssl_untrusted">"यह प्रमाणपत्र किसी विश्वस्त प्राधिकारी का नहीं है."</string>
+    <string msgid="79744901983636370" name="ssl_warnings_header">"इस साइट के सुरक्षा प्रमाणपत्र में समस्याएं हैं."</string>
+    <string msgid="5687251076030630074" name="stop">"रोकें"</string>
+    <string msgid="4839698519340302982" name="stopping">"रोका जा रहा है…"</string>
+    <string msgid="2305793036003473653" name="tab_bookmarks">"बुकमार्क"</string>
+    <string msgid="1979267558744613746" name="tab_history">"इतिहास"</string>
+    <string msgid="1077402532455000703" name="tab_most_visited">"सबसे अधिक देखी गई"</string>
+    <string msgid="1449241204980265186" name="tab_snapshots">"सहेजे गए पृष्ठ"</string>
+    <string msgid="7438217780834640678" name="title_bar_loading">"लोड हो रहा है..."</string>
+    <string msgid="2164725447981195556" name="too_many_subwindows_dialog_message">"एक समय में केवल एक पॉप-अप ही खोला जा सकता है."</string>
+    <string msgid="3805453941587725944" name="too_many_subwindows_dialog_title">"पॉप-अप पहले से खुला है"</string>
+    <string msgid="3644234634638290304" name="too_many_windows_dialog_message">"जब तक आप एक टैब बंद न कर दें तब तक नया टैब नहीं खोल सकता."</string>
+    <string msgid="5709782301477380438" name="too_many_windows_dialog_title">"टैब सीमा पार हो गई है."</string>
+    <string msgid="220097077327558435" name="ua_switcher_desktop">"डेस्‍कटॉप साइट का अनुरोध करें"</string>
+    <string msgid="463761197575372994" name="uploads_disabled">"फ़ाइल अपलोड अक्षम कर दिए गए हैं."</string>
+    <string msgid="5057566336518215922" name="username">"नाम"</string>
+    <string msgid="1472768887529093862" name="view_certificate">"प्रमाणपत्र देखें"</string>
+    <string msgid="8739804325997655980" name="website_settings_clear_all">"सभी साफ़ करें"</string>
+    <string msgid="1896757051856611674" name="website_settings_clear_all_dialog_cancel_button">"रद्द करें"</string>
+    <string msgid="1551164275687475061" name="website_settings_clear_all_dialog_message">"सभी वेबसाइट डेटा और स्‍थान अनुमतियां हटाएं?"</string>
+    <string msgid="7858504776529106243" name="website_settings_clear_all_dialog_ok_button">"ठीक"</string>
+    <string msgid="2028867751958942762" name="webstorage_clear_data_dialog_cancel_button">"रद्द करें"</string>
+    <string msgid="6200681632891775881" name="webstorage_clear_data_dialog_message">"इस वेबसाइट द्वारा संग्रहीत सभी डेटा हटाएं?"</string>
+    <string msgid="6682570951259237542" name="webstorage_clear_data_dialog_ok_button">"ठीक"</string>
+    <string msgid="689484577124333977" name="webstorage_clear_data_title">"संग्रहीत डेटा साफ़ करें"</string>
+    <string msgid="1985885826292236210" name="webstorage_origin_summary_mb_stored">"आपके फ़ोन पर संग्रहीत MB"</string>
+    <string msgid="47273584426988640" name="webstorage_outofspace_notification_text">"स्थान खाली करने के लिए स्‍पर्श करें."</string>
+    <string msgid="1160474608059771788" name="webstorage_outofspace_notification_title">"ब्राउज़र संग्रहण भर गया है"</string>
+</resources>
