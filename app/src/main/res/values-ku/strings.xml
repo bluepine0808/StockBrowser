@@ -659,23 +659,23 @@
 له‌کاتیێک</string>
   <!-- Download History UI strings -->
   <!-- Dialog title [CHAR LIMIT=25] -->
-  <string name="download_no_sdcard_dlg_title2" product="nosdcard">یادگەی ناوەکی USB ئامادە نیە</string>
+  <string name="download_no_sdcard_dlg_title2" product="default">یادگەی ناوەکی USB ئامادە نیە</string>
   <!-- Dialog title -->
   <string name="download_no_sdcard_dlg_title" product="default">بیرگەی ده‌ره‌کی نییه‌</string>
   <!-- Dialog message [CHAR LIMIT=NONE] -->
-  <string name="download_no_sdcard_dlg_msg2" product="nosdcard">USB بیرگه‌ داواکراوه‌ بۆ دابه‌زین<xliff:g id="filename">%s</xliff:g>.</string>
+  <string name="download_no_sdcard_dlg_msg2" product="default">USB بیرگه‌ داواکراوه‌ بۆ دابه‌زین<xliff:g id="filename">%s</xliff:g>.</string>
   <!-- Dialog message -->
   <string name="download_no_sdcard_dlg_msg" product="default">بیرگه‌ی ده‌ره‌کی داواکراوه‌ بۆ دابه‌زین<xliff:g id="filename">%s</xliff:g>.</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-  <string name="download_sdcard_busy_dlg_title2" product="nosdcard">کۆگای USB بەردەست نییە</string>
+  <string name="download_sdcard_busy_dlg_title2" product="default">کۆگای USB بەردەست نییە</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
   <string name="download_sdcard_busy_dlg_title" product="default">بیرگه‌ی ده‌ره‌کی له‌کاره‌ نیه‌</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-  <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">بیرگه‌ی USB سه‌رقاڵه‌ .بۆ ڕێگه‌دان به‌ دابه‌زین .ده‌ستلێده‌ بۆ کوژانه‌وه‌ی بیرگه‌ی USB. له‌ تێبینی.</string>
+  <string name="download_sdcard_busy_dlg_msg2" product="default">بیرگه‌ی USB سه‌رقاڵه‌ .بۆ ڕێگه‌دان به‌ دابه‌زین .ده‌ستلێده‌ بۆ کوژانه‌وه‌ی بیرگه‌ی USB. له‌ تێبینی.</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->

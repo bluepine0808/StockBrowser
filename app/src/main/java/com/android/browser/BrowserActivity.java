@@ -38,7 +38,7 @@ import android.view.View;
 import android.view.Window;
 
 import com.android.browser.stub.NullController;
-import com.google.common.annotations.VisibleForTesting;
+//import com.google.common.annotations.VisibleForTesting;
 
 public class BrowserActivity extends Activity
         implements ActivityCompat.OnRequestPermissionsResultCallback {
@@ -99,7 +99,7 @@ public class BrowserActivity extends Activity
         return controller;
     }
 
-    @VisibleForTesting
+//    @VisibleForTesting
     Controller getController() {
         return (Controller) mController;
     }

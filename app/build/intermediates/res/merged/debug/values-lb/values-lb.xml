@@ -160,14 +160,14 @@
     <string name="disable_autofill">Automatescht Ausfëllen desaktivéieren</string>
     <string name="do_not_save">Ofbriechen</string>
     <string name="download_no_sdcard_dlg_msg" product="default">Eng SD-Kaart ass néideg fir <ns1:g id="filename">%s</ns1:g> erofzelueden.</string>
-    <string name="download_no_sdcard_dlg_msg2" product="nosdcard">USB-Späicher ass néideg fir <ns1:g id="filename">%s</ns1:g> erofzelueden.</string>
+    <string name="download_no_sdcard_dlg_msg2" product="default">USB-Späicher ass néideg fir <ns1:g id="filename">%s</ns1:g> erofzelueden.</string>
     <string name="download_no_sdcard_dlg_title" product="default">Keng SD-Kaart</string>
-    <string name="download_no_sdcard_dlg_title2" product="nosdcard">USB-Späicher net disponibel</string>
+    <string name="download_no_sdcard_dlg_title2" product="default">USB-Späicher net disponibel</string>
     <string name="download_pending">Download gëtt gestart\u2026</string>
     <string name="download_sdcard_busy_dlg_msg" product="default">D\'SD-Kaart ass beschäftegt. Fir Downloads z\'erlaben, schalt den USB-Späicher an der Notifikatioun aus.</string>
-    <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">Den USB-Späicher ass beschäftegt. Fir Downloads z\'erlaben, schalt den USB-Späicher an der Notifikatioun aus.</string>
+    <string name="download_sdcard_busy_dlg_msg2" product="default">Den USB-Späicher ass beschäftegt. Fir Downloads z\'erlaben, schalt den USB-Späicher an der Notifikatioun aus.</string>
     <string name="download_sdcard_busy_dlg_title" product="default">SD-Kaart net disponibel</string>
-    <string name="download_sdcard_busy_dlg_title2" product="nosdcard">USB-Späicher net disponibel</string>
+    <string name="download_sdcard_busy_dlg_title2" product="default">USB-Späicher net disponibel</string>
     <string name="edit_bookmark">Lieszeechen änneren</string>
     <string name="edit_folder">Dossier änneren</string>
     <string name="empty_bookmarks_folder">Keng Lieszeechen.</string>

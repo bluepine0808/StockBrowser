@@ -158,14 +158,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Desactiva l\'emplenament automàtic"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Cancel·la"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"Es necessita una targeta SD per baixar <ns1:g id="FILENAME">%s</ns1:g>."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"Cal l\'emmagatzematge USB per baixar <ns1:g id="FILENAME">%s</ns1:g>."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"Cal l\'emmagatzematge USB per baixar <ns1:g id="FILENAME">%s</ns1:g>."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"No hi ha cap targeta SD"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"Emmag. USB no dispon."</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"Emmag. USB no dispon."</string>
     <string msgid="2599683668575349559" name="download_pending">"S\'està iniciant la baixada…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"La targeta SD està ocupada. Per permetre les baixades, toca Desactiva l\'emmagatzematge d\'USB a la notificació."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"L\'emmagatzematge USB està ocupat. Per permetre les baixades, toca Desactiva l\'emmagatzematge USB a la notificació."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"L\'emmagatzematge USB està ocupat. Per permetre les baixades, toca Desactiva l\'emmagatzematge USB a la notificació."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"La targeta SD no està disponible"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"Emmag. USB no dispon."</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"Emmag. USB no dispon."</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"Edita l\'adreça d\'interès"</string>
     <string msgid="621817453133656156" name="edit_folder">"Edita la carpeta"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"No hi ha cap adreça d\'interès."</string>

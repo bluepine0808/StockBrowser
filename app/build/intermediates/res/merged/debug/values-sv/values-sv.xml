@@ -158,14 +158,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Inaktivera Autofyll"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Avbryt"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"Du behöver ett SD-kort för att hämta <ns1:g id="FILENAME">%s</ns1:g>."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"Du behöver en USB-lagringsenhet för att hämta <ns1:g id="FILENAME">%s</ns1:g>."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"Du behöver en USB-lagringsenhet för att hämta <ns1:g id="FILENAME">%s</ns1:g>."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"Inget SD-kort"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"USB-enhet ej tillgänglig"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"USB-enhet ej tillgänglig"</string>
     <string msgid="2599683668575349559" name="download_pending">"Startar hämtning…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"SD-kortet är upptaget. Om du vill tillåta hämtning väljer du Inaktivera USB-lagring i meddelandet."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"USB-lagringsenheten är upptagen. Om du vill tillåta hämtning väljer du Inaktivera USB-lagring i meddelandet."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"USB-lagringsenheten är upptagen. Om du vill tillåta hämtning väljer du Inaktivera USB-lagring i meddelandet."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"SD-kortet är inte tillgängligt"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"USB-enhet ej tillgänglig"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"USB-enhet ej tillgänglig"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"Redigera bokmärke"</string>
     <string msgid="621817453133656156" name="edit_folder">"Redigera mapp"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"Inga bokmärken."</string>

@@ -19,19 +19,29 @@
     android:layout_width="match_parent"
     android:layout_height="?android:attr/listPreferredItemHeight"
     android:orientation="horizontal"
-    android:theme="@style/PreferencesTheme"
     android:background="?android:attr/listChoiceBackgroundIndicator">
 
+<!--
     <TextView
         android:id="@+id/group_name"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:paddingLeft="50dp"
+        android:paddingStart="50dp"
+        android:textAppearance="@style/BookmarkText"
         android:gravity="center_vertical" />
+-->
+
+    <TextView
+        android:id="@+id/crumb_overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="@style/BookmarkPathText"
+        android:visibility="gone"
+        />
 
     <FrameLayout
         android:id="@+id/crumb_holder"
-        android:paddingLeft="16dp"
+        android:textAppearance="@style/BookmarkPathText"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

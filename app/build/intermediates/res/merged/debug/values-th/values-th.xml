@@ -158,14 +158,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"ปิดใช้งานการป้อนอัตโนมัติ"</string>
     <string msgid="6777633870113477714" name="do_not_save">"ยกเลิก"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"ต้องมีการ์ด SD เพื่อดาวน์โหลด <ns1:g id="FILENAME">%s</ns1:g>"</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"จำเป็นต้องใช้ที่เก็บข้อมูล USB ในการดาวน์โหลด <ns1:g id="FILENAME">%s</ns1:g>"</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"จำเป็นต้องใช้ที่เก็บข้อมูล USB ในการดาวน์โหลด <ns1:g id="FILENAME">%s</ns1:g>"</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"ไม่มีการ์ด SD"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"ที่เก็บข้อมูล USB ใช้งานไม่ได้"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"ที่เก็บข้อมูล USB ใช้งานไม่ได้"</string>
     <string msgid="2599683668575349559" name="download_pending">"เริ่มต้นดาวน์โหลด…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"การ์ด SD ถูกใช้งานอยู่ หากต้องการอนุญาตให้ดาวน์โหลด ให้แตะ \"ปิดที่จัดเก็บข้อมูล USB\" ในการแจ้งเตือน"</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"ที่จัดเก็บข้อมูล USB ถูกใช้งานอยู่ หากต้องการอนุญาตให้ดาวน์โหลด ให้แตะ \"ปิดที่จัดเก็บข้อมูล USB\" ในการแจ้งเตือน"</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"ที่จัดเก็บข้อมูล USB ถูกใช้งานอยู่ หากต้องการอนุญาตให้ดาวน์โหลด ให้แตะ \"ปิดที่จัดเก็บข้อมูล USB\" ในการแจ้งเตือน"</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"การ์ด SD ใช้งานไม่ได้"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"ที่เก็บข้อมูล USB ใช้งานไม่ได้"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"ที่เก็บข้อมูล USB ใช้งานไม่ได้"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"แก้ไขบุ๊กมาร์ก"</string>
     <string msgid="621817453133656156" name="edit_folder">"แก้ไขโฟลเดอร์"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"ไม่มีบุ๊กมาร์ก"</string>

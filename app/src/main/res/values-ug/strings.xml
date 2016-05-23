@@ -655,23 +655,23 @@
   <string name="too_many_subwindows_dialog_message">بىر قېتىمدا بىرلا قاڭقىش كۆزنىكى ئاچالايدۇ.</string>
   <!-- Download History UI strings -->
   <!-- Dialog title [CHAR LIMIT=25] -->
-  <string name="download_no_sdcard_dlg_title2" product="nosdcard">USB ساقلىغۇچنى ئىشلەتكىلى بولمايدۇ </string>
+  <string name="download_no_sdcard_dlg_title2" product="default">USB ساقلىغۇچنى ئىشلەتكىلى بولمايدۇ </string>
   <!-- Dialog title -->
   <string name="download_no_sdcard_dlg_title" product="default">SD كارتا يوق</string>
   <!-- Dialog message [CHAR LIMIT=NONE] -->
-  <string name="download_no_sdcard_dlg_msg2" product="nosdcard">USB ساقلىغۇچ بولسا ئاندىن \"<xliff:g id="FILENAME">%s</xliff:g> .نى چۈشۈرەلەيدۇ</string>
+  <string name="download_no_sdcard_dlg_msg2" product="default">USB ساقلىغۇچ بولسا ئاندىن \"<xliff:g id="FILENAME">%s</xliff:g> .نى چۈشۈرەلەيدۇ</string>
   <!-- Dialog message -->
   <string name="download_no_sdcard_dlg_msg" product="default">SD كارتا بولسا ئاندىن \"<xliff:g id="FILENAME">%s</xliff:g> نى چۈشۈرەلەيدۇ.</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-  <string name="download_sdcard_busy_dlg_title2" product="nosdcard">USB ساقلىغۇچنى ئىشلەتكىلى بولمايدۇ </string>
+  <string name="download_sdcard_busy_dlg_title2" product="default">USB ساقلىغۇچنى ئىشلەتكىلى بولمايدۇ </string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
   <string name="download_sdcard_busy_dlg_title" product="default">SD كارتىنى ئىشلەتكىلى بولمايدۇ</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-  <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">USB ساقلىغۇچ ئالدىراش. چۈشۈرۈشكە يول قويۇش ئۈچۈن، ئۇقتۇرۇشتىن «USB ساقلىغۇچنى تاقا»نى تاللاڭ.</string>
+  <string name="download_sdcard_busy_dlg_msg2" product="default">USB ساقلىغۇچ ئالدىراش. چۈشۈرۈشكە يول قويۇش ئۈچۈن، ئۇقتۇرۇشتىن «USB ساقلىغۇچنى تاقا»نى تاللاڭ.</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->

@@ -158,14 +158,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Deaktiveer outo-invul"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Kanselleer"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"\'n SD-kaart is nodig om <ns1:g id="FILENAME">%s</ns1:g> af te laai."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"USB-berging word vereis om <ns1:g id="FILENAME">%s</ns1:g> af te laai."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"USB-berging word vereis om <ns1:g id="FILENAME">%s</ns1:g> af te laai."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"Geen SD-kaart nie"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"USB-berging nie beskikbaar nie"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"USB-berging nie beskikbaar nie"</string>
     <string msgid="2599683668575349559" name="download_pending">"Begin aflaai…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"Die SD-kaart is besig. Om aflaaisels toe te laat, raak \"Skakel USB-berging af\" in die kennisgewing."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"Die USB-berging is besig. Om aflaaisels toe te laat, raak \"Skakel USB-berging af\" in die kennisgewing."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"Die USB-berging is besig. Om aflaaisels toe te laat, raak \"Skakel USB-berging af\" in die kennisgewing."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"SD-kaart onbeskikbaar"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"USB-berging nie beskikbaar nie"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"USB-berging nie beskikbaar nie"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"Redigeer boekmerk"</string>
     <string msgid="621817453133656156" name="edit_folder">"Redigeer vouer"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"Geen boekmerke nie."</string>

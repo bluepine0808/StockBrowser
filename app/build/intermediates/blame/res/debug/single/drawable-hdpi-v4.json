@@ -100,16 +100,16 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_querybuilder_normal.png"
     },
     {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_new_window_incognito.png",
+        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_new_window_incognito.png"
+    },
+    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_bookmark_off.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_bookmark_off.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_search.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_search.png"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_new_window_incognito.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_new_window_incognito.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_dialog_browser_certificate_secure.png",
@@ -132,12 +132,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_list_data_small.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_bookmarks.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_bookmarks.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_menu.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_bookmarks.png",
+        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_bookmarks.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_menu_forward.png",
@@ -152,12 +152,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/textfield_default_holo_dark.9.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_share.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_share.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_stop.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_stop.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_share.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_share.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/default_video_poster.png",
@@ -228,12 +228,12 @@
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_menu_overflow.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gps_on.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_gps_on.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_new_window.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-hdpi/ic_new_window.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gps_on.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-hdpi/ic_gps_on.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_tab_close.png",

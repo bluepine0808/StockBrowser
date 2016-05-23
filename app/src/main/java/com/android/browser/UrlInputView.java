@@ -38,10 +38,10 @@ import android.widget.TextView.OnEditorActionListener;
 
 import com.android.browser.SuggestionsAdapter.CompletionListener;
 import com.android.browser.SuggestionsAdapter.SuggestItem;
+import com.android.browser.reflect.ReflectHelper;
 import com.android.browser.search.SearchEngine;
 import com.android.browser.search.SearchEngineInfo;
 import com.android.browser.search.SearchEngines;
-import com.android.internal.R;
 
 import java.util.List;
 
@@ -73,6 +73,7 @@ public class UrlInputView extends AutoCompleteTextView
     private boolean mLandscape;
     private boolean mIncognitoMode;
     private boolean mNeedsUpdate;
+    private Context mContext;
 
     private int mState;
     private StateListener mStateListener;
@@ -83,7 +84,9 @@ public class UrlInputView extends AutoCompleteTextView
     }
 
     public UrlInputView(Context context, AttributeSet attrs) {
-        this(context, attrs, R.attr.autoCompleteTextViewStyle);
+        // SWE_TODO : Needs Fix
+        //this(context, attrs, R.attr.autoCompleteTextViewStyle);
+        this(context, attrs, 0);
     }
 
     public UrlInputView(Context context) {
@@ -103,6 +106,7 @@ public class UrlInputView extends AutoCompleteTextView
         addTextChangedListener(this);
         setDropDownAnchor(com.android.browser.R.id.taburlbar);
         mState = StateListener.STATE_NORMAL;
+        mContext = ctx;
     }
 
     protected void onFocusChanged(boolean focused, int direction, Rect prevRect) {
@@ -219,7 +223,10 @@ public class UrlInputView extends AutoCompleteTextView
     }
 
     void showIME() {
-        mInputManager.focusIn(this);
+        //mInputManager.focusIn(this);
+        Object[] params  = {this};
+        Class[] type = new Class[] {View.class};
+        ReflectHelper.invokeMethod(mInputManager, "focusIn", type, params);
         mInputManager.showSoftInput(this, 0);
     }
 

@@ -18,7 +18,7 @@ package com.android.browser.view;
 
 import android.content.Context;
 import android.database.DataSetObserver;
-import android.provider.BrowserContract;
+import com.android.browser.platformsupport.BrowserContract;
 import android.util.AttributeSet;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
@@ -35,7 +35,8 @@ import android.widget.TextView;
 import com.android.browser.BreadCrumbView;
 import com.android.browser.BrowserBookmarksAdapter;
 import com.android.browser.R;
-import com.android.internal.view.menu.MenuBuilder;
+import com.android.browser.reflect.ReflectHelper;
+//import com.android.internal.view.menu.MenuBuilder;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -82,6 +83,9 @@ public class BookmarkExpandableView extends ExpandableListView
                 .getInteger(R.integer.max_bookmark_columns);
         setScrollBarStyle(SCROLLBARS_OUTSIDE_OVERLAY);
         mAdapter = new BookmarkAccountAdapter(mContext);
+        if (mAdapter.getGroupCount() < 2) {
+            setGroupIndicator(null);
+        }
         super.setAdapter(mAdapter);
     }
 
@@ -109,7 +113,8 @@ public class BookmarkExpandableView extends ExpandableListView
         LayoutInflater infalter = LayoutInflater.from(mContext);
         View v = infalter.inflate(layout, this, false);
         v.measure(MeasureSpec.UNSPECIFIED, MeasureSpec.UNSPECIFIED);
-        mColumnWidth = v.getMeasuredWidth();
+        int margin = getResources().getDimensionPixelSize(R.dimen.combo_bookmark_thumbnail_margin);
+        mColumnWidth = v.getMeasuredWidth() + (margin * 2);
     }
 
     public void clearAccounts() {
@@ -156,6 +161,16 @@ public class BookmarkExpandableView extends ExpandableListView
         }
     }
 
+    // SWE: com.android.internal.view.menu.MenuBuilder is a hidden class in SDK.
+    // Since the 'menu' object is of type MenuBuilder, java reflection method
+    // is the only way to access MenuBuilder.setCurrentMenuInfo().
+    static void setCurrentMenuInfo(ContextMenu menu, ContextMenuInfo menuInfo) {
+        Object[] params = {menuInfo};
+        Class[] proxyType = new Class[] {ContextMenuInfo.class};
+        ReflectHelper.invokeProxyMethod("com.android.internal.view.menu.MenuBuilder",
+                                        "setCurrentMenuInfo", menu, proxyType, params);
+    }
+
     @Override
     public void createContextMenu(ContextMenu menu) {
         // The below is copied from View - we want to bypass the override
@@ -165,7 +180,7 @@ public class BookmarkExpandableView extends ExpandableListView
 
         // Sets the current menu info so all items added to menu will have
         // my extra info set.
-        ((MenuBuilder)menu).setCurrentMenuInfo(menuInfo);
+        setCurrentMenuInfo(menu, menuInfo);
 
         onCreateContextMenu(menu);
         if (mOnCreateContextMenuListener != null) {
@@ -174,23 +189,20 @@ public class BookmarkExpandableView extends ExpandableListView
 
         // Clear the extra information so subsequent items that aren't mine don't
         // have my extra info.
-        ((MenuBuilder)menu).setCurrentMenuInfo(null);
+        setCurrentMenuInfo(menu, null);
 
-        if (mParent != null) {
-            mParent.createContextMenu(menu);
+        if (getParent() != null) {
+            getParent().createContextMenu(menu);
         }
     }
 
     @Override
     public boolean showContextMenuForChild(View originalView) {
-        Integer groupPosition = (Integer) originalView.getTag(R.id.group_position);
-        Integer childPosition = (Integer) originalView.getTag(R.id.child_position);
+        int groupPosition = (Integer) originalView.getTag(R.id.group_position);
+        int childPosition = (Integer) originalView.getTag(R.id.child_position);
 
-        if (groupPosition == null || childPosition == null) {
-            return false;
-        }
-
-        mContextMenuInfo = new BookmarkContextMenuInfo(childPosition, groupPosition);
+        mContextMenuInfo = new BookmarkContextMenuInfo(childPosition,
+                groupPosition);
         if (getParent() != null) {
             getParent().showContextMenuForChild(this);
         }
@@ -243,6 +255,10 @@ public class BookmarkExpandableView extends ExpandableListView
 
         @Override
         public void onClick(View v) {
+            if (mAdapter.getGroupCount() < 2) {
+                return;
+            }
+
             int groupPosition = (Integer) v.getTag(R.id.group_position);
             if (isGroupExpanded(groupPosition)) {
                 collapseGroup(groupPosition);
@@ -394,6 +410,7 @@ public class BookmarkExpandableView extends ExpandableListView
                 View view, ViewGroup parent) {
             if (view == null) {
                 view = mInflater.inflate(R.layout.bookmark_group_view, parent, false);
+                view.setEnabled(false);
                 view.setOnClickListener(mGroupOnClickListener);
             }
             view.setTag(R.id.group_position, groupPosition);
@@ -403,13 +420,19 @@ public class BookmarkExpandableView extends ExpandableListView
             if (crumbs.getParent() != null) {
                 ((ViewGroup)crumbs.getParent()).removeView(crumbs);
             }
+            crumbs.setVisibility(VISIBLE);
             crumbHolder.addView(crumbs);
+
+            TextView overflowView = (TextView) view.findViewById(R.id.crumb_overflow);
+            crumbs.addOverflowLabel(overflowView);
+/*
             TextView name = (TextView) view.findViewById(R.id.group_name);
             String groupName = mGroups.get(groupPosition);
             if (groupName == null) {
-                groupName = mContext.getString(R.string.local_bookmarks);
+                groupName = mContext.getString(R.string.bookmarks);
             }
             name.setText(groupName);
+*/
             return view;
         }
 
@@ -419,7 +442,7 @@ public class BookmarkExpandableView extends ExpandableListView
                 crumbs = (BreadCrumbView)
                         mInflater.inflate(R.layout.bookmarks_header, null);
                 crumbs.setController(BookmarkExpandableView.this);
-                crumbs.setUseBackButton(true);
+                //crumbs.setUseBackButton(true);
                 crumbs.setMaxVisible(2);
                 String bookmarks = mContext.getString(R.string.bookmarks);
                 crumbs.pushView(bookmarks, false,

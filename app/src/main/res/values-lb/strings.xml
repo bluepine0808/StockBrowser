@@ -657,23 +657,23 @@
   <string name="too_many_subwindows_dialog_message">Et ka jeeweils just eng Pop-up-Fënster op sinn.</string>
   <!-- Download History UI strings -->
   <!-- Dialog title [CHAR LIMIT=25] -->
-  <string name="download_no_sdcard_dlg_title2" product="nosdcard">USB-Späicher net disponibel</string>
+  <string name="download_no_sdcard_dlg_title2" product="default">USB-Späicher net disponibel</string>
   <!-- Dialog title -->
   <string name="download_no_sdcard_dlg_title" product="default">Keng SD-Kaart</string>
   <!-- Dialog message [CHAR LIMIT=NONE] -->
-  <string name="download_no_sdcard_dlg_msg2" product="nosdcard">USB-Späicher ass néideg fir <xliff:g id="filename">%s</xliff:g> erofzelueden.</string>
+  <string name="download_no_sdcard_dlg_msg2" product="default">USB-Späicher ass néideg fir <xliff:g id="filename">%s</xliff:g> erofzelueden.</string>
   <!-- Dialog message -->
   <string name="download_no_sdcard_dlg_msg" product="default">Eng SD-Kaart ass néideg fir <xliff:g id="filename">%s</xliff:g> erofzelueden.</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-  <string name="download_sdcard_busy_dlg_title2" product="nosdcard">USB-Späicher net disponibel</string>
+  <string name="download_sdcard_busy_dlg_title2" product="default">USB-Späicher net disponibel</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
   <string name="download_sdcard_busy_dlg_title" product="default">SD-Kaart net disponibel</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-  <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">Den USB-Späicher ass beschäftegt. Fir Downloads z\'erlaben, schalt den USB-Späicher an der Notifikatioun aus.</string>
+  <string name="download_sdcard_busy_dlg_msg2" product="default">Den USB-Späicher ass beschäftegt. Fir Downloads z\'erlaben, schalt den USB-Späicher an der Notifikatioun aus.</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->

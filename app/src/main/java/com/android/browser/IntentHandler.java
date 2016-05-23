@@ -26,7 +26,7 @@ import android.net.Uri;
 import android.nfc.NfcAdapter;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.provider.Browser;
+import com.android.browser.platformsupport.Browser;
 import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.util.Log;
@@ -34,7 +34,7 @@ import android.util.Patterns;
 
 import com.android.browser.UI.ComboViews;
 import com.android.browser.search.SearchEngine;
-import com.android.common.Search;
+//import com.android.common.Search;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -234,7 +234,7 @@ public class IntentHandler {
                         String source = null;
                         final Bundle appData = intent.getBundleExtra(SearchManager.APP_DATA);
                         if (appData != null) {
-                            source = appData.getString(Search.SOURCE);
+                            source = appData.getString("source");
                         }
                         if (TextUtils.isEmpty(source)) {
                             source = GOOGLE_SEARCH_SOURCE_UNKNOWN;

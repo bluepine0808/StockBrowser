@@ -16,6 +16,7 @@ public class StopProgressView extends ProgressBar {
     Drawable mProgressDrawable;
     int mWidth;
     int mHeight;
+    private Context mContext;
 
     /**
      * @param context
@@ -44,6 +45,7 @@ public class StopProgressView extends ProgressBar {
      */
     public StopProgressView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        mContext = context;
         init(attrs);
     }
 
@@ -52,6 +54,7 @@ public class StopProgressView extends ProgressBar {
      */
     public StopProgressView(Context context) {
         super(context);
+        mContext = context;
         init(null);
     }
 

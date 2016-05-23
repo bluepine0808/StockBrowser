@@ -153,14 +153,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"स्‍वत: भरण अक्षम करें"</string>
     <string msgid="6777633870113477714" name="do_not_save">"रद्द करें"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"<ns1:g id="FILENAME">%s</ns1:g> डाउनलोड करने के लिए एक SD कार्ड की आवश्यकता है."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">" <ns1:g id="FILENAME">%s</ns1:g> डाउनलोड करने के लिए USB संग्रहण की आवश्यकता है."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">" <ns1:g id="FILENAME">%s</ns1:g> डाउनलोड करने के लिए USB संग्रहण की आवश्यकता है."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"कोई SD कार्ड नहीं"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"USB संग्रहण अनुपलब्ध"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"USB संग्रहण अनुपलब्ध"</string>
     <string msgid="2599683668575349559" name="download_pending">"डाउनलोड प्रारंभ कर रहा है…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"SD कार्ड व्यस्त है. डाउनलोड की अनुमति देने के लिए, सूचना में USB संग्रहण बंद करें स्पर्श करें."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"USB संग्रहण व्यस्त है. डाउनलोड की अनुमति देने के लिए, सूचना में USB संग्रहण बंद करें को स्पर्श करें."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"USB संग्रहण व्यस्त है. डाउनलोड की अनुमति देने के लिए, सूचना में USB संग्रहण बंद करें को स्पर्श करें."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"SD कार्ड अनुपलब्ध"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"USB संग्रहण अनुपलब्ध"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"USB संग्रहण अनुपलब्ध"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"बुकमार्क संपादित करें"</string>
     <string msgid="621817453133656156" name="edit_folder">"फ़ोल्‍डर संपादित करें"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"कोई बुकमार्क नहीं."</string>

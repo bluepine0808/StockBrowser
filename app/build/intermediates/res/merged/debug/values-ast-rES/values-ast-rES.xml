@@ -159,14 +159,14 @@
     <string name="disable_autofill">Inhabilitar autocompletar</string>
     <string name="do_not_save">Encaboxar</string>
     <string name="download_no_sdcard_dlg_msg" product="default">Pa descargar <ns1:g id="FILENAME">%s</ns1:g> necesítase una tarxeta SD.</string>
-    <string name="download_no_sdcard_dlg_msg2" product="nosdcard">Pa descargar <ns1:g id="FILENAME">%s</ns1:g>, faise necesario almacenamientu USB.</string>
+    <string name="download_no_sdcard_dlg_msg2" product="default">Pa descargar <ns1:g id="FILENAME">%s</ns1:g>, faise necesario almacenamientu USB.</string>
     <string name="download_no_sdcard_dlg_title" product="default">Falta la tarxeta SD</string>
-    <string name="download_no_sdcard_dlg_title2" product="nosdcard">USB non disponible</string>
+    <string name="download_no_sdcard_dlg_title2" product="default">USB non disponible</string>
     <string name="download_pending">Aniciando descarga…</string>
     <string name="download_sdcard_busy_dlg_msg" product="default">La tarxeta SD ta ocupada. Pa permitir les descargues, toca Desactivar almacenamientu USB na notificación.</string>
-    <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">L\'almacenamientu USB ta ocupáu. Pa permitir les descargues, toca Desactivar almacenamientu USB na notificación.</string>
+    <string name="download_sdcard_busy_dlg_msg2" product="default">L\'almacenamientu USB ta ocupáu. Pa permitir les descargues, toca Desactivar almacenamientu USB na notificación.</string>
     <string name="download_sdcard_busy_dlg_title" product="default">Tarxeta SD non disponible</string>
-    <string name="download_sdcard_busy_dlg_title2" product="nosdcard">USB non disponible</string>
+    <string name="download_sdcard_busy_dlg_title2" product="default">USB non disponible</string>
     <string name="edit_bookmark">Editar marcador</string>
     <string name="edit_folder">Editar carpeta</string>
     <string name="empty_bookmarks_folder">Nun hai marcadores.</string>

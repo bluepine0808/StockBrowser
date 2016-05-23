@@ -17,6 +17,7 @@
 <com.android.browser.view.BookmarkContainer xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/combo_bookmark_thumbnail_margin"
     android:orientation="vertical"
     android:padding="@dimen/combo_horizontalSpacing"
     android:background="@drawable/bookmark_thumb_selector"

@@ -26,7 +26,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
-import android.net.WebAddress;
+import com.android.browser.platformsupport.WebAddress;
 import android.os.Environment;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -273,7 +273,7 @@ public class DownloadHandler {
         request.setDescription(webAddress.getHost());
         // XXX: Have to use the old url since the cookies were stored using the
         // old percent-encoded url.
-        String cookies = CookieManager.getInstance().getCookie(url, privateBrowsing);
+        String cookies = "";//CookieManager.getInstance().getCookie(url, privateBrowsing);
         request.addRequestHeader("cookie", cookies);
         request.addRequestHeader("User-Agent", userAgent);
         if (!TextUtils.isEmpty(referer)) {

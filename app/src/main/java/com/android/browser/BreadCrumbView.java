@@ -28,17 +28,20 @@ import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.android.browser.R;
 
 /**
  * Simple bread crumb view
  * Use setController to receive callbacks from user interactions
  * Use pushView, popView, clear, and getTopData to change/access the view stack
  */
-public class BreadCrumbView extends LinearLayout implements OnClickListener {
+public class BreadCrumbView extends RelativeLayout implements OnClickListener {
     private static final int DIVIDER_PADDING = 12; // dips
     private static final int CRUMB_PADDING = 8; // dips
 
@@ -47,6 +50,8 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
     }
 
     private ImageButton mBackButton;
+    private LinearLayout mCrumbLayout;
+    private LinearLayout mBackLayout;
     private Controller mController;
     private List<Crumb> mCrumbs;
     private boolean mUseBackButton;
@@ -55,6 +60,7 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
     private int mMaxVisible = -1;
     private Context mContext;
     private int mCrumbPadding;
+    private TextView mOverflowView;
 
     /**
      * @param context
@@ -86,15 +92,16 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
     private void init(Context ctx) {
         mContext = ctx;
         setFocusable(true);
+        setGravity(Gravity.CENTER_VERTICAL);
         mUseBackButton = false;
         mCrumbs = new ArrayList<Crumb>();
-        TypedArray a = mContext.obtainStyledAttributes(com.android.internal.R.styleable.Theme);
-        mSeparatorDrawable = a.getDrawable(com.android.internal.R.styleable.Theme_dividerVertical);
-        a.recycle();
+        mSeparatorDrawable = ctx.getResources().getDrawable(
+                                android.R.drawable.divider_horizontal_dark);
         float density = mContext.getResources().getDisplayMetrics().density;
         mDividerPadding = DIVIDER_PADDING * density;
         mCrumbPadding = (int) (CRUMB_PADDING * density);
-        addBackButton();
+        addCrumbLayout();
+        addBackLayout();
     }
 
     public void setUseBackButton(boolean useflag) {
@@ -158,6 +165,16 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
         return crumb.crumbView;
     }
 
+    public void addOverflowLabel(TextView view) {
+        mOverflowView = view;
+        if (view != null) {
+            view.setTextAppearance(mContext, R.style.BookmarkPathText);
+            view.setPadding(mCrumbPadding, 0, mCrumbPadding, 0);
+            view.setGravity(Gravity.CENTER_VERTICAL);
+            view.setText("... >");
+        }
+    }
+
     public void pushView(View view, Object data) {
         Crumb crumb = new Crumb(view, true, data);
         pushCrumb(crumb);
@@ -169,27 +186,61 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
 
     private void addBackButton() {
         mBackButton = new ImageButton(mContext);
-        mBackButton.setImageResource(R.drawable.ic_back_hierarchy);
+        mBackButton.setImageResource(R.drawable.icon_up);
         TypedValue outValue = new TypedValue();
         getContext().getTheme().resolveAttribute(
-                android.R.attr.selectableItemBackgroundBorderless, outValue, true);
+                android.R.attr.selectableItemBackground, outValue, true);
         int resid = outValue.resourceId;
         mBackButton.setBackgroundResource(resid);
+        mBackButton.setPadding(mCrumbPadding, 0, mCrumbPadding, 0);
         mBackButton.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                 LayoutParams.MATCH_PARENT));
         mBackButton.setOnClickListener(this);
-        mBackButton.setVisibility(View.GONE);
         mBackButton.setContentDescription(mContext.getText(
                 R.string.accessibility_button_bookmarks_folder_up));
-        addView(mBackButton, 0);
+        mBackLayout.addView(mBackButton);
+    }
+
+    private void addParentLabel() {
+        TextView tv = new TextView(mContext);
+        tv.setTextAppearance(mContext, android.R.style.TextAppearance_Medium);
+        tv.setPadding(mCrumbPadding, 0, 0, 0);
+        tv.setGravity(Gravity.CENTER_VERTICAL);
+        tv.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
+                LayoutParams.WRAP_CONTENT));
+        tv.setText("/ .../");
+        tv.setSingleLine();
+        tv.setVisibility(View.GONE);
+        mCrumbLayout.addView(tv);
+    }
+
+    private void addCrumbLayout() {
+        mCrumbLayout = new LinearLayout(mContext);
+        LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT,
+                LayoutParams.WRAP_CONTENT);
+        params.addRule(ALIGN_PARENT_LEFT, TRUE);
+        params.setMargins(0, 0, 4 * mCrumbPadding, 0);
+        mCrumbLayout.setLayoutParams(params);
+        mCrumbLayout.setVisibility(View.VISIBLE);
+        //addParentLabel();
+        addView(mCrumbLayout);
+    }
+
+    private void addBackLayout() {
+        mBackLayout= new LinearLayout(mContext);
+        LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT,
+                LayoutParams.WRAP_CONTENT);
+        params.addRule(ALIGN_PARENT_RIGHT, TRUE);
+        mBackLayout.setLayoutParams(params);
+        mBackLayout.setVisibility(View.GONE);
+        addSeparator();
+        addBackButton();
+        addView(mBackLayout);
     }
 
     private void pushCrumb(Crumb crumb) {
-        if (mCrumbs.size() > 0) {
-            addSeparator();
-        }
         mCrumbs.add(crumb);
-        addView(crumb.crumbView);
+        mCrumbLayout.addView(crumb.crumbView);
         updateVisible();
         crumb.crumbView.setOnClickListener(this);
     }
@@ -197,7 +248,7 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
     private void addSeparator() {
         View sep = makeDividerView();
         sep.setLayoutParams(makeDividerLayoutParams());
-        addView(sep);
+        mBackLayout.addView(sep);
     }
 
     private ImageView makeDividerView() {
@@ -207,11 +258,9 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
         return result;
     }
 
-    private LayoutParams makeDividerLayoutParams() {
-        LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT,
-                LayoutParams.MATCH_PARENT);
-        params.topMargin = (int) mDividerPadding;
-        params.bottomMargin = (int) mDividerPadding;
+    private LinearLayout.LayoutParams makeDividerLayoutParams() {
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT);
         return params;
     }
 
@@ -219,17 +268,13 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
         int n = mCrumbs.size();
         if (n > 0) {
             removeLastView();
-            if (!mUseBackButton || (n > 1)) {
-                // remove separator
-                removeLastView();
-            }
             mCrumbs.remove(n - 1);
             if (mUseBackButton) {
                 Crumb top = getTopCrumb();
                 if (top != null && top.canGoBack) {
-                    mBackButton.setVisibility(View.VISIBLE);
+                    mBackLayout.setVisibility(View.VISIBLE);
                 } else {
-                    mBackButton.setVisibility(View.GONE);
+                    mBackLayout.setVisibility(View.GONE);
                 }
             }
             updateVisible();
@@ -240,30 +285,32 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
     }
 
     private void updateVisible() {
-        // start at index 1 (0 == back button)
-        int childIndex = 1;
+        // start at index 1 (0 == parent label)
+        int childIndex = 0;
         if (mMaxVisible >= 0) {
             int invisibleCrumbs = size() - mMaxVisible;
             if (invisibleCrumbs > 0) {
                 int crumbIndex = 0;
+                if (mOverflowView != null) {
+                    mOverflowView.setVisibility(VISIBLE);
+                    mOverflowView.setOnClickListener(this);
+                }
                 while (crumbIndex < invisibleCrumbs) {
                     // Set the crumb to GONE.
-                    getChildAt(childIndex).setVisibility(View.GONE);
-                    childIndex++;
-                    // Each crumb is followed by a separator (except the last
-                    // one).  Also make it GONE
-                    if (getChildAt(childIndex) != null) {
-                        getChildAt(childIndex).setVisibility(View.GONE);
-                    }
+                    mCrumbLayout.getChildAt(childIndex).setVisibility(View.GONE);
                     childIndex++;
                     // Move to the next crumb.
                     crumbIndex++;
                 }
+            } else {
+                if (mOverflowView != null) {
+                    mOverflowView.setVisibility(GONE);
+                }
             }
-            // Make sure the last two are visible.
-            int childCount = getChildCount();
+            // Make sure the last is visible.
+            int childCount = mCrumbLayout.getChildCount();
             while (childIndex < childCount) {
-                getChildAt(childIndex).setVisibility(View.VISIBLE);
+                mCrumbLayout.getChildAt(childIndex).setVisibility(View.VISIBLE);
                 childIndex++;
             }
         } else {
@@ -274,16 +321,21 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
         }
         if (mUseBackButton) {
             boolean canGoBack = getTopCrumb() != null ? getTopCrumb().canGoBack : false;
-            mBackButton.setVisibility(canGoBack ? View.VISIBLE : View.GONE);
+            mBackLayout.setVisibility(canGoBack ? View.VISIBLE : View.GONE);
+            if (canGoBack) {
+                mCrumbLayout.getChildAt(0).setVisibility(VISIBLE);
+            } else {
+                mCrumbLayout.getChildAt(0).setVisibility(GONE);
+            }
         } else {
-            mBackButton.setVisibility(View.GONE);
+            mBackLayout.setVisibility(View.GONE);
         }
     }
 
     private void removeLastView() {
-        int ix = getChildCount();
+        int ix = mCrumbLayout.getChildCount();
         if (ix > 0) {
-            removeViewAt(ix-1);
+            mCrumbLayout.removeViewAt(ix-1);
         }
     }
 
@@ -299,6 +351,13 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
     public void onClick(View v) {
         if (mBackButton == v) {
             popView();
+            notifyController();
+        } else if (mOverflowView == v) {
+            int maxVisible = getMaxVisible();
+            while (maxVisible > 0) {
+                pop(false);
+                maxVisible--;
+            }
             notifyController();
         } else {
             // pop until view matches crumb view
@@ -364,10 +423,10 @@ public class BreadCrumbView extends LinearLayout implements OnClickListener {
 
         private TextView makeCrumbView(String name) {
             TextView tv = new TextView(mContext);
-            tv.setTextAppearance(mContext, android.R.style.TextAppearance_Medium);
+            tv.setTextAppearance(mContext, R.style.BookmarkPathText);
             tv.setPadding(mCrumbPadding, 0, mCrumbPadding, 0);
             tv.setGravity(Gravity.CENTER_VERTICAL);
-            tv.setText(name);
+            tv.setText(name + " >");
             tv.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.MATCH_PARENT));
             tv.setSingleLine();

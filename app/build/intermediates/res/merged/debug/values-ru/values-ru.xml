@@ -158,14 +158,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Отключить автозаполнение"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Отмена"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"Для загрузки <ns1:g id="FILENAME">%s</ns1:g> необходима SD-карта."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"Для загрузки файла <ns1:g id="FILENAME">%s</ns1:g> требуется USB-накопитель."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"Для загрузки файла <ns1:g id="FILENAME">%s</ns1:g> требуется USB-накопитель."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"SD-карта отсутствует"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"USB-накопитель недоступен"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"USB-накопитель недоступен"</string>
     <string msgid="2599683668575349559" name="download_pending">"Начинается загрузка…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"SD-карта занята. Чтобы разрешить загрузки, выберите \"Отключить USB-накопитель\" в уведомлении."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"USB-накопитель занят. Чтобы разрешить загрузки, выберите \"Отключить USB-накопитель\" в уведомлении."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"USB-накопитель занят. Чтобы разрешить загрузки, выберите \"Отключить USB-накопитель\" в уведомлении."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"SD-карта недоступна"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"USB-накопитель недоступен"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"USB-накопитель недоступен"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"Изменить закладку"</string>
     <string msgid="621817453133656156" name="edit_folder">"Изменить папку"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"Нет закладок"</string>

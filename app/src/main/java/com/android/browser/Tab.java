@@ -200,6 +200,7 @@ class Tab implements PictureListener {
     /**
      * See {@link #clearBackStackWhenItemAdded(String)}.
      */
+    private String mTouchIconUrl;
     private Pattern mClearHistoryUrlPattern;
 
     private static synchronized Bitmap getDefaultFavicon(Context context) {
@@ -676,6 +677,10 @@ class Tab implements PictureListener {
         mCurrentState.mIncognito = view.isPrivateBrowsingEnabled();
     }
 
+    public String getTouchIconUrl() {
+        return mTouchIconUrl;
+    }
+
     // Called by DeviceAccountLogin when the Tab needs to have the auto-login UI
     // displayed.
     void setDeviceAccountLogin(DeviceAccountLogin login) {
@@ -850,6 +855,7 @@ class Tab implements PictureListener {
                 mTouchIconLoader = new DownloadTouchIcon(Tab.this, cr, view);
                 mTouchIconLoader.execute(url);
             }
+            mTouchIconUrl = url;
         }
 
         @Override
@@ -1884,12 +1890,12 @@ class Tab implements PictureListener {
 
     protected void capture() {
         if (mMainView == null || mCapture == null) return;
-        if (mMainView.getContentWidth() <= 0 || mMainView.getContentHeight() <= 0) {
+        if (/*mMainView.getContentWidth() <= 0 || */mMainView.getContentHeight() <= 0) {
             return;
         }
         Canvas c = new Canvas(mCapture);
         final int left = mMainView.getScrollX();
-        final int top = mMainView.getScrollY() + mMainView.getVisibleTitleHeight();
+        final int top = mMainView.getScrollY() + 0;//mMainView.getVisibleTitleHeight();
         int state = c.save();
         c.translate(-left, -top);
         float scale = mCaptureWidth / (float) mMainView.getWidth();

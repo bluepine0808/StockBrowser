@@ -24,12 +24,12 @@
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-mdpi/app_web_browser_sm.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_querybuilder_normal.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_querybuilder_normal.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/geolocation_permissions_prompt_background.9.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/geolocation_permissions_prompt_background.9.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_querybuilder_normal.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_querybuilder_normal.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/bookmarks_widget_thumb_selector_focused.9.png",
@@ -40,12 +40,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_bookmark.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/textfield_active_holo_dark.9.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/textfield_active_holo_dark.9.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_list_data_small.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_list_data_small.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/textfield_active_holo_dark.9.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/textfield_active_holo_dark.9.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_new_window_incognito.png",
@@ -64,12 +64,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_search_category_bookmark.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_search_category_suggest.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_search_category_suggest.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-mdpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_search_category_suggest.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_search_category_suggest.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_back_disabled.png",
@@ -88,12 +88,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_history.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_list_data_off.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_list_data_off.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu_new_window.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_menu_new_window.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_list_data_off.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_list_data_off.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_delete.png",
@@ -144,12 +144,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_desktop.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/browser_widget_preview.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/browser_widget_preview.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_menu_bookmark.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-mdpi/ic_menu_bookmark.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/browser_widget_preview.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/browser_widget_preview.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_bookmark_off.png",
@@ -272,12 +272,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_dialog_browser_certificate_secure.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_dialog_browser_security_good.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_dialog_browser_security_good.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_home.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_dialog_browser_security_good.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_dialog_browser_security_good.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_forward.png",
@@ -290,6 +290,10 @@
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_voice_search.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/ic_voice_search.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/icon_up.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-mdpi/icon_up.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_web.png",

@@ -158,14 +158,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Disable auto-fill"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Cancel"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"An SD card is required to download <ns1:g id="FILENAME">%s</ns1:g>."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"USB storage is required to download <ns1:g id="FILENAME">%s</ns1:g>."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"USB storage is required to download <ns1:g id="FILENAME">%s</ns1:g>."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"No SD card"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"USB storage unavailable"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"USB storage unavailable"</string>
     <string msgid="2599683668575349559" name="download_pending">"Starting download…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"The SD card is busy. To allow downloads, select \"Turn off USB storage\" in the notification."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"The USB storage is busy. To allow downloads, touch Turn Off USB Storage in the notification."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"The USB storage is busy. To allow downloads, touch Turn Off USB Storage in the notification."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"SD card unavailable"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"USB storage unavailable"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"USB storage unavailable"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"Edit bookmark"</string>
     <string msgid="621817453133656156" name="edit_folder">"Edit folder"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"No bookmarks"</string>

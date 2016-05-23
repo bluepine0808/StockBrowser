@@ -27,7 +27,7 @@ import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Message;
 import android.preference.PreferenceManager;
-import android.provider.Browser;
+import com.android.browser.platformsupport.Browser;
 import android.provider.Settings;
 import android.util.DisplayMetrics;
 import android.webkit.CookieManager;
@@ -182,9 +182,11 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
             // the cost of one cached page is ~3M (measured using nytimes.com). For
             // low end devices, we only cache one page. For high end devices, we try
             // to cache more pages, currently choose 5.
-            if (ActivityManager.staticGetMemoryClass() > 16) {
+
+            // SWE_TODO : assume a high-memory device
+            //if (ActivityManager.staticGetMemoryClass() > 16) {
                 mPageCacheCapacity = 5;
-            }
+            //}
             mWebStorageSizeManager = new WebStorageSizeManager(mContext,
                     new WebStorageSizeManager.StatFsDiskInfo(getAppCachePath()),
                     new WebStorageSizeManager.WebKitAppCacheInfo(getAppCachePath()));
@@ -251,7 +253,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         settings.setGeolocationEnabled(enableGeolocation());
         settings.setJavaScriptEnabled(enableJavascript());
         settings.setLightTouchEnabled(enableLightTouch());
-        settings.setNavDump(enableNavDump());
+        //settings.setNavDump(enableNavDump());
         settings.setDefaultTextEncodingName(getDefaultTextEncoding());
         settings.setDefaultZoom(getDefaultZoom());
         settings.setMinimumFontSize(getMinimumFontSize());
@@ -469,11 +471,11 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
 
     public void resetDefaultPreferences() {
         // Preserve autologin setting
-        long gal = mPrefs.getLong(GoogleAccountLogin.PREF_AUTOLOGIN_TIME, -1);
-        mPrefs.edit()
-                .clear()
-                .putLong(GoogleAccountLogin.PREF_AUTOLOGIN_TIME, gal)
-                .apply();
+//        long gal = mPrefs.getLong(GoogleAccountLogin.PREF_AUTOLOGIN_TIME, -1);
+//        mPrefs.edit()
+//                .clear()
+//                .putLong(GoogleAccountLogin.PREF_AUTOLOGIN_TIME, gal)
+//                .apply();
         resetCachedValues();
         syncManagedSettings();
     }

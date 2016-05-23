@@ -53,7 +53,7 @@ public class NavTabView extends LinearLayout {
     }
 
     private void init() {
-        LayoutInflater.from(mContext).inflate(R.layout.nav_tab_view, this);
+        LayoutInflater.from(getContext()).inflate(R.layout.nav_tab_view, this);
         mContent = (ViewGroup) findViewById(R.id.main);
         mTitleBar = findViewById(R.id.titlebar);
         mTitle = (TextView) findViewById(R.id.title);

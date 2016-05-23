@@ -110,7 +110,7 @@ public class TitleBar extends RelativeLayout {
 
     private void setFixedTitleBar() {
         boolean isFixed = !mUseQuickControls
-                && !mContext.getResources().getBoolean(R.bool.hide_title);
+                && !getContext().getResources().getBoolean(R.bool.hide_title);
         isFixed |= mAccessibilityManager.isEnabled();
         // If getParent() returns null, we are initializing
         ViewGroup parent = (ViewGroup)getParent();
@@ -161,7 +161,7 @@ public class TitleBar extends RelativeLayout {
     }
 
     void setupTitleBarAnimator(Animator animator) {
-        Resources res = mContext.getResources();
+        Resources res = getContext().getResources();
         int duration = res.getInteger(R.integer.titlebar_animation_duration);
         animator.setInterpolator(new DecelerateInterpolator(
                 ANIM_TITLEBAR_DECELERATE));
@@ -245,9 +245,10 @@ public class TitleBar extends RelativeLayout {
     };
 
     private int getVisibleTitleHeight() {
-        Tab tab = mBaseUi.getActiveTab();
+        return 0;
+        /*Tab tab = mBaseUi.getActiveTab();
         WebView webview = tab != null ? tab.getWebView() : null;
-        return webview != null ? webview.getVisibleTitleHeight() : 0;
+        return webview != null ? webview.getVisibleTitleHeight() : 0;*/
     }
 
     /**

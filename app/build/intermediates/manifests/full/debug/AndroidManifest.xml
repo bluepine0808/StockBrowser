@@ -20,8 +20,8 @@
     package="com.android.browser" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="19" />
+        android:minSdkVersion="17"
+        android:targetSdkVersion="21" />
 
     <original-package android:name="com.android.browser" />
 

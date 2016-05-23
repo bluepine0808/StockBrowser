@@ -48,9 +48,9 @@ import android.os.Message;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.preference.PreferenceActivity;
-import android.provider.Browser;
-import android.provider.BrowserContract;
-import android.provider.BrowserContract.Images;
+import com.android.browser.platformsupport.Browser;
+import com.android.browser.platformsupport.BrowserContract;
+import com.android.browser.platformsupport.BrowserContract.Images;
 import android.provider.ContactsContract;
 import android.provider.ContactsContract.Intents.Insert;
 import android.speech.RecognizerIntent;
@@ -174,7 +174,7 @@ public class Controller
     private UrlHandler mUrlHandler;
     private UploadHandler mUploadHandler;
     private IntentHandler mIntentHandler;
-    private PageDialogsHandler mPageDialogsHandler;
+//    private PageDialogsHandler mPageDialogsHandler;
     private NetworkStateHandler mNetworkHandler;
 
     private Message mAutoFillSetupMessage;
@@ -241,7 +241,7 @@ public class Controller
 
         mUrlHandler = new UrlHandler(this);
         mIntentHandler = new IntentHandler(mActivity, this);
-        mPageDialogsHandler = new PageDialogsHandler(mActivity, this);
+//        mPageDialogsHandler = new PageDialogsHandler(mActivity, this);
 
         startHandler();
         mBookmarksObserver = new ContentObserver(mHandler) {
@@ -296,14 +296,14 @@ public class Controller
             // clear any session cookies set during login.
             CookieManager.getInstance().removeSessionCookie();
         }
-
-        GoogleAccountLogin.startLoginIfNeeded(mActivity,
-                new Runnable() {
-                    @Override public void run() {
-                        onPreloginFinished(icicle, intent, currentTabId,
-                                restoreIncognitoTabs);
-                    }
-                });
+//
+//        GoogleAccountLogin.startLoginIfNeeded(mActivity,
+//                new Runnable() {
+//                    @Override public void run() {
+//                        onPreloginFinished(icicle, intent, currentTabId,
+//                                restoreIncognitoTabs);
+//                    }
+//                });
     }
 
     private void onPreloginFinished(Bundle icicle, Intent intent, long currentTabId,
@@ -618,9 +618,9 @@ public class Controller
         mConfigChanged = true;
         // update the menu in case of a locale change
         mActivity.invalidateOptionsMenu();
-        if (mPageDialogsHandler != null) {
-            mPageDialogsHandler.onConfigurationChanged(config);
-        }
+//        if (mPageDialogsHandler != null) {
+//            mPageDialogsHandler.onConfigurationChanged(config);
+//        }
         mUi.onConfigurationChanged(config);
     }
 
@@ -659,7 +659,7 @@ public class Controller
         mUi.onPause();
         mNetworkHandler.onPause();
 
-        WebView.disablePlatformNotifications();
+//        WebView.disablePlatformNotifications();
         NfcHandler.unregister(mActivity);
         if (sThumbnailBitmap != null) {
             sThumbnailBitmap.recycle();
@@ -709,7 +709,7 @@ public class Controller
 
         mUi.onResume();
         mNetworkHandler.onResume();
-        WebView.enablePlatformNotifications();
+//        WebView.enablePlatformNotifications();
         NfcHandler.register(mActivity, this);
         if (mVoiceResult != null) {
             mUi.onVoiceResult(mVoiceResult);
@@ -1028,8 +1028,8 @@ public class Controller
         if (username != null && password != null) {
             handler.proceed(username, password);
         } else {
-            if (tab.inForeground() && !handler.suppressDialog()) {
-                mPageDialogsHandler.showHttpAuthentication(tab, handler, host, realm);
+            if (tab.inForeground() /*&& !handler.suppressDialog()*/) {
+//                mPageDialogsHandler.showHttpAuthentication(tab, handler, host, realm);
             } else {
                 handler.cancel();
             }
@@ -1069,7 +1069,7 @@ public class Controller
     @Override
     public void showSslCertificateOnError(WebView view, SslErrorHandler handler,
             SslError error) {
-        mPageDialogsHandler.showSSLCertificateOnError(view, handler, error);
+//        mPageDialogsHandler.showSSLCertificateOnError(view, handler, error);
     }
 
     @Override
@@ -1700,7 +1700,7 @@ public class Controller
                 break;
 
             case R.id.dump_nav_menu_id:
-                getCurrentTopWebView().debugDump();
+//                getCurrentTopWebView().debugDump();
                 break;
 
             case R.id.zoom_in_menu_id:
@@ -1783,7 +1783,7 @@ public class Controller
 
     @Override
     public void showPageInfo() {
-        mPageDialogsHandler.showPageInfo(mTabControl.getCurrentTab(), false, null);
+//        mPageDialogsHandler.showPageInfo(mTabControl.getCurrentTab(), false, null);
     }
 
     @Override
@@ -1965,7 +1965,7 @@ public class Controller
                 AddBookmarkPage.class);
         i.putExtra(BrowserContract.Bookmarks.URL, w.getUrl());
         i.putExtra(BrowserContract.Bookmarks.TITLE, w.getTitle());
-        String touchIconUrl = w.getTouchIconUrl();
+        String touchIconUrl = getCurrentTab().getTouchIconUrl();
         if (touchIconUrl != null) {
             i.putExtra(AddBookmarkPage.TOUCH_ICON_URL, touchIconUrl);
             WebSettings settings = w.getSettings();
@@ -2020,7 +2020,7 @@ public class Controller
 
     static Bitmap createScreenshot(WebView view, int width, int height) {
         if (view == null || view.getContentHeight() == 0
-                || view.getContentWidth() == 0) {
+                /*|| view.getContentWidth() == 0*/) {
             return null;
         }
         // We render to a bitmap 2x the desired size so that we can then
@@ -2039,7 +2039,7 @@ public class Controller
                     Bitmap.createBitmap(scaledWidth, scaledHeight, Bitmap.Config.RGB_565);
         }
         Canvas canvas = new Canvas(sThumbnailBitmap);
-        int contentWidth = view.getContentWidth();
+        int contentWidth = view.getWidth(); //getContentWidth();
         float overviewScale = scaledWidth / (view.getScale() * contentWidth);
         if (view instanceof BrowserWebView) {
             int dy = -((BrowserWebView)view).getTitleHeight();

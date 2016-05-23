@@ -52,8 +52,8 @@ public class BrowserWebView extends WebView {
      */
     public BrowserWebView(Context context, AttributeSet attrs, int defStyle,
             Map<String, Object> javascriptInterfaces, boolean privateBrowsing) {
-        super(context, attrs, defStyle, javascriptInterfaces, false);
-        // WebView doesn't support it, but save it here for internal use
+        super(context, attrs, defStyle, privateBrowsing);
+//        this.setJavascriptInterfaces(javascriptInterfaces);
         mPrivateBrowsing = privateBrowsing;
     }
 
@@ -64,8 +64,7 @@ public class BrowserWebView extends WebView {
      */
     public BrowserWebView(
             Context context, AttributeSet attrs, int defStyle, boolean privateBrowsing) {
-        super(context, attrs, defStyle, false);
-        // WebView doesn't support it, but save it here for internal use
+        super(context, attrs, defStyle, privateBrowsing);		
         mPrivateBrowsing = privateBrowsing;
     }
 

@@ -101,7 +101,7 @@ public class NavTabScroller extends ScrollerView {
     }
 
     protected int getScrollValue() {
-        return mHorizontal ? mScrollX : mScrollY;
+        return mHorizontal ? getScrollX() : getScrollY();
     }
 
     protected void setScrollValue(int value) {
@@ -126,6 +126,17 @@ public class NavTabScroller extends ScrollerView {
                     new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
         }
         super.setOrientation(orientation);
+
+        // update the layout parameters of existing views (to not destroy/recreate all)
+        final int childCount = mContentView.getChildCount();
+        for (int i = 0; i < childCount; i++) {
+            final View view = mContentView.getChildAt(i);
+            final LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+            lp.gravity = (mHorizontal ? Gravity.CENTER_VERTICAL : Gravity.CENTER_HORIZONTAL);
+            view.setLayoutParams(lp);
+            if (mGapPosition > INVALID_POSITION)
+                adjustViewGap(view, i);
+        }
     }
 
     @Override
@@ -135,7 +146,7 @@ public class NavTabScroller extends ScrollerView {
     }
 
     private void calcPadding() {
-        if (mAdapter.getCount() > 0) {
+        if (mAdapter != null && mAdapter.getCount() > 0) {
             View v = mContentView.getChildAt(0);
             if (mHorizontal) {
                 int pad = (getMeasuredWidth() - v.getMeasuredWidth()) / 2 + 2;
@@ -183,11 +194,15 @@ public class NavTabScroller extends ScrollerView {
     }
 
     protected int getRelativeChildTop(int ix) {
-        return mContentView.getChildAt(ix).getTop() - mScrollY;
+        return mContentView.getChildAt(ix).getTop() - getScrollY();
     }
 
     protected void handleDataChanged() {
         handleDataChanged(INVALID_POSITION);
+    }
+
+    void setScrollOnNextLayout() {
+        mNeedsScroll = true;
     }
 
     void handleDataChanged(int newscroll) {
@@ -249,7 +264,7 @@ public class NavTabScroller extends ScrollerView {
         } else {
             sy = (v.getTop() + v.getBottom() - getHeight()) / 2;
         }
-        if ((sx != mScrollX) || (sy != mScrollY)) {
+        if ((sx != getScrollX()) || (sy != getScrollY())) {
             if (smooth) {
                 smoothScrollTo(sx,sy);
             } else {
@@ -381,8 +396,10 @@ public class NavTabScroller extends ScrollerView {
                 || (mGap > 0 && pos < mGapPosition)) {
             if (mHorizontal) {
                 view.setTranslationX(mGap);
+                view.setTranslationY(0);
             } else {
                 view.setTranslationY(mGap);
+                view.setTranslationX(0);
             }
         }
     }
@@ -413,8 +430,8 @@ public class NavTabScroller extends ScrollerView {
 
     @Override
     protected View findViewAt(int x, int y) {
-        x += mScrollX;
-        y += mScrollY;
+        x += getScrollX();
+        y += getScrollY();
         final int count = mContentView.getChildCount();
         for (int i = count - 1; i >= 0; i--) {
             View child = mContentView.getChildAt(i);

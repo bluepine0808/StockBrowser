@@ -26,9 +26,10 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.provider.Browser;
+import com.android.browser.platformsupport.Browser;
 import android.text.TextUtils;
 import android.util.Log;
+import com.android.browser.reflect.ReflectHelper;
 
 public class DefaultSearchEngine implements SearchEngine {
 
@@ -46,7 +47,9 @@ public class DefaultSearchEngine implements SearchEngine {
     public static DefaultSearchEngine create(Context context) {
         SearchManager searchManager =
                 (SearchManager) context.getSystemService(Context.SEARCH_SERVICE);
-        ComponentName name = searchManager.getWebSearchActivity();
+        ComponentName name = (ComponentName) ReflectHelper.invokeMethod(
+                              searchManager, "getWebSearchActivity", null, null);
+
         if (name == null) return null;
         SearchableInfo searchable = searchManager.getSearchableInfo(name);
         if (searchable == null) return null;
@@ -108,7 +111,11 @@ public class DefaultSearchEngine implements SearchEngine {
     public Cursor getSuggestions(Context context, String query) {
         SearchManager searchManager =
                 (SearchManager) context.getSystemService(Context.SEARCH_SERVICE);
-        return searchManager.getSuggestions(mSearchable, query);
+        Object[] params  = {mSearchable, query};
+        Class[] type = new Class[] {SearchableInfo.class, String.class};
+        Cursor cursor = (Cursor) ReflectHelper.invokeMethod(
+                                   searchManager, "getSuggestions", type, params);
+        return cursor;
     }
 
     public boolean supportsSuggestions() {

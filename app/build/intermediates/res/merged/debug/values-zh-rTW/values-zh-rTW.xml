@@ -163,14 +163,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"停用自動填入功能"</string>
     <string msgid="6777633870113477714" name="do_not_save">"取消"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"需要 SD 卡下載 <ns1:g id="FILENAME">%s</ns1:g>。"</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"必須掛接 USB 儲存裝置才能下載 <ns1:g id="FILENAME">%s</ns1:g>。"</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"必須掛接 USB 儲存裝置才能下載 <ns1:g id="FILENAME">%s</ns1:g>。"</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"沒有 SD 卡"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"沒有可用的 USB 儲存裝置"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"沒有可用的 USB 儲存裝置"</string>
     <string msgid="2599683668575349559" name="download_pending">"正在開始下載…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"SD 卡忙碌中。如要允許下載，請輕觸通知中的 [關閉 USB 儲存裝置]。"</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"USB 儲存裝置忙碌中。如要允許下載，請輕觸通知中的 [關閉 USB 儲存裝置]。"</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"USB 儲存裝置忙碌中。如要允許下載，請輕觸通知中的 [關閉 USB 儲存裝置]。"</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"無法使用 SD 卡"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"沒有可用的 USB 儲存裝置"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"沒有可用的 USB 儲存裝置"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"編輯書籤"</string>
     <string msgid="621817453133656156" name="edit_folder">"編輯資料夾"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"沒有書籤。"</string>

@@ -199,6 +199,8 @@
     <string name="goto_dot">Go</string>
     <!-- Menu item to switch to text selection mode for copy and paste. -->
     <string name="select_dot">Select text</string>
+    <!-- Displayed in title of chooser dialog for text sent to another app,e.g-send text via SMS or IM-->
+    <string name="sendText">Choose an action for text</string>
     <!-- Menu item to close all other tabs [CHAR LIMIT=40] -->
     <string name="close_other_tabs">Close other tabs</string>
     <!-- Menu item to open the bookmarks page. This is a shorter version that
@@ -426,13 +428,18 @@
 
     <!-- Settings screen, section title [CHAR-LIMIT=50] -->
     <string name="pref_privacy_security_title">Privacy &amp; security</string>
+    <string name="pref_privacy_security_title_summary">Browser security and privacy settings</string>
+    <!-- Popup dialog -->
+    <string name="pref_select_items">Select items to be cleared</string>
     <!-- Settings label -->
     <string name="pref_privacy_clear_cache">Clear cache</string>
     <!-- Settings summary -->
     <string name="pref_privacy_clear_cache_summary">Clear locally cached content and databases</string>
     <!-- Confirmation dialog message -->
     <string name="pref_privacy_clear_cache_dlg">Delete locally cached content and databases?</string>
-    <!-- Cookie settings category [CHAR-LIMIT=50] -->
+    
+   　<string name="pref_privacy_clear_selected_dlg">Clear following items?</string>
+　　　　<!-- Cookie settings category [CHAR-LIMIT=50] -->
     <string name="pref_privacy_cookies_title">Cookies</string>
     <!-- Settings label -->
     <string name="pref_privacy_clear_cookies">Clear all cookie data</string>
@@ -761,23 +768,23 @@
 
     <!-- Download History UI strings -->
     <!-- Dialog title [CHAR LIMIT=25] -->
-    <string name="download_no_sdcard_dlg_title2" product="nosdcard">USB storage unavailable</string>
+    <string name="download_no_sdcard_dlg_title2" product="default">USB storage unavailable</string>
     <!-- Dialog title -->
     <string name="download_no_sdcard_dlg_title" product="default">No SD card</string>
     <!-- Dialog message [CHAR LIMIT=NONE] -->
-    <string name="download_no_sdcard_dlg_msg2" product="nosdcard">USB storage is required to download <xliff:g id="filename">%s</xliff:g>.</string>
+    <string name="download_no_sdcard_dlg_msg2" product="default">USB storage is required to download <xliff:g id="filename">%s</xliff:g>.</string>
     <!-- Dialog message -->
     <string name="download_no_sdcard_dlg_msg" product="default">An SD card is required to download <xliff:g id="filename">%s</xliff:g>.</string>
     <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-    <string name="download_sdcard_busy_dlg_title2" product="nosdcard">USB storage unavailable</string>
+    <string name="download_sdcard_busy_dlg_title2" product="default">USB storage unavailable</string>
     <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
     <string name="download_sdcard_busy_dlg_title" product="default">SD card unavailable</string>
     <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-    <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">The USB storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+    <string name="download_sdcard_busy_dlg_msg2" product="default">The USB storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
     <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->

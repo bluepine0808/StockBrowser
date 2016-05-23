@@ -1,27 +1,15 @@
 [
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_incognito.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_incognito.xml"
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/clear.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/clear.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_add_string.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_add_string.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_menu_bookmark.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_menu_bookmark.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_menu_forward.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_menu_forward.xml"
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_querybuilder.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_querybuilder.xml"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/browser_background_holo.xml",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/browser_background_holo.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_bookmarks_history.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_bookmarks_history.xml"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/btn_checkbox_star.xml",
@@ -32,112 +20,20 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/card.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_menu_overflow.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_menu_overflow.xml"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/fab_accent.xml",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/fab_accent.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/bookmark_thumb_selector.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/bookmark_thumb_selector.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_menu_stop.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_menu_stop.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/app_web_browser_sm.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/app_web_browser_sm.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_home.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_home.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_forward.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_forward.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/banner.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/banner.png"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_close_window.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_close_window.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/bookmark_thumb_selector_transition.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/bookmark_thumb_selector_transition.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_menu.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_menu.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/btn_imageview_star.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/btn_imageview_star.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_back.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_back.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_new_window_incognito.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_new_window_incognito.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_settings.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_settings.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/floating_action_button.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/floating_action_button.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/navtab_close_background.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/navtab_close_background.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/bookmark_widget_thumb_selector.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/bookmark_widget_thumb_selector.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_forward_disabled.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_forward_disabled.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_fullscreen.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_fullscreen.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_back_hierarchy.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_back_hierarchy.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_new_window.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_new_window.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/clear.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/clear.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_querybuilder.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_querybuilder.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_refresh.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_refresh.xml"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_back_disabled.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_back_disabled.xml"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/add_tab_selector.xml",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/add_tab_selector.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_action_overflow.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_action_overflow.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/bookmark_thumb_selector.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/bookmark_thumb_selector.xml"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/qc_menu_selector.xml",
@@ -148,24 +44,32 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/url_background.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_bookmarks.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_bookmarks.xml"
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/banner.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/banner.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_tab_close.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_tab_close.xml"
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/bookmark_thumb_selector_transition.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/bookmark_thumb_selector_transition.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/btn_imageview_star.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/btn_imageview_star.xml"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/tab_nr.xml",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/tab_nr.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_stop.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_stop.xml"
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/floating_action_button.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/floating_action_button.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/ic_windows.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/ic_windows.xml"
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/bookmark_widget_thumb_selector.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/bookmark_widget_thumb_selector.xml"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/navtab_close_background.xml",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable/navtab_close_background.xml"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable/bookmark_list_favicon_bg.xml",

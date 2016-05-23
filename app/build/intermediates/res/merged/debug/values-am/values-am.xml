@@ -153,14 +153,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"ራስ-ሙላ አቦዝን"</string>
     <string msgid="6777633870113477714" name="do_not_save">"ይቅር"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"<ns1:g id="FILENAME">%s</ns1:g> ለማውረድ የSD ካርድ ይጠየቃል።"</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"የUSB ማከማቻ <ns1:g id="FILENAME">%s</ns1:g> ለማውረድ ይጠየቃል።"</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"የUSB ማከማቻ <ns1:g id="FILENAME">%s</ns1:g> ለማውረድ ይጠየቃል።"</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"ምንም SD ካርድ የለም"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"የUSB ማከማቻ የለም"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"የUSB ማከማቻ የለም"</string>
     <string msgid="2599683668575349559" name="download_pending">"አውርድ በማስጀመር ላይ..."</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"የ SD ካርዱ ስራ ላይ ነው። ማውረድ ለመፍቀድ፣ በማሳወቂያ ውስጥ \"የUSB ማከማቻ ያጥፉ።"</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"የ USB ማከማቻው ስራ ላይ ነው። ማውረድ ለመፍቀድ፣ በማሳወቂያ ውስጥ \"የUSB ማከማቻ ያጥፉ።"</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"የ USB ማከማቻው ስራ ላይ ነው። ማውረድ ለመፍቀድ፣ በማሳወቂያ ውስጥ \"የUSB ማከማቻ ያጥፉ።"</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"SD ካር ድ የለም"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"የUSB ማከማቻ የለም"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"የUSB ማከማቻ የለም"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"ዕልባቶች አርትዕ"</string>
     <string msgid="621817453133656156" name="edit_folder">"አቃፊ አርትዕ"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"ምንም ዕልባቶች የሉም"</string>

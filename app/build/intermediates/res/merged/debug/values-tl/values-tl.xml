@@ -153,14 +153,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Huwag paganahin ang auto-fill"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Kanselahin"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"Kinakailangan ang isang SD card upang i-download ang <ns1:g id="FILENAME">%s</ns1:g>."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"Kinakailangan ang imbakan na USB upang i-download ang <ns1:g id="FILENAME">%s</ns1:g>."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"Kinakailangan ang imbakan na USB upang i-download ang <ns1:g id="FILENAME">%s</ns1:g>."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"Walang SD card"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"Di available USB storage"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"Di available USB storage"</string>
     <string msgid="2599683668575349559" name="download_pending">"Sinisimulan ang pag-download..."</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"Busy ang SD card. Upang bigyang-daan ang mga pag-download, pindutin ang I-Off ang USB Storage sa notification."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"Busy ang SD card. Upang bigyang-daan ang mga pag-download, pindutin ang I-Off ang USB Storage sa notification."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"Busy ang SD card. Upang bigyang-daan ang mga pag-download, pindutin ang I-Off ang USB Storage sa notification."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"Hindi available ang SD card."</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"Di available USB storage"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"Di available USB storage"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"I-edit ang bookmark"</string>
     <string msgid="621817453133656156" name="edit_folder">"I-edit ang folder"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"Walang mga bookmark."</string>

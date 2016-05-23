@@ -55,7 +55,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.android.browser.Tab.SecurityState;
-import com.android.internal.view.menu.MenuBuilder;
+//import com.android.internal.view.menu.MenuBuilder;
 
 import java.util.List;
 
@@ -730,9 +730,10 @@ public abstract class BaseUi implements UI {
     }
 
     protected Menu getMenu() {
-        MenuBuilder menu = new MenuBuilder(mActivity);
-        mActivity.getMenuInflater().inflate(R.menu.browser, menu);
-        return menu;
+        return null;
+//        MenuBuilder menu = new MenuBuilder(mActivity);
+//        mActivity.getMenuInflater().inflate(R.menu.browser, menu);
+//        return menu;
     }
 
     public void setFullscreen(boolean enabled) {

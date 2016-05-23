@@ -655,23 +655,23 @@
   <string name="too_many_subwindows_dialog_message">Namái pue abrise una ventana emerxente al empar.</string>
   <!-- Download History UI strings -->
   <!-- Dialog title [CHAR LIMIT=25] -->
-  <string name="download_no_sdcard_dlg_title2" product="nosdcard">USB non disponible</string>
+  <string name="download_no_sdcard_dlg_title2" product="default">USB non disponible</string>
   <!-- Dialog title -->
   <string name="download_no_sdcard_dlg_title" product="default">Falta la tarxeta SD</string>
   <!-- Dialog message [CHAR LIMIT=NONE] -->
-  <string name="download_no_sdcard_dlg_msg2" product="nosdcard">Pa descargar <xliff:g id="FILENAME">%s</xliff:g>, faise necesario almacenamientu USB.</string>
+  <string name="download_no_sdcard_dlg_msg2" product="default">Pa descargar <xliff:g id="FILENAME">%s</xliff:g>, faise necesario almacenamientu USB.</string>
   <!-- Dialog message -->
   <string name="download_no_sdcard_dlg_msg" product="default">Pa descargar <xliff:g id="FILENAME">%s</xliff:g> necesítase una tarxeta SD.</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
-  <string name="download_sdcard_busy_dlg_title2" product="nosdcard">USB non disponible</string>
+  <string name="download_sdcard_busy_dlg_title2" product="default">USB non disponible</string>
   <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
   <string name="download_sdcard_busy_dlg_title" product="default">Tarxeta SD non disponible</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage [CHAR LIMIT=NONE] -->
-  <string name="download_sdcard_busy_dlg_msg2" product="nosdcard">L\'almacenamientu USB ta ocupáu. Pa permitir les descargues, toca Desactivar almacenamientu USB na notificación.</string>
+  <string name="download_sdcard_busy_dlg_msg2" product="default">L\'almacenamientu USB ta ocupáu. Pa permitir les descargues, toca Desactivar almacenamientu USB na notificación.</string>
   <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->

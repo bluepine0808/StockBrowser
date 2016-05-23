@@ -153,14 +153,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Zakázať automatické dopĺňanie"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Zrušiť"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"Na kartu SD je potrebné prevziať súbor <ns1:g id="FILENAME">%s</ns1:g>."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"Na prevzatie súboru <ns1:g id="FILENAME">%s</ns1:g> je potrebný ukladací priestor USB."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"Na prevzatie súboru <ns1:g id="FILENAME">%s</ns1:g> je potrebný ukladací priestor USB."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"Žiadna karta SD"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"Ukl. priestor USB nedostup."</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"Ukl. priestor USB nedostup."</string>
     <string msgid="2599683668575349559" name="download_pending">"Prebieha spustenie preberania..."</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"Karta SD je zaneprázdnená. Ak chcete povoliť preberanie, dotknite sa v upozornení možnosti Vypnúť ukladací priestor USB."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"Ukladací priestor USB je zaneprázdnený. Ak chcete povoliť preberanie, dotknite sa v upozornení možnosti Vypnúť ukladací priestor USB."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"Ukladací priestor USB je zaneprázdnený. Ak chcete povoliť preberanie, dotknite sa v upozornení možnosti Vypnúť ukladací priestor USB."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"Karta SD nie je dostupná"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"Ukl. priestor USB nedostup."</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"Ukl. priestor USB nedostup."</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"Upraviť záložku"</string>
     <string msgid="621817453133656156" name="edit_folder">"Upraviť priečinok"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"Žiadne záložky."</string>

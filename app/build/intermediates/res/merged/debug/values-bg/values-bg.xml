@@ -158,14 +158,14 @@
     <string msgid="8305901059849400354" name="disable_autofill">"Деактивиране на автоматичното попълване"</string>
     <string msgid="6777633870113477714" name="do_not_save">"Отказ"</string>
     <string msgid="2616399456116301518" name="download_no_sdcard_dlg_msg" product="default">"Изисква се SD карта за изтеглянето на <ns1:g id="FILENAME">%s</ns1:g>."</string>
-    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="nosdcard">"За изтеглянето на <ns1:g id="FILENAME">%s</ns1:g> се изисква USB хранилище."</string>
+    <string msgid="3144652102051031721" name="download_no_sdcard_dlg_msg2" product="default">"За изтеглянето на <ns1:g id="FILENAME">%s</ns1:g> се изисква USB хранилище."</string>
     <string msgid="605904452159416792" name="download_no_sdcard_dlg_title" product="default">"Няма SD карта"</string>
-    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="nosdcard">"Не е налице USB хранилище"</string>
+    <string msgid="56777245081568508" name="download_no_sdcard_dlg_title2" product="default">"Не е налице USB хранилище"</string>
     <string msgid="2599683668575349559" name="download_pending">"Изтеглянето се стартира…"</string>
     <string msgid="2629425950473358591" name="download_sdcard_busy_dlg_msg" product="default">"SD картата е заета. За да разрешите изтегляния, докоснете „Изключване на USB хранилището“ в известието."</string>
-    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="nosdcard">"USB хранилището е заето. За да разрешите изтегляния, докоснете „Изключване на USB хранилището“ в известието."</string>
+    <string msgid="8412543086906716875" name="download_sdcard_busy_dlg_msg2" product="default">"USB хранилището е заето. За да разрешите изтегляния, докоснете „Изключване на USB хранилището“ в известието."</string>
     <string msgid="6877712666046917741" name="download_sdcard_busy_dlg_title" product="default">"Няма SD карта"</string>
-    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="nosdcard">"Не е налице USB хранилище"</string>
+    <string msgid="8081445664689818973" name="download_sdcard_busy_dlg_title2" product="default">"Не е налице USB хранилище"</string>
     <string msgid="5024089053490231905" name="edit_bookmark">"Редактиране на отметката"</string>
     <string msgid="621817453133656156" name="edit_folder">"Редактиране на папката"</string>
     <string msgid="6239830231917618556" name="empty_bookmarks_folder">"Няма отметки."</string>

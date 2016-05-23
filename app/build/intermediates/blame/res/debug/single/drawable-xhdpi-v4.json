@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_history.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_history.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_incognito.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_incognito.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_history.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_history.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/default_video_poster.png",
@@ -80,12 +80,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/magnifying_glass.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_list_data_off.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_list_data_off.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_fullscreen.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_fullscreen.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_list_data_off.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_list_data_off.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_refresh.png",
@@ -232,12 +232,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_dialog_browser_certificate_secure.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_desktop.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_desktop.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_settings.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_settings.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_desktop.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_desktop.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_share.png",
@@ -248,16 +248,16 @@
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_forward_disabled.png"
     },
     {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_new_window.png",
+        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_new_window.png"
+    },
+    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_mobile.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_mobile.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_search.png",
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_search.png"
-    },
-    {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_new_window.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_new_window.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/thumb_bookmark_widget_folder_back_holo.png",
@@ -272,12 +272,12 @@
         "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_search_category_history.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_dialog_browser_security_bad.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_dialog_browser_security_bad.png"
-    },
-    {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_close_window.png",
         "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_close_window.png"
+    },
+    {
+        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_dialog_browser_security_bad.png",
+        "source": "/home/ronny/source/StockBrowser/app/src/main/res/drawable-xhdpi/ic_dialog_browser_security_bad.png"
     },
     {
         "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/overlay_url_bookmark_widget_holo.9.png",

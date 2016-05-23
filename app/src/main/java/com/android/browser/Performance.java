@@ -16,9 +16,9 @@
 
 package com.android.browser;
 
-import android.net.WebAddress;
+import com.android.browser.platformsupport.WebAddress;
 import android.os.Debug;
-import android.os.Process;
+import com.android.browser.platformsupport.Process;
 import android.os.SystemClock;
 import android.util.Log;
 
