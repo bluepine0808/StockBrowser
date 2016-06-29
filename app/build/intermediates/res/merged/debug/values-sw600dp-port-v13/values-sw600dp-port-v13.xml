@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="hide_title">false</bool>
-    <dimen name="combo_horizontalSpacing">4dip</dimen>
-    <dimen name="widgetColumnWidth">110dip</dimen>
-    <dimen name="widgetThumbnailHeight">84dip</dimen>
-</resources>
