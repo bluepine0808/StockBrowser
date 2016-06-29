@@ -73,7 +73,7 @@
                    android:supportsRtl="true" >
 
         <provider android:name=".provider.BrowserProvider2"
-                  android:authorities="com.android.browser;browser"
+                  android:authorities="com.android.browser.stock;stockbrowser"
                   android:multiprocess="false"
                   android:exported="true"
                   android:theme="@style/PreferencesTheme"
@@ -257,7 +257,7 @@
         <!-- For custom home pages (like most visited) -->
         <provider
             android:name=".homepages.HomeProvider"
-            android:authorities="com.android.browser.home"
+            android:authorities="com.android.browser.stock.home"
             android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
             android:exported="false" />
 
@@ -276,11 +276,11 @@
          </receiver>
 
         <provider android:name=".provider.SnapshotProvider"
-                  android:authorities="com.android.browser.snapshots"
+                  android:authorities="com.android.browser.stock.snapshots"
                   android:exported="false" />
 
         <provider android:name="android.support.v4.content.FileProvider"
-                  android:authorities="com.android.browser-classic.file"
+                  android:authorities="com.android.browser.stock-classic.file"
                   android:exported="false"
                   android:grantUriPermissions="true">
              <meta-data

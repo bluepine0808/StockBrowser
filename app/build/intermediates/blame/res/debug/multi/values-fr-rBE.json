@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/values-fr-rBE/values-fr-rBE.xml",
+        "outputFile": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\values-fr-rBE\\values-fr-rBE.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,33 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-fr-rBE/donottranslate-search_engines.xml",
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-fr-rBE\\donottranslate-search_engines.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 919,
+                        "endLine": 28,
+                        "endColumn": 17,
+                        "endOffset": 1081
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\values-fr-rBE\\values-fr-rBE.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 17,
+                    "endOffset": 212
+                },
+                "from": {
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-fr-rBE\\donottranslate-search_engines.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 2,

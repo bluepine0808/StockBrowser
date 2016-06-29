@@ -78,7 +78,7 @@
         android:usesCleartextTraffic="true" >
         <provider
             android:name="com.android.browser.provider.BrowserProvider2"
-            android:authorities="com.android.browser;browser"
+            android:authorities="com.android.browser.stock;stockbrowser"
             android:exported="true"
             android:multiprocess="false"
             android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
@@ -298,7 +298,7 @@
         <!-- For custom home pages (like most visited) -->
         <provider
             android:name="com.android.browser.homepages.HomeProvider"
-            android:authorities="com.android.browser.home"
+            android:authorities="com.android.browser.stock.home"
             android:exported="false"
             android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
 
@@ -319,11 +319,11 @@
 
         <provider
             android:name="com.android.browser.provider.SnapshotProvider"
-            android:authorities="com.android.browser.snapshots"
+            android:authorities="com.android.browser.stock.snapshots"
             android:exported="false" />
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.android.browser-classic.file"
+            android:authorities="com.android.browser.stock-classic.file"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

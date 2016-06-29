@@ -1,30 +1,58 @@
 [
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/autologin_exit.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/autologin_exit.xml"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\title_bar_exit.xml",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\anim\\title_bar_exit.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/menu_enter.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/menu_enter.xml"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\autologin_enter.xml",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\anim\\autologin_enter.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/menu_exit.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/menu_exit.xml"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\autologin_exit.xml",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\anim\\autologin_exit.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/button_elevation.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/button_elevation.xml"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\title_bar_enter.xml",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\anim\\title_bar_enter.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/title_bar_enter.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/title_bar_enter.xml"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\menu_exit.xml",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\anim\\menu_exit.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/title_bar_exit.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/title_bar_exit.xml"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\title_bar_exit.xml",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\anim\\title_bar_exit.xml"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/anim/autologin_enter.xml",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/anim/autologin_enter.xml"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\title_bar_enter.xml",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\anim\\title_bar_enter.xml"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\menu_exit.xml",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\anim\\menu_exit.xml"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\menu_enter.xml",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\anim\\menu_enter.xml"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\autologin_exit.xml",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\anim\\autologin_exit.xml"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\button_elevation.xml",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\anim\\button_elevation.xml"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\button_elevation.xml",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\anim\\button_elevation.xml"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\menu_enter.xml",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\anim\\menu_enter.xml"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\anim\\autologin_enter.xml",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\anim\\autologin_enter.xml"
     }
 ]

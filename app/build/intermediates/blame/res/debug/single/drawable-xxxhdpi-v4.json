@@ -1,102 +1,202 @@
 [
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_back_disabled.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_back_disabled.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_refresh.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_refresh.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_forward.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_forward.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_bookmarks_history.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bookmarks_history.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_add_string.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_add_string.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\app_web_browser_sm.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\app_web_browser_sm.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_menu_forward.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_forward.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_forward.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_forward.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_home.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_home.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_home.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_menu.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_close_window.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_close_window.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_bookmarks.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_bookmarks.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_bookmark.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_bookmark.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_tab_close.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_tab_close.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\app_web_browser_sm.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\app_web_browser_sm.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_refresh.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_refresh.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_home.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_new_window_incognito.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_new_window_incognito.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_forward.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_forward.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_stop.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_stop.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_close_window.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_close_window.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_menu_bookmark.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_bookmark.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_fullscreen.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fullscreen.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_close_window.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_close_window.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_fullscreen.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fullscreen.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_forward_disabled.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_forward_disabled.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_new_window_incognito.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_new_window_incognito.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_back.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_back.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_windows.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_windows.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_windows.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_windows.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_bookmark.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_bookmark.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_bookmarks_history.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_bookmarks_history.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_back_disabled.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back_disabled.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_menu_stop.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_stop.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_tab_close.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_tab_close.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_fullscreen.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_fullscreen.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_incognito.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_incognito.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/app_web_browser_sm.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/app_web_browser_sm.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_add_string.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_string.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_new_window.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_new_window.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_settings.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_back_hierarchy.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_back_hierarchy.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_overflow.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_overflow.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_settings.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_settings.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_back.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_incognito.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_incognito.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_add_string.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_string.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_menu_overflow.png",
-        "source": "/home/ronny/source/StockBrowser/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_overflow.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_forward.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_forward.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_refresh.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_refresh.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_incognito.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_incognito.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_bookmarks.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bookmarks.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_bookmarks_history.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bookmarks_history.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_forward.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_forward.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_tab_close.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_tab_close.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_new_window_incognito.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_new_window_incognito.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_settings.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_back.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_new_window.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_new_window.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_back_hierarchy.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back_hierarchy.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_back_hierarchy.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back_hierarchy.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_bookmarks.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_bookmarks.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_windows.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_windows.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_new_window.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_new_window.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_forward_disabled.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_forward_disabled.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_stop.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_stop.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_stop.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_stop.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_forward_disabled.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_forward_disabled.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_menu_overflow.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu_overflow.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_back_disabled.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back_disabled.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_stop.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_stop.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_stop.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_stop.png"
     }
 ]

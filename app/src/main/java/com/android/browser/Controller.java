@@ -295,20 +295,6 @@ public class Controller
             // must do this before trying to login the user as we don't want to
             // clear any session cookies set during login.
             CookieManager.getInstance().removeSessionCookie();
-        }
-//
-//        GoogleAccountLogin.startLoginIfNeeded(mActivity,
-//                new Runnable() {
-//                    @Override public void run() {
-//                        onPreloginFinished(icicle, intent, currentTabId,
-//                                restoreIncognitoTabs);
-//                    }
-//                });
-    }
-
-    private void onPreloginFinished(Bundle icicle, Intent intent, long currentTabId,
-            boolean restoreIncognitoTabs) {
-        if (currentTabId == -1) {
             BackgroundHandler.execute(new PruneThumbnails(mActivity, null));
             if (intent == null) {
                 // This won't happen under common scenarios. The icicle is

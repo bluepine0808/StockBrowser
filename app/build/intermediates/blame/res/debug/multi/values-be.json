@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/values-be/values-be.xml",
+        "outputFile": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\values-be\\values-be.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 2,
@@ -30,7 +30,7 @@
                     "endOffset": 181
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 2,
@@ -49,7 +49,7 @@
                     "endOffset": 285
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 2,
@@ -68,7 +68,7 @@
                     "endOffset": 404
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 2,
@@ -87,7 +87,7 @@
                     "endOffset": 457
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 2,
@@ -106,7 +106,7 @@
                     "endOffset": 592
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 2,
@@ -125,7 +125,7 @@
                     "endOffset": 668
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 2,
@@ -144,7 +144,7 @@
                     "endOffset": 733
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 2,
@@ -163,7 +163,7 @@
                     "endOffset": 840
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 2,
@@ -182,7 +182,7 @@
                     "endOffset": 905
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 2,
@@ -201,7 +201,7 @@
                     "endOffset": 1029
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 2,
@@ -220,7 +220,7 @@
                     "endOffset": 1111
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 2,
@@ -239,7 +239,7 @@
                     "endOffset": 1168
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 2,
@@ -258,13 +258,284 @@
                     "endOffset": 1227
                 },
                 "from": {
-                    "file": "/home/ronny/source/StockBrowser/app/src/main/res/values-be/cm_strings.xml",
+                    "file": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 2,
                         "startOffset": 1458,
                         "endColumn": 56,
                         "endOffset": 1512
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\values-be\\values-be.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 2,
+                        "startOffset": 856,
+                        "endColumn": 63,
+                        "endOffset": 917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endColumn": 64,
+                    "endOffset": 181
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 2,
+                        "startOffset": 2130,
+                        "endColumn": 62,
+                        "endOffset": 2190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 186,
+                    "endColumn": 103,
+                    "endOffset": 285
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1027,
+                        "endColumn": 101,
+                        "endOffset": 1126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 290,
+                    "endColumn": 118,
+                    "endOffset": 404
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1250,
+                        "endColumn": 116,
+                        "endOffset": 1364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 409,
+                    "endColumn": 52,
+                    "endOffset": 457
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 2,
+                        "startOffset": 2194,
+                        "endColumn": 50,
+                        "endOffset": 2242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 134,
+                    "endOffset": 592
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 2,
+                        "startOffset": 2246,
+                        "endColumn": 132,
+                        "endOffset": 2376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 597,
+                    "endColumn": 75,
+                    "endOffset": 668
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 2,
+                        "startOffset": 1632,
+                        "endColumn": 73,
+                        "endOffset": 1703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 673,
+                    "endColumn": 64,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 2,
+                        "startOffset": 1568,
+                        "endColumn": 62,
+                        "endOffset": 1628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 106,
+                    "endOffset": 840
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 2,
+                        "startOffset": 1791,
+                        "endColumn": 104,
+                        "endOffset": 1893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 845,
+                    "endColumn": 64,
+                    "endOffset": 905
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 2,
+                        "startOffset": 1727,
+                        "endColumn": 62,
+                        "endOffset": 1787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 910,
+                    "endColumn": 123,
+                    "endOffset": 1029
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 2,
+                        "startOffset": 2007,
+                        "endColumn": 121,
+                        "endOffset": 2126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1034,
+                    "endColumn": 81,
+                    "endOffset": 1111
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 2,
+                        "startOffset": 1926,
+                        "endColumn": 79,
+                        "endOffset": 2003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1116,
+                    "endColumn": 56,
+                    "endOffset": 1168
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 2,
+                        "startOffset": 1397,
+                        "endColumn": 54,
+                        "endOffset": 1449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1173,
+                    "endColumn": 58,
+                    "endOffset": 1227
+                },
+                "from": {
+                    "file": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\values-be\\cm_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 2,
+                        "startOffset": 1487,
+                        "endColumn": 56,
+                        "endOffset": 1541
                     }
                 }
             }

@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher_browser.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/mipmap-hdpi/ic_launcher_browser.png"
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_browser.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_browser.png"
     },
     {
-        "merged": "/home/ronny/source/StockBrowser/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher_shortcut_browser_bookmark.png",
-        "source": "/home/ronny/source/StockBrowser/app/src/main/res/mipmap-hdpi/ic_launcher_shortcut_browser_bookmark.png"
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_browser.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_browser.png"
+    },
+    {
+        "merged": "D:\\tcl\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_shortcut_browser_bookmark.png",
+        "source": "D:\\tcl\\source\\StockBrowser\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_shortcut_browser_bookmark.png"
+    },
+    {
+        "merged": "D:\\home\\ronny\\source\\StockBrowser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher_shortcut_browser_bookmark.png",
+        "source": "D:\\home\\ronny\\source\\StockBrowser\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_shortcut_browser_bookmark.png"
     }
 ]
