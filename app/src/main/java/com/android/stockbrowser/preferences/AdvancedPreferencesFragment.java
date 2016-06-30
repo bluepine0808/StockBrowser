@@ -17,6 +17,8 @@
 package com.android.stockbrowser.preferences;
 
 import com.android.stockbrowser.BrowserActivity;
+import com.android.stockbrowser.BrowserSettings;
+import com.android.stockbrowser.BrowserYesNoPreference;
 import com.android.stockbrowser.PreferenceKeys;
 import com.android.stockbrowser.R;
 
@@ -120,8 +122,20 @@ public class AdvancedPreferencesFragment extends PreferenceFragment
             pref.setSummary((String) objValue);
             return true;
         } else if (pref.getKey().equals(PreferenceKeys.PREF_RESET_DEFAULT_PREFERENCES)) {
-            Boolean value = (Boolean) objValue;
-            if (value.booleanValue() == true) {
+            Integer value = (Integer) objValue;
+            if (value.intValue() != BrowserYesNoPreference.CANCEL_BTN) {
+                BrowserSettings settings = BrowserSettings.getInstance();
+                if (value.intValue() == BrowserYesNoPreference.OTHER_BTN) {
+                    settings.clearCache();
+                    settings.clearDatabases();
+                    settings.clearCookies();
+                    settings.clearHistory();
+                    settings.clearFormData();
+                    settings.clearPasswords();
+                    settings.clearLocationAccess();
+                }
+
+                settings.resetDefaultPreferences();
                 startActivity(new Intent(BrowserActivity.ACTION_RESTART, null,
                         getActivity(), BrowserActivity.class));
                 return true;

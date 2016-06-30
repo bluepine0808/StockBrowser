@@ -32,19 +32,10 @@ public class DebugPreferencesFragment extends PreferenceFragment
 
         // Load the XML preferences file
         addPreferencesFromResource(R.xml.debug_preferences);
-
-        Preference e = findPreference(PreferenceKeys.PREF_RESET_PRELOGIN);
-        e.setOnPreferenceClickListener(this);
     }
 
     @Override
     public boolean onPreferenceClick(Preference preference) {
-        if (PreferenceKeys.PREF_RESET_PRELOGIN.equals(preference.getKey())) {
-//            BrowserSettings.getInstance().getPreferences().edit()
-//                    .remove(GoogleAccountLogin.PREF_AUTOLOGIN_TIME)
-//                    .apply();
-            return true;
-        }
         return false;
     }
 }

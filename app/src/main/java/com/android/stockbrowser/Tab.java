@@ -173,8 +173,6 @@ class Tab implements PictureListener {
     // Listener used to know when we move forward or back in the history list.
     private final WebBackForwardListClient mWebBackForwardListClient;
     private DataController mDataController;
-    // State of the auto-login request.
-    private DeviceAccountLogin mDeviceAccountLogin;
 
     // AsyncTask for downloading touch icons
     DownloadTouchIcon mTouchIconLoader;
@@ -360,13 +358,6 @@ class Tab implements PictureListener {
                 if (mWebViewController.shouldShowErrorConsole()) {
                     mErrorConsole.showConsole(ErrorConsoleView.SHOW_NONE);
                 }
-            }
-
-            // Cancel the auto-login process.
-            if (mDeviceAccountLogin != null) {
-                mDeviceAccountLogin.cancel();
-                mDeviceAccountLogin = null;
-                mWebViewController.hideAutoLogin(Tab.this);
             }
 
             // finally update the UI in the activity if it is in the foreground
@@ -639,13 +630,6 @@ class Tab implements PictureListener {
             }
         }
 
-        @Override
-        public void onReceivedLoginRequest(WebView view, String realm,
-                String account, String args) {
-            new DeviceAccountLogin(mWebViewController.getActivity(), view, Tab.this, mWebViewController)
-                    .handleLogin(realm, account, args);
-        }
-
     };
 
     private void syncCurrentState(WebView view, String url) {
@@ -668,17 +652,6 @@ class Tab implements PictureListener {
 
     public String getTouchIconUrl() {
         return mTouchIconUrl;
-    }
-
-    // Called by DeviceAccountLogin when the Tab needs to have the auto-login UI
-    // displayed.
-    void setDeviceAccountLogin(DeviceAccountLogin login) {
-        mDeviceAccountLogin = login;
-    }
-
-    // Returns non-null if the title bar should display the auto-login UI.
-    DeviceAccountLogin getDeviceAccountLogin() {
-        return mDeviceAccountLogin;
     }
 
     // -------------------------------------------------------------------------
