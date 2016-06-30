@@ -115,7 +115,7 @@ public class TitleBar extends RelativeLayout {
         // If getParent() returns null, we are initializing
         ViewGroup parent = (ViewGroup)getParent();
         if (mIsFixedTitleBar == isFixed && parent != null) return;
-        mIsFixedTitleBar = true;//isFixed;
+        mIsFixedTitleBar = isFixed;
         setSkipTitleBarAnimations(true);
         show();
         setSkipTitleBarAnimations(false);
