@@ -324,6 +324,7 @@ public class BreadCrumbView extends RelativeLayout implements OnClickListener {
             if (canGoBack) {
                 mCrumbLayout.getChildAt(0).setVisibility(VISIBLE);
             } else {
+                if (null != mCrumbLayout.getChildAt(0))
                 mCrumbLayout.getChildAt(0).setVisibility(GONE);
             }
         } else {

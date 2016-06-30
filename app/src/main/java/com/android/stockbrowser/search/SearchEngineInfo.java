@@ -62,7 +62,7 @@ public class SearchEngineInfo {
         mName = name;
         Resources res = context.getResources();
 
-        String packageName = R.class.getPackage().getName();
+        String packageName = context.getPackageName();
         int id_data = res.getIdentifier(name, "array", packageName);
         if (id_data == 0) {
             throw new IllegalArgumentException("No resources found for " + name);
