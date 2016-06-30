@@ -14,7 +14,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-<com.android.browser.NavigationBarTablet
+<com.android.stockbrowser.NavigationBarTablet
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:elevation="5dp"
@@ -54,7 +54,7 @@
         android:layout_weight="1.0"
         android:orientation="horizontal"
         android:background="@color/primary">
-        <com.android.browser.UrlInputView
+        <com.android.stockbrowser.UrlInputView
             android:id="@+id/url"
             android:layout_width="0dip"
             android:layout_weight="1.0"
@@ -110,4 +110,4 @@
         style="@style/BrowserButton"
         android:contentDescription="@string/accessibility_button_bookmarks"
         android:src="@drawable/ic_bookmarks_history" />
-</com.android.browser.NavigationBarTablet>
+</com.android.stockbrowser.NavigationBarTablet>

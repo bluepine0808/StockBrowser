@@ -16,9 +16,7 @@
  */
 -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.browser">
-
-    <original-package android:name="com.android.browser" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.stockbrowser">
 
     <uses-sdk android:minSdkVersion="16"
         android:targetSdkVersion="19" />
@@ -32,7 +30,7 @@
     <uses-feature android:name="android.hardware.screen.portrait"
     android:required="false" />
 
-    <permission android:name="com.android.browser.permission.PRELOAD"
+    <permission android:name="com.android.stockbrowser.permission.PRELOAD"
         android:label="@string/permission_preload_label"
         android:protectionLevel="signatureOrSystem" />
 
@@ -62,19 +60,18 @@
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
 
-    <application   android:name="Browser"
+    <application   android:name="com.android.stockbrowser.Browser"
                    android:label="@string/application_name"
                    android:icon="@mipmap/ic_launcher_browser"
                    android:banner="@drawable/banner"
-                   android:backupAgent=".BrowserBackupAgent"
+                   android:backupAgent="com.android.stockbrowser.BrowserBackupAgent"
                    android:hardwareAccelerated="true"
                    android:taskAffinity="android.task.browser"
-                   android:theme="@style/BrowserBase"
                    android:usesCleartextTraffic="true"
                    android:supportsRtl="true" >
 
-        <provider android:name=".provider.BrowserProvider2"
-                  android:authorities="com.android.browser.stock;stockbrowser"
+        <provider android:name="com.android.stockbrowser.provider.BrowserProvider2"
+                  android:authorities="com.android.stockbrowser;stockbrowser"
                   android:multiprocess="false"
                   android:exported="true"
                   android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
@@ -82,7 +79,7 @@
             <path-permission android:path="/bookmarks/search_suggest_query"
                     android:readPermission="android.permission.GLOBAL_SEARCH" />
         </provider>
-        <activity android:name="BrowserActivity"
+        <activity android:name="com.android.stockbrowser.BrowserActivity"
                   android:label="@string/application_name"
                   android:launchMode="singleTask"
                   android:alwaysRetainTaskState="true"
@@ -160,7 +157,7 @@
                     android:resource="@xml/searchable" />
         </activity>
 
-        <activity android:name="ShortcutActivity"
+        <activity android:name="com.android.stockbrowser.ShortcutActivity"
             android:theme="@style/ShortcutTheme"
             android:label="@string/shortcut_bookmark"
             android:icon="@mipmap/ic_launcher_shortcut_browser_bookmark">
@@ -171,7 +168,7 @@
 
         </activity>
 
-        <activity android:name="BrowserPreferencesPage"
+        <activity android:name="com.android.stockbrowser.BrowserPreferencesPage"
                   android:label="@string/menu_preferences"
                   android:theme="@style/SettingsTheme">
             <intent-filter>
@@ -180,7 +177,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="BookmarkSearch"
+        <activity android:name="com.android.stockbrowser.BookmarkSearch"
                   android:label="@string/bookmarks_search"
                   android:stateNotNeeded="true"
                   android:theme="@android:style/Theme.NoDisplay"
@@ -193,7 +190,7 @@
                     android:resource="@xml/bookmarks_searchable" />
         </activity>
 
-        <activity android:name="AddBookmarkPage"
+        <activity android:name="com.android.stockbrowser.AddBookmarkPage"
                   android:label="@string/bookmarks_add_page"
                   android:theme="@style/SettingsTheme"
                   android:configChanges="orientation|keyboardHidden|screenSize"
@@ -205,13 +202,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="ComboViewActivity"
+        <activity android:name="com.android.stockbrowser.ComboViewActivity"
                   android:theme="@style/SettingsTheme">
         </activity>
 
         <!-- Bookmark thumbnail homescreen widget -->
         <receiver
-            android:name=".widget.BookmarkThumbnailWidgetProvider"
+            android:name="com.android.stockbrowser.widget.BookmarkThumbnailWidgetProvider"
             android:label="@string/bookmarks">
             <intent-filter>
                 <action
@@ -224,13 +221,13 @@
                 android:resource="@xml/bookmarkthumbnailwidget_info" />
         </receiver>
         <service
-            android:name=".widget.BookmarkThumbnailWidgetService"
+            android:name="com.android.stockbrowser.widget.BookmarkThumbnailWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS"
             android:exported="false" />
         <receiver
-            android:name=".widget.BookmarkWidgetProxy"
+            android:name="com.android.stockbrowser.widget.BookmarkWidgetProxy"
             android:exported="false" />
-        <activity android:name=".widget.BookmarkWidgetConfigure"
+        <activity android:name="com.android.stockbrowser.widget.BookmarkWidgetConfigure"
             android:theme="@style/DialogWhenLarge">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
@@ -248,7 +245,7 @@
         <meta-data android:name="com.google.android.partnersetup.RLZ_ACCESS_POINT"
                    android:value="@string/rlz_access_point" />
 
-        <receiver android:name=".OpenDownloadReceiver">
+        <receiver android:name="com.android.stockbrowser.OpenDownloadReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
             </intent-filter>
@@ -256,18 +253,18 @@
 
         <!-- For custom home pages (like most visited) -->
         <provider
-            android:name=".homepages.HomeProvider"
-            android:authorities="com.android.browser.stock.home"
+            android:name="com.android.stockbrowser.homepages.HomeProvider"
+            android:authorities="com.android.stockbrowser.stock.home"
             android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
             android:exported="false" />
 
-        <receiver android:name=".AccountsChangedReceiver">
+        <receiver android:name="com.android.stockbrowser.AccountsChangedReceiver">
             <intent-filter>
                 <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".PreloadRequestReceiver"
+        <receiver android:name="com.android.stockbrowser.PreloadRequestReceiver"
              android:permission="com.android.browser.permission.PRELOAD" >
              <intent-filter>
                  <action android:name="android.intent.action.PRELOAD"/>
@@ -275,12 +272,12 @@
              </intent-filter>
          </receiver>
 
-        <provider android:name=".provider.SnapshotProvider"
-                  android:authorities="com.android.browser.stock.snapshots"
+        <provider android:name="com.android.stockbrowser.provider.SnapshotProvider"
+                  android:authorities="com.android.stockbrowser.stock.snapshots"
                   android:exported="false" />
 
         <provider android:name="android.support.v4.content.FileProvider"
-                  android:authorities="com.android.browser.stock-classic.file"
+                  android:authorities="com.android.stockbrowser.stock-classic.file"
                   android:exported="false"
                   android:grantUriPermissions="true">
              <meta-data
