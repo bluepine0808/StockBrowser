@@ -35,7 +35,7 @@
             android:paddingLeft="4dip"
             android:paddingRight="8dip"
             android:visibility="gone"
-            android:src="@drawable/ic_search" />
+            android:src="@drawable/ic_search_category_suggest" />
         <ImageView
             android:id="@+id/stop"
             android:layout_width="wrap_content"
