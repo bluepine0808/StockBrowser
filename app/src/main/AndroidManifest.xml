@@ -51,14 +51,14 @@
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
-    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.stockbrowser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.stockbrowser.permission.WRITE_HISTORY_BOOKMARKS"/>
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
 
-    <application   android:name="com.android.stockbrowser.Browser"
+    <application   android:name="Browser"
                    android:label="@string/application_name"
                    android:icon="@mipmap/ic_launcher_browser"
                    android:banner="@drawable/banner"
@@ -72,8 +72,8 @@
                   android:authorities="com.android.stockbrowser;stockbrowser"
                   android:multiprocess="false"
                   android:exported="true"
-                  android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
-                  android:writePermission="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS">
+                  android:readPermission="com.android.stockbrowser.permission.READ_HISTORY_BOOKMARKS"
+                  android:writePermission="com.android.stockbrowser.permission.WRITE_HISTORY_BOOKMARKS">
             <path-permission android:path="/bookmarks/search_suggest_query"
                     android:readPermission="android.permission.GLOBAL_SEARCH" />
         </provider>
@@ -212,7 +212,7 @@
                 <action
                     android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action
-                    android:name="com.android.browser.BOOKMARK_APPWIDGET_UPDATE" />
+                    android:name="com.android.stockbrowser.BOOKMARK_APPWIDGET_UPDATE" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
@@ -252,8 +252,8 @@
         <!-- For custom home pages (like most visited) -->
         <provider
             android:name="com.android.stockbrowser.homepages.HomeProvider"
-            android:authorities="com.android.stockbrowser.stock.home"
-            android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS"
+            android:authorities="com.android.stockbrowser.home"
+            android:readPermission="com.android.stockbrowser.permission.READ_HISTORY_BOOKMARKS"
             android:exported="false" />
 
         <receiver android:name="com.android.stockbrowser.AccountsChangedReceiver">
@@ -263,7 +263,7 @@
         </receiver>
 
         <receiver android:name="com.android.stockbrowser.PreloadRequestReceiver"
-             android:permission="com.android.browser.permission.PRELOAD" >
+             android:permission="com.android.stockbrowser.permission.PRELOAD" >
              <intent-filter>
                  <action android:name="android.intent.action.PRELOAD"/>
                  <data android:scheme="http" />
@@ -271,11 +271,11 @@
          </receiver>
 
         <provider android:name="com.android.stockbrowser.provider.SnapshotProvider"
-                  android:authorities="com.android.stockbrowser.stock.snapshots"
+                  android:authorities="com.android.stockbrowser.snapshots"
                   android:exported="false" />
 
         <provider android:name="android.support.v4.content.FileProvider"
-                  android:authorities="com.android.stockbrowser.stock-classic.file"
+                  android:authorities="com.android.stockbrowser-classic.file"
                   android:exported="false"
                   android:grantUriPermissions="true">
              <meta-data

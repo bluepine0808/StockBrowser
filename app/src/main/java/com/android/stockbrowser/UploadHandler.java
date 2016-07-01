@@ -37,7 +37,7 @@ public class UploadHandler {
     private final static String VIDEO_MIME_TYPE = "video/*";
     private final static String AUDIO_MIME_TYPE = "audio/*";
 
-    private final static String FILE_PROVIDER_AUTHORITY = "com.android.browser-classic.file";
+    private final static String FILE_PROVIDER_AUTHORITY = "com.android.stockbrowser-classic.file";
 
     /*
      * The Object used to inform the WebView of the file to upload.

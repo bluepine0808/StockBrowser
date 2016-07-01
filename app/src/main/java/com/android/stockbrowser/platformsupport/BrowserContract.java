@@ -45,8 +45,8 @@ import android.provider.SyncStateContract;
  */
 public class BrowserContract {
     /** The authority for the browser provider */
-    public static final String AUTHORITY = "com.android.browser";
-    public static final String APP_PACKAGE_NAME = "com.android.browser";
+    public static final String AUTHORITY = "com.android.stockbrowser";
+    public static final String APP_PACKAGE_NAME = "com.android.stockbrowser";
 
     /** A content:// style uri to the authority for the browser provider */
     public static final Uri AUTHORITY_URI = Uri.parse("content://" + AUTHORITY);
