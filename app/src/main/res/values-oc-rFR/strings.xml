@@ -157,7 +157,7 @@
   <!-- Title of the dialog used for selecting the application that should be
             used for sharing a link (e.g. Gmail or another app). See also
             contextmenu_sharelink above -->
-  <!-- Used as the title of dialogs in the Browser Settings confirming that
+  <!-- Used as the title of dialogs in the StockBrowser Settings confirming that
             the user wants to clear (cache, history, or cookie data) -->
   <!-- Part of a sentence that says "Replace <url of existing bookmark> with
             <url of new bookmark>?" -->
@@ -214,7 +214,7 @@
   <!-- Button text to delete all the AutoFill profile data [CHAR-LIMIT=20] -->
   <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
   <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
-         it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
+         it through the StockBrowser Settings menu. [CHAR-LIMIT=NONE] -->
   <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
   <!-- Settings screen, section title [CHAR-LIMIT=50] -->
@@ -374,7 +374,7 @@
          in the text field. -->
   <!-- HTML5 dialogs -->
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
-  <!-- Used in the Browser Settings -->
+  <!-- Used in the StockBrowser Settings -->
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
   <!-- Strings used in the summary of origins -->
   <!-- String shown in a progress view while a video is loading, before it starts playing -->

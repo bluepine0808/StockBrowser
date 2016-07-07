@@ -47,22 +47,22 @@ public class Browser {
                             "content://" + BrowserContract.AUTHORITY + "/bookmarks");
 
     /**
-     * The name of extra data when starting Browser with ACTION_VIEW or
+     * The name of extra data when starting StockBrowser with ACTION_VIEW or
      * ACTION_SEARCH intent.
      * <p>
      * The value should be an integer between 0 and 1000. If not set or set to
-     * 0, the Browser will use default. If set to 100, the Browser will start
+     * 0, the StockBrowser will use default. If set to 100, the StockBrowser will start
      * with 100%.
      */
     public static final String INITIAL_ZOOM_LEVEL = "browser.initialZoomLevel";
 
     /**
-     * The name of the extra data when starting the Browser from another
+     * The name of the extra data when starting the StockBrowser from another
      * application.
      * <p>
      * The value is a unique identification string that will be used to
-     * identify the calling application. The Browser will attempt to reuse the
-     * same window each time the application launches the Browser with the same
+     * identify the calling application. The StockBrowser will attempt to reuse the
+     * same window each time the application launches the StockBrowser with the same
      * identifier.
      */
     public static final String EXTRA_APPLICATION_ID = "com.android.stockbrowser.application_id";
@@ -178,7 +178,7 @@ public class Browser {
     /**
      * Stores a Bitmap extra in an {@link Intent} representing the screenshot of
      * a page to share.  When receiving an {@link Intent#ACTION_SEND} from the
-     * Browser, use this to access the screenshot.
+     * StockBrowser, use this to access the screenshot.
      * @hide
      */
     public final static String EXTRA_SHARE_SCREENSHOT = "share_screenshot";
@@ -186,7 +186,7 @@ public class Browser {
     /**
      * Stores a Bitmap extra in an {@link Intent} representing the favicon of a
      * page to share.  When receiving an {@link Intent#ACTION_SEND} from the
-     * Browser, use this to access the favicon.
+     * StockBrowser, use this to access the favicon.
      * @hide
      */
     public final static String EXTRA_SHARE_FAVICON = "share_favicon";

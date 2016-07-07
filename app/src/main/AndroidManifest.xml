@@ -58,7 +58,7 @@
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
 
-    <application   android:name="Browser"
+    <application   android:name=".StockBrowser"
                    android:label="@string/application_name"
                    android:icon="@mipmap/ic_launcher_browser"
                    android:banner="@drawable/banner"
@@ -129,7 +129,7 @@
             </intent-filter>
             <!-- The maps app is a much better experience, so it's not
                  worth having this at all... especially for a demo!
-            <intent-filter android:label="Map In Browser">
+            <intent-filter android:label="Map In StockBrowser">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="vnd.android.cursor.item/postal-address" />
@@ -232,7 +232,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Makes .BrowserActivity the search target for any activity in Browser -->
+        <!-- Makes .BrowserActivity the search target for any activity in StockBrowser -->
         <meta-data android:name="android.app.default_searchable" android:value=".BrowserActivity" />
 
         <!-- Application code for RLZ tracking.  RLZ assigns non-unique, non-personally identifiable

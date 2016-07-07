@@ -111,4 +111,5 @@ public interface UiController {
 
     void startVoiceRecognizer();
 
+    boolean isNativePageShowing();
 }

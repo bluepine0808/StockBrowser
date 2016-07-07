@@ -103,7 +103,7 @@ public class TitleBar extends RelativeLayout {
         isFixed |= mAccessibilityManager.isEnabled();
         // If getParent() returns null, we are initializing
         ViewGroup parent = (ViewGroup)getParent();
-        if (mIsFixedTitleBar == isFixed && parent != null) return;
+        if (mIsFixedTitleBar == isFixed && parent != null && isShowing()) return;
         mIsFixedTitleBar = isFixed;
         setSkipTitleBarAnimations(true);
         show();
@@ -158,6 +158,7 @@ public class TitleBar extends RelativeLayout {
     }
 
     void show() {
+        if (mUiController.isNativePageShowing()) return;
         cancelTitleBarAnimation(false);
         if (mUseQuickControls || mSkipTitleBarAnimations) {
             this.setVisibility(View.VISIBLE);
@@ -178,7 +179,7 @@ public class TitleBar extends RelativeLayout {
     }
 
     void hide() {
-        if (mUseQuickControls) {
+        if (mUseQuickControls || mUiController.isNativePageShowing()) {
             this.setVisibility(View.GONE);
         } else {
             if (mIsFixedTitleBar) return;

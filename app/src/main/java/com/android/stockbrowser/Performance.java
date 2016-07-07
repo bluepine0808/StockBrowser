@@ -30,7 +30,7 @@ public class Performance {
     private static final String LOGTAG = "browser";
 
     private final static boolean LOGD_ENABLED =
-            com.android.stockbrowser.Browser.LOGD_ENABLED;
+            StockBrowser.LOGD_ENABLED;
 
     private static boolean mInTrace;
 

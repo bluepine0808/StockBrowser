@@ -89,7 +89,7 @@ class TabControl {
         if (t == null) {
             return null;
         }
-        return t.getTopWindow();
+        return t.getTopWebView();
     }
 
     /**
@@ -187,21 +187,27 @@ class TabControl {
      * @return The newly createTab or null if we have reached the maximum
      *         number of open tabs.
      */
-    Tab createNewTab(boolean privateBrowsing) {
-        return createNewTab(null, privateBrowsing);
+    Tab createNewTab(boolean privateBrowsing, boolean nativeNewTab) {
+        return createNewTab(null, privateBrowsing, nativeNewTab);
     }
 
-    Tab createNewTab(Bundle state, boolean privateBrowsing) {
+    Tab createNewTab(Bundle state, boolean privateBrowsing, boolean nativeNewTab) {
         int size = mTabs.size();
         // Return false if we have maxed out on tabs
         if (!canCreateNewTab()) {
             return null;
         }
 
-        final WebView w = createNewWebView(privateBrowsing);
-
+        Tab t = null;
+        NativeNewTabPage newTabPage = null;
+        WebView w = null;
+        if (nativeNewTab) {
+            newTabPage = createNewTabPage(privateBrowsing);
+        } else {
+            w = createNewWebView(privateBrowsing);
+        }
         // Create a new tab and add it to the tab list
-        Tab t = new Tab(mController, w, state);
+        t = new Tab(mController, newTabPage, w, state);
         mTabs.add(t);
         // Initially put the tab in the background.
         t.putInBackground();
@@ -213,7 +219,7 @@ class TabControl {
      * appId(null), url(null), and privateBrowsing(false).
      */
     Tab createNewTab() {
-        return createNewTab(false);
+        return createNewTab(false, true);
     }
 
     /**
@@ -396,7 +402,7 @@ class TabControl {
                     && state.getBoolean(Tab.INCOGNITO)) {
                 // ignore tab
             } else if (id == currentId || restoreAll) {
-                Tab t = createNewTab(state, false);
+                Tab t = createNewTab(state, false, false);
                 if (t == null) {
                     // We could "break" at this point, but we want
                     // sNextId to be set correctly.
@@ -600,14 +606,22 @@ class TabControl {
     /**
      * Recreate the main WebView of the given tab.
      */
-    void recreateWebView(Tab t) {
+    void recreateNewPage(Tab t, boolean nativeNewTab) {
         final WebView w = t.getWebView();
         if (w != null) {
             t.destroy();
         }
-        // Create a new WebView. If this tab is the current tab, we need to put
-        // back all the clients so force it to be the current tab.
-        t.setWebView(createNewWebView(), false);
+        final NativeNewTabPage newTabPage = t.getNativeNewTabPage();
+        if (null != newTabPage) {
+            t.destroy();
+        }
+        if (nativeNewTab) {
+            t.setNewTabPage(createNewTabPage(), false);
+        } else {
+            // Create a new WebView. If this tab is the current tab, we need to put
+            // back all the clients so force it to be the current tab.
+            t.setWebView(createNewWebView(), false);
+        }
         if (getCurrentTab() == t) {
             setCurrentTab(t, true);
         }
@@ -626,9 +640,18 @@ class TabControl {
      *        WebView.
      */
     private WebView createNewWebView(boolean privateBrowsing) {
-        return mController.getWebViewFactory().createWebView(privateBrowsing);
+        return mController.getNewPageFactory().createWebView(privateBrowsing);
     }
 
+    private NativeNewTabPage createNewTabPage() {
+        return createNewTabPage(false);
+    }
+
+    private NativeNewTabPage createNewTabPage(boolean privateBrowsing) {
+        NativeNewTabPage newTabPage = mController.getNewPageFactory().createNewTabPage
+                (mController, privateBrowsing);
+        return newTabPage;
+    }
     /**
      * Put the current tab in the background and set newTab as the current tab.
      * @param newTab The new tab. If newTab is null, the current tab is not
@@ -664,11 +687,12 @@ class TabControl {
         // Display the new current tab
         mCurrentTab = mTabs.indexOf(newTab);
         WebView mainView = newTab.getWebView();
-        boolean needRestore = mainView == null;
+        NativeNewTabPage newTabPage = newTab.getNativeNewTabPage();
+        boolean needRestore = mainView == null && null == newTabPage;
         if (needRestore) {
             // Same work as in createNewTab() except don't do new Tab()
-            mainView = createNewWebView();
-            newTab.setWebView(mainView);
+            newTabPage = createNewTabPage();
+            newTab.setNewTabPage(newTabPage);
         }
         newTab.putInForeground();
         return true;

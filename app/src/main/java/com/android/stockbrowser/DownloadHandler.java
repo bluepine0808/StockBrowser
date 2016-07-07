@@ -41,7 +41,7 @@ import android.widget.Toast;
 public class DownloadHandler {
 
     private static final boolean LOGD_ENABLED =
-            com.android.stockbrowser.Browser.LOGD_ENABLED;
+            StockBrowser.LOGD_ENABLED;
 
     private static final String LOGTAG = "DLHandler";
 
@@ -291,7 +291,7 @@ public class DownloadHandler {
         } else {
             final DownloadManager manager
                     = (DownloadManager) activity.getSystemService(Context.DOWNLOAD_SERVICE);
-            new Thread("Browser download") {
+            new Thread("StockBrowser download") {
                 public void run() {
                     manager.enqueue(request);
                 }

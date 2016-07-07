@@ -132,7 +132,7 @@ public class UrlHandler {
       try {
           intent = Intent.parseUri(url, Intent.URI_INTENT_SCHEME);
       } catch (URISyntaxException ex) {
-          Log.w("Browser", "Bad URI " + url + ": " + ex.getMessage());
+          Log.w("StockBrowser", "Bad URI " + url + ": " + ex.getMessage());
           return false;
       }
 
@@ -159,7 +159,7 @@ public class UrlHandler {
                   mController.closeEmptyTab();
                   return true;
               } catch (ActivityNotFoundException e) {
-                  Log.w("Browser", "No activity found to handle " + url);
+                  Log.w("StockBrowser", "No activity found to handle " + url);
                   return false;
               }
             } else {

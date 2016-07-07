@@ -49,7 +49,7 @@ public class BookmarkUtils {
 
     enum BookmarkIconType {
         ICON_INSTALLABLE_WEB_APP, // Icon for an installable web app (launches WebAppRuntime).
-        ICON_HOME_SHORTCUT,        // Icon for a shortcut on the home screen (launches Browser).
+        ICON_HOME_SHORTCUT,        // Icon for a shortcut on the home screen (launches StockBrowser).
         ICON_WIDGET,
     }
 

@@ -84,7 +84,7 @@ class Tab implements PictureListener {
 
     // Log Tag
     private static final String LOGTAG = "Tab";
-    private static final boolean LOGD_ENABLED = com.android.stockbrowser.Browser.LOGD_ENABLED;
+    private static final boolean LOGD_ENABLED = StockBrowser.LOGD_ENABLED;
     // Special case the logtag for messages for the Console to make it easier to
     // filter them and match the logtag used for these messages in older versions
     // of the browser.
@@ -119,7 +119,7 @@ class Tab implements PictureListener {
     }
 
     Context mContext;
-    protected WebViewController mWebViewController;
+    protected NewPageController mNewPageController;
 
     // The tab ID
     private long mId = -1;
@@ -132,6 +132,7 @@ class Tab implements PictureListener {
     private View mContainer;
     // Main WebView
     private WebView mMainView;
+    private NativeNewTabPage mNativeNewTabPage;
     // Subwindow container
     private View mSubViewContainer;
     // Subwindow WebView
@@ -355,13 +356,13 @@ class Tab implements PictureListener {
             // reset the error console
             if (mErrorConsole != null) {
                 mErrorConsole.clearErrorMessages();
-                if (mWebViewController.shouldShowErrorConsole()) {
+                if (mNewPageController.shouldShowErrorConsole()) {
                     mErrorConsole.showConsole(ErrorConsoleView.SHOW_NONE);
                 }
             }
 
             // finally update the UI in the activity if it is in the foreground
-            mWebViewController.onPageStarted(Tab.this, view, favicon);
+            mNewPageController.onPageStarted(Tab.this, view, favicon);
 
             updateBookmarkedStatus();
         }
@@ -378,7 +379,7 @@ class Tab implements PictureListener {
                 CookieManager.getInstance().setAcceptCookie(mSettings.acceptCookies());
             }
             syncCurrentState(view, url);
-            mWebViewController.onPageFinished(Tab.this);
+            mNewPageController.onPageFinished(Tab.this);
 
             if (mCurrentState.mUrl.equals(HomeProvider.MOST_VISITED_URL)) {
                 if (!mInMostVisitedPage) {
@@ -395,7 +396,7 @@ class Tab implements PictureListener {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             if (!mDisableOverrideUrlLoading && mInForeground) {
-                return mWebViewController.shouldOverrideUrlLoading(Tab.this,
+                return mNewPageController.shouldOverrideUrlLoading(Tab.this,
                         view, url);
             } else {
                 return false;
@@ -508,7 +509,7 @@ class Tab implements PictureListener {
         @Override
         public void doUpdateVisitedHistory(WebView view, String url,
                 boolean isReload) {
-            mWebViewController.doUpdateVisitedHistory(Tab.this, isReload);
+            mNewPageController.doUpdateVisitedHistory(Tab.this, isReload);
         }
 
         /**
@@ -541,7 +542,7 @@ class Tab implements PictureListener {
                             @Override
                             public void onClick(DialogInterface dialog,
                                     int whichButton) {
-                                mWebViewController.showSslCertificateOnError(
+                                mNewPageController.showSslCertificateOnError(
                                         view, handler, error);
                             }
                         })
@@ -559,7 +560,7 @@ class Tab implements PictureListener {
                             public void onCancel(DialogInterface dialog) {
                                 handler.cancel();
                                 setSecurityState(SecurityState.SECURITY_STATE_NOT_SECURE);
-                                mWebViewController.onUserCanceledSsl(Tab.this);
+                                mNewPageController.onUserCanceledSsl(Tab.this);
                             }
                         })
                     .show();
@@ -580,7 +581,7 @@ class Tab implements PictureListener {
                 return;
             }
             KeyChain.choosePrivateKeyAlias(
-                    mWebViewController.getActivity(), new KeyChainAliasCallback() {
+                    mNewPageController.getActivity(), new KeyChainAliasCallback() {
                 @Override public void alias(String alias) {
                     if (alias == null) {
                         request.cancel();
@@ -603,7 +604,7 @@ class Tab implements PictureListener {
         public void onReceivedHttpAuthRequest(WebView view,
                 final HttpAuthHandler handler, final String host,
                 final String realm) {
-            mWebViewController.onReceivedHttpAuthRequest(Tab.this, view, handler, host, realm);
+            mNewPageController.onReceivedHttpAuthRequest(Tab.this, view, handler, host, realm);
         }
 
         @Override
@@ -617,7 +618,7 @@ class Tab implements PictureListener {
             if (!mInForeground) {
                 return false;
             }
-            return mWebViewController.shouldOverrideKeyEvent(event);
+            return mNewPageController.shouldOverrideKeyEvent(event);
         }
 
         @Override
@@ -625,7 +626,7 @@ class Tab implements PictureListener {
             if (!mInForeground) {
                 return;
             }
-            if (!mWebViewController.onUnhandledKeyEvent(event)) {
+            if (!mNewPageController.onUnhandledKeyEvent(event)) {
                 super.onUnhandledKeyEvent(view, event);
             }
         }
@@ -665,11 +666,11 @@ class Tab implements PictureListener {
                     (WebView.WebViewTransport) msg.obj;
             if (dialog) {
                 createSubWindow();
-                mWebViewController.attachSubWindow(Tab.this);
+                mNewPageController.attachSubWindow(Tab.this);
                 transport.setWebView(mSubView);
             } else {
-                final Tab newTab = mWebViewController.openTab(null,
-                        Tab.this, true, true);
+                final Tab newTab = mNewPageController.openTab(null,
+                        Tab.this, true, false);
                 transport.setWebView(newTab.getWebView());
             }
             msg.sendToTarget();
@@ -691,7 +692,7 @@ class Tab implements PictureListener {
                         .setPositiveButton(R.string.ok, null)
                         .show();
                 return false;
-            } else if (!mWebViewController.getTabControl().canCreateNewTab()) {
+            } else if (!mNewPageController.getTabControl().canCreateNewTab()) {
                 new AlertDialog.Builder(mContext)
                         .setTitle(R.string.too_many_windows_dialog_title)
                         .setIconAttribute(android.R.attr.alertDialogIcon)
@@ -742,7 +743,7 @@ class Tab implements PictureListener {
         @Override
         public void onRequestFocus(WebView view) {
             if (!mInForeground) {
-                mWebViewController.switchToTab(Tab.this);
+                mNewPageController.switchToTab(Tab.this);
             }
         }
 
@@ -751,30 +752,30 @@ class Tab implements PictureListener {
             if (mParent != null) {
                 // JavaScript can only close popup window.
                 if (mInForeground) {
-                    mWebViewController.switchToTab(mParent);
+                    mNewPageController.switchToTab(mParent);
                 }
-                mWebViewController.closeTab(Tab.this);
+                mNewPageController.closeTab(Tab.this);
             }
         }
 
         @Override
         public boolean onJsAlert(WebView view, String url, String message,
                 JsResult result) {
-            mWebViewController.getTabControl().setActiveTab(Tab.this);
+            mNewPageController.getTabControl().setActiveTab(Tab.this);
             return false;
         }
 
         @Override
         public boolean onJsConfirm(WebView view, String url, String message,
                 JsResult result) {
-            mWebViewController.getTabControl().setActiveTab(Tab.this);
+            mNewPageController.getTabControl().setActiveTab(Tab.this);
             return false;
         }
 
         @Override
         public boolean onJsPrompt(WebView view, String url, String message,
                 String defaultValue, JsPromptResult result) {
-            mWebViewController.getTabControl().setActiveTab(Tab.this);
+            mNewPageController.getTabControl().setActiveTab(Tab.this);
             return false;
         }
 
@@ -784,7 +785,7 @@ class Tab implements PictureListener {
             if (newProgress == 100) {
                 mInPageLoad = false;
             }
-            mWebViewController.onProgressChanged(Tab.this);
+            mNewPageController.onProgressChanged(Tab.this);
             if (mUpdateThumbnail && newProgress == 100) {
                 mUpdateThumbnail = false;
             }
@@ -793,13 +794,13 @@ class Tab implements PictureListener {
         @Override
         public void onReceivedTitle(WebView view, final String title) {
             mCurrentState.mTitle = title;
-            mWebViewController.onReceivedTitle(Tab.this, title);
+            mNewPageController.onReceivedTitle(Tab.this, title);
         }
 
         @Override
         public void onReceivedIcon(WebView view, Bitmap icon) {
             mCurrentState.mFavicon = icon;
-            mWebViewController.onFavicon(Tab.this, view, icon);
+            mNewPageController.onFavicon(Tab.this, view, icon);
         }
 
         @Override
@@ -823,7 +824,7 @@ class Tab implements PictureListener {
         @Override
         public void onShowCustomView(View view,
                 WebChromeClient.CustomViewCallback callback) {
-            Activity activity = mWebViewController.getActivity();
+            Activity activity = mNewPageController.getActivity();
             if (activity != null) {
                 onShowCustomView(view, activity.getRequestedOrientation(), callback);
             }
@@ -832,13 +833,13 @@ class Tab implements PictureListener {
         @Override
         public void onShowCustomView(View view, int requestedOrientation,
                 WebChromeClient.CustomViewCallback callback) {
-            if (mInForeground) mWebViewController.showCustomView(Tab.this, view,
+            if (mInForeground) mNewPageController.showCustomView(Tab.this, view,
                     requestedOrientation, callback);
         }
 
         @Override
         public void onHideCustomView() {
-            if (mInForeground) mWebViewController.hideCustomView();
+            if (mInForeground) mNewPageController.hideCustomView();
         }
 
         /**
@@ -930,7 +931,7 @@ class Tab implements PictureListener {
                 // call getErrorConsole(true) so it will create one if needed
                 ErrorConsoleView errorConsole = getErrorConsole(true);
                 errorConsole.addErrorMessage(consoleMessage);
-                if (mWebViewController.shouldShowErrorConsole()
+                if (mNewPageController.shouldShowErrorConsole()
                         && errorConsole.getShowState() !=
                             ErrorConsoleView.SHOW_MAXIMIZED) {
                     errorConsole.showConsole(ErrorConsoleView.SHOW_MINIMIZED);
@@ -973,7 +974,7 @@ class Tab implements PictureListener {
         @Override
         public Bitmap getDefaultVideoPoster() {
             if (mInForeground) {
-                return mWebViewController.getDefaultVideoPoster();
+                return mNewPageController.getDefaultVideoPoster();
             }
             return null;
         }
@@ -986,7 +987,7 @@ class Tab implements PictureListener {
         @Override
         public View getVideoLoadingProgressView() {
             if (mInForeground) {
-                return mWebViewController.getVideoLoadingProgressView();
+                return mNewPageController.getVideoLoadingProgressView();
             }
             return null;
         }
@@ -995,7 +996,7 @@ class Tab implements PictureListener {
         public boolean onShowFileChooser(WebView webView, ValueCallback<Uri[]> callback,
             FileChooserParams params) {
             if (mInForeground) {
-                mWebViewController.showFileChooser(callback, params);
+                mNewPageController.showFileChooser(callback, params);
                 return true;
             } else {
                 return false;
@@ -1010,7 +1011,7 @@ class Tab implements PictureListener {
             if (isPrivateBrowsingEnabled()) {
                 callback.onReceiveValue(new String[0]);
             } else {
-                mWebViewController.getVisitedHistory(callback);
+                mNewPageController.getVisitedHistory(callback);
             }
         }
 
@@ -1025,9 +1026,9 @@ class Tab implements PictureListener {
     private static class SubWindowClient extends WebViewClient {
         // The main WebViewClient.
         private final WebViewClient mClient;
-        private final WebViewController mController;
+        private final NewPageController mController;
 
-        SubWindowClient(WebViewClient client, WebViewController controller) {
+        SubWindowClient(WebViewClient client, NewPageController controller) {
             mClient = client;
             mController = controller;
         }
@@ -1108,24 +1109,24 @@ class Tab implements PictureListener {
             if (window != mSubView) {
                 Log.e(LOGTAG, "Can't close the window");
             }
-            mWebViewController.dismissSubWindow(Tab.this);
+            mNewPageController.dismissSubWindow(Tab.this);
         }
     }
 
     // -------------------------------------------------------------------------
 
     // Construct a new tab
-    Tab(WebViewController wvcontroller, WebView w) {
-        this(wvcontroller, w, null);
+    Tab(NewPageController wvcontroller, WebView w) {
+        this(wvcontroller, null, w, null);
     }
 
-    Tab(WebViewController wvcontroller, Bundle state) {
-        this(wvcontroller, null, state);
+    Tab(NewPageController wvcontroller, Bundle state) {
+        this(wvcontroller, null, null, state);
     }
 
-    Tab(WebViewController wvcontroller, WebView w, Bundle state) {
-        mWebViewController = wvcontroller;
-        mContext = mWebViewController.getContext();
+    Tab(NewPageController wvcontroller, NativeNewTabPage newTabPage, WebView w, Bundle state) {
+        mNewPageController = wvcontroller;
+        mContext = mNewPageController.getContext();
         mSettings = BrowserSettings.getInstance();
         mDataController = DataController.getInstance(mContext);
         mCurrentState = new PageState(mContext, w != null
@@ -1137,7 +1138,7 @@ class Tab implements PictureListener {
             public void onDownloadStart(String url, String userAgent,
                     String contentDisposition, String mimetype, String referer,
                     long contentLength) {
-                mWebViewController.onDownloadStart(Tab.this, url, userAgent, contentDisposition,
+                mNewPageController.onDownloadStart(Tab.this, url, userAgent, contentDisposition,
                         mimetype, referer, contentLength);
             }
         };
@@ -1171,7 +1172,11 @@ class Tab implements PictureListener {
         if (getId() == -1) {
             mId = TabControl.getNextId();
         }
-        setWebView(w);
+        if (null != w) {
+            setWebView(w);
+        } else if (null != newTabPage) {
+            setNewTabPage(newTabPage);
+        }
         mHandler = new Handler() {
             @Override
             public void handleMessage(Message m) {
@@ -1198,7 +1203,7 @@ class Tab implements PictureListener {
     }
 
     public void updateShouldCaptureThumbnails() {
-        if (mWebViewController.shouldCaptureThumbnails()) {
+        if (mNewPageController.shouldCaptureThumbnails()) {
             synchronized (Tab.this) {
                 if (mCapture == null) {
                     mCapture = Bitmap.createBitmap(mCaptureWidth, mCaptureHeight,
@@ -1217,13 +1222,25 @@ class Tab implements PictureListener {
         }
     }
 
-    public void setController(WebViewController ctl) {
-        mWebViewController = ctl;
+    public void setController(NewPageController ctl) {
+        mNewPageController = ctl;
         updateShouldCaptureThumbnails();
     }
 
     public long getId() {
         return mId;
+    }
+
+    void setNewTabPage(NativeNewTabPage newTabPage) {
+        setNewTabPage(newTabPage, true);
+    }
+
+    void setNewTabPage(NativeNewTabPage newTabPage, boolean restore) {
+        if (mNativeNewTabPage == newTabPage) {
+            return;
+        }
+        mNewPageController.onSetNewTabPage(this, newTabPage);
+        mNativeNewTabPage = newTabPage;
     }
 
     void setWebView(WebView w) {
@@ -1249,7 +1266,7 @@ class Tab implements PictureListener {
             mPermissionsPrompt.hide();
         }
 
-        mWebViewController.onSetWebView(this, w);
+        mNewPageController.onSetWebView(this, w);
 
         if (mMainView != null) {
             mMainView.setPictureListener(null);
@@ -1270,7 +1287,7 @@ class Tab implements PictureListener {
             // does a redirect after a period of time. The user could have
             // switched to another tab while waiting for the download to start.
             mMainView.setDownloadListener(mDownloadListener);
-            TabControl tc = mWebViewController.getTabControl();
+            TabControl tc = mNewPageController.getTabControl();
             if (tc != null && tc.getOnThumbnailUpdatedListener() != null) {
                 mMainView.setPictureListener(this);
             }
@@ -1298,6 +1315,11 @@ class Tab implements PictureListener {
             setWebView(null);
             webView.destroy();
         }
+        if (mNativeNewTabPage != null) {
+            NativeNewTabPage newTabPage = mNativeNewTabPage;
+            setNewTabPage(null);
+            newTabPage.destroy();
+        }
     }
 
     /**
@@ -1323,9 +1345,9 @@ class Tab implements PictureListener {
      */
     boolean createSubWindow() {
         if (mSubView == null) {
-            mWebViewController.createSubWindow(this);
+            mNewPageController.createSubWindow(this);
             mSubView.setWebViewClient(new SubWindowClient(mWebViewClient,
-                    mWebViewController));
+                    mNewPageController));
             mSubView.setWebChromeClient(new SubWindowChromeClient(
                     mWebChromeClient));
             // Set a different DownloadListener for the mSubView, since it will
@@ -1334,16 +1356,16 @@ class Tab implements PictureListener {
                 public void onDownloadStart(String url, String userAgent,
                         String contentDisposition, String mimetype, String referer,
                         long contentLength) {
-                    mWebViewController.onDownloadStart(Tab.this, url, userAgent,
+                    mNewPageController.onDownloadStart(Tab.this, url, userAgent,
                             contentDisposition, mimetype, referer, contentLength);
                     if (mSubView.copyBackForwardList().getSize() == 0) {
                         // This subwindow was opened for the sole purpose of
                         // downloading a file. Remove it.
-                        mWebViewController.dismissSubWindow(Tab.this);
+                        mNewPageController.dismissSubWindow(Tab.this);
                     }
                 }
             });
-            mSubView.setOnCreateContextMenuListener(mWebViewController.getActivity());
+            mSubView.setOnCreateContextMenuListener(mNewPageController.getActivity());
             return true;
         }
         return false;
@@ -1354,7 +1376,7 @@ class Tab implements PictureListener {
      */
     void dismissSubWindow() {
         if (mSubView != null) {
-            mWebViewController.endActionMode();
+            mNewPageController.endActionMode();
             mSubView.destroy();
             mSubView = null;
             mSubViewContainer = null;
@@ -1454,8 +1476,13 @@ class Tab implements PictureListener {
         }
         mInForeground = true;
         resume();
-        Activity activity = mWebViewController.getActivity();
-        mMainView.setOnCreateContextMenuListener(activity);
+        Activity activity = mNewPageController.getActivity();
+        if (null != mMainView) {
+            mMainView.setOnCreateContextMenuListener(activity);
+        }
+        if (null != mNativeNewTabPage) {
+            mNativeNewTabPage.setOnCreateContextMenuListener(activity);
+        }
         if (mSubView != null) {
             mSubView.setOnCreateContextMenuListener(activity);
         }
@@ -1463,7 +1490,7 @@ class Tab implements PictureListener {
         if (mQueuedErrors != null && mQueuedErrors.size() >  0) {
             showError(mQueuedErrors.getFirst());
         }
-        mWebViewController.bookmarkedStatusHasChanged(this);
+        mNewPageController.bookmarkedStatusHasChanged(this);
     }
 
     void putInBackground() {
@@ -1473,7 +1500,11 @@ class Tab implements PictureListener {
         capture();
         mInForeground = false;
         pause();
-        mMainView.setOnCreateContextMenuListener(null);
+        if (null != mNativeNewTabPage) {
+            mNativeNewTabPage.setOnCreateContextMenuListener(null);
+        } else {
+            mMainView.setOnCreateContextMenuListener(null);
+        }
         if (mSubView != null) {
             mSubView.setOnCreateContextMenuListener(null);
         }
@@ -1488,11 +1519,18 @@ class Tab implements PictureListener {
      * null or the main window.
      * @return The top window of this tab.
      */
-    WebView getTopWindow() {
+    WebView getTopWebView() {
         if (mSubView != null) {
             return mSubView;
         }
         return mMainView;
+    }
+
+    View getTopWindow() {
+        if (null != mNativeNewTabPage) {
+            return mNativeNewTabPage;
+        }
+        return getTopWebView();
     }
 
     /**
@@ -1509,6 +1547,10 @@ class Tab implements PictureListener {
             }
         }
         return mMainView;
+    }
+
+    NativeNewTabPage getNativeNewTabPage() {
+        return mNativeNewTabPage;
     }
 
     void setViewContainer(View container) {
@@ -1597,6 +1639,9 @@ class Tab implements PictureListener {
     }
 
     String getUrl() {
+        if (null != mNativeNewTabPage) {
+            return StockBrowser.NATIVE_PAGE_URL;
+        }
         return UrlUtils.filteredUrl(mCurrentState.mUrl);
     }
 
@@ -1654,7 +1699,7 @@ class Tab implements PictureListener {
     private void setSecurityState(SecurityState securityState) {
         mCurrentState.mSecurityState = securityState;
         mCurrentState.mSslCertificateError = null;
-        mWebViewController.onUpdatedSecurityState(this);
+        mNewPageController.onUpdatedSecurityState(this);
     }
 
     /**
@@ -1772,7 +1817,7 @@ class Tab implements PictureListener {
         public void onQueryUrlIsBookmark(String url, boolean isBookmark) {
             if (mCurrentState.mUrl.equals(url)) {
                 mCurrentState.mIsBookmarkedSite = isBookmark;
-                mWebViewController.bookmarkedStatusHasChanged(Tab.this);
+                mNewPageController.bookmarkedStatusHasChanged(Tab.this);
             }
         }
     };
@@ -1828,7 +1873,7 @@ class Tab implements PictureListener {
             mPageLoadProgress = INITIAL_PROGRESS;
             mInPageLoad = true;
             mCurrentState = new PageState(mContext, false, url, null);
-            mWebViewController.onPageStarted(this, mMainView, null);
+            mNewPageController.onPageStarted(this, mMainView, null);
             WebResourceResponse res = HomeProvider.shouldInterceptRequest(mContext, url);
             if (res != null) {
                 try {
@@ -1878,7 +1923,7 @@ class Tab implements PictureListener {
         c.setBitmap(null);
         mHandler.removeMessages(MSG_CAPTURE);
         persistThumbnail();
-        TabControl tc = mWebViewController.getTabControl();
+        TabControl tc = mNewPageController.getTabControl();
         if (tc != null) {
             OnThumbnailUpdatedListener updateListener
                     = tc.getOnThumbnailUpdatedListener();

@@ -282,9 +282,9 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
         settings.setDefaultFontSize(16);
         settings.setDefaultFixedFontSize(13);
 
-        // WebView inside Browser doesn't want initial focus to be set.
+        // WebView inside StockBrowser doesn't want initial focus to be set.
         settings.setNeedInitialFocus(false);
-        // Browser supports multiple windows
+        // StockBrowser supports multiple windows
         settings.setSupportMultipleWindows(true);
         // enable smooth transition for better performance during panning or
         // zooming

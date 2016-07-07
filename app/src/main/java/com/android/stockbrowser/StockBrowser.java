@@ -20,9 +20,9 @@ import android.app.Application;
 import android.util.Log;
 import android.webkit.CookieSyncManager;
 
-public class Browser extends Application { 
+public class StockBrowser extends Application {
 
-    private final static String LOGTAG = "browser";
+    private final static String LOGTAG = "stockbrowser";
     
     // Set to true to enable verbose logging.
     final static boolean LOGV_ENABLED = true;
@@ -30,12 +30,14 @@ public class Browser extends Application {
     // Set to true to enable extra debug logging.
     final static boolean LOGD_ENABLED = true;
 
+    final static String NATIVE_PAGE_URL = "browser-native://newtab";
+
     @Override
     public void onCreate() {
         super.onCreate();
 
         if (LOGV_ENABLED)
-            Log.v(LOGTAG, "Browser.onCreate: this=" + this);
+            Log.v(LOGTAG, "StockBrowser.onCreate: this=" + this);
 
         // create CookieSyncManager with current Context
         CookieSyncManager.createInstance(this);

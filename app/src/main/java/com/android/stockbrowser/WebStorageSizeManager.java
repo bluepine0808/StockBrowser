@@ -16,7 +16,6 @@
 
 package com.android.stockbrowser;
 
-import com.android.stockbrowser.R;
 import com.android.stockbrowser.preferences.WebsiteSettingsFragment;
 
 import android.app.NotificationManager;
@@ -87,8 +86,8 @@ import java.io.File;
  */
 public class WebStorageSizeManager {
     // Logging flags.
-    private final static boolean LOGV_ENABLED = com.android.stockbrowser.Browser.LOGV_ENABLED;
-    private final static boolean LOGD_ENABLED = com.android.stockbrowser.Browser.LOGD_ENABLED;
+    private final static boolean LOGV_ENABLED = StockBrowser.LOGV_ENABLED;
+    private final static boolean LOGD_ENABLED = StockBrowser.LOGD_ENABLED;
     private final static String LOGTAG = "browser";
     // The default quota value for an origin.
     public final static long ORIGIN_DEFAULT_QUOTA = 3 * 1024 * 1024;  // 3MB

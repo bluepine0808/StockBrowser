@@ -264,7 +264,7 @@
             used for sharing a link (e.g. Gmail or another app). See also
             contextmenu_sharelink above -->
   <string name="choosertitle_sharevia">Compartir a traviés de</string>
-  <!-- Used as the title of dialogs in the Browser Settings confirming that
+  <!-- Used as the title of dialogs in the StockBrowser Settings confirming that
             the user wants to clear (cache, history, or cookie data) -->
   <string name="clear">Desaniciar</string>
   <!-- Part of a sentence that says "Replace <url of existing bookmark> with
@@ -389,7 +389,7 @@
   <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
   <string name="autofill_setup_dialog_message">El restolador pue rellenar automáticamente formularios web como\'l qu\'apaez darréu. ¿Quies configurar la función Autocompletar?</string>
   <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
-         it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
+         it through the StockBrowser Settings menu. [CHAR-LIMIT=NONE] -->
   <string name="autofill_setup_dialog_negative_toast">Siempre pues configurar la opción Autocompletar dende la pantalla Restolador &gt; Axustes &gt; Xenerales.</string>
   <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
@@ -692,7 +692,7 @@
   <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
   <string name="webstorage_outofspace_notification_title">Espaciu d\'almacenamientu del restolador escosáu</string>
   <string name="webstorage_outofspace_notification_text">Toca pa lliberar espaciu.</string>
-  <!-- Used in the Browser Settings -->
+  <!-- Used in the StockBrowser Settings -->
   <string name="webstorage_clear_data_title">Desaniciar datos almacenaos</string>
   <!-- Confirmation dialog when the user ask to clear all data for an origin -->
   <string name="webstorage_clear_data_dialog_message">¿Desaniciar tolos datos almacenaos por esti sitiu web?</string>

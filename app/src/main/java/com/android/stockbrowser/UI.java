@@ -68,6 +68,8 @@ public interface UI {
 
     public void onSetWebView(Tab tab, WebView view);
 
+    public void onSetNewTabPage(Tab tab, NativeNewTabPage newTabPage);
+
     public void createSubWindow(Tab tab, WebView subWebView);
 
     public void attachSubWindow(View subContainer);

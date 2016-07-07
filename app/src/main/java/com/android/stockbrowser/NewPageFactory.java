@@ -21,10 +21,12 @@ import android.webkit.WebView;
 /**
  * Factory for WebViews
  */
-public interface WebViewFactory {
+public interface NewPageFactory {
 
     public WebView createWebView(boolean privateBrowsing);
 
     public WebView createSubWebView(boolean privateBrowsing);
+
+    public NativeNewTabPage createNewTabPage(Controller controller, boolean privateBrowsing);
 
 }

@@ -264,7 +264,13 @@ public abstract class BaseUi implements UI {
             }
         }
         mActiveTab = tab;
-        BrowserWebView web = (BrowserWebView) mActiveTab.getWebView();
+        BrowserWebView web = null;
+        NativeNewTabPage newTabPage = null;
+        if (mUiController.isNativePageShowing()) {
+            newTabPage = mActiveTab.getNativeNewTabPage();
+        } else {
+            web = (BrowserWebView) mActiveTab.getWebView();
+        }
         updateUrlBarAutoShowManagerTarget();
         attachTabToContentView(tab);
         if (web != null) {
@@ -277,6 +283,9 @@ public abstract class BaseUi implements UI {
                 web.setTitleBar(mTitleBar);
                 mTitleBar.onScrollChanged();
             }
+        }
+        if (newTabPage != null) {
+            mTitleBar.hide();
         }
         mTitleBar.bringToFront();
         tab.getTopWindow().requestFocus();
@@ -323,21 +332,35 @@ public abstract class BaseUi implements UI {
     }
 
     protected void attachTabToContentView(Tab tab) {
-        if ((tab == null) || (tab.getWebView() == null)) {
+        if ((tab == null) || ((tab.getWebView() == null) && (tab.getNativeNewTabPage() == null))) {
             return;
         }
         View container = tab.getViewContainer();
         WebView mainView  = tab.getWebView();
+        NativeNewTabPage newTabPage= tab.getNativeNewTabPage();
         // Attach the WebView to the container and then attach the
         // container to the content view.
         FrameLayout wrapper =
                 (FrameLayout) container.findViewById(R.id.webview_wrapper);
-        ViewGroup parent = (ViewGroup) mainView.getParent();
+        ViewGroup parent = null;
+        if (null !=  mainView) {
+            parent = (ViewGroup) mainView.getParent();
+        } else {
+            parent = (ViewGroup) newTabPage.getParent();
+        }
         if (parent != wrapper) {
             if (parent != null) {
-                parent.removeView(mainView);
+                if (null != mainView) {
+                    parent.removeView(mainView);
+                } else {
+                    parent.removeView(newTabPage);
+                }
             }
-            wrapper.addView(mainView);
+            if (null != mainView) {
+                wrapper.addView(mainView);
+            } else {
+                wrapper.addView(newTabPage);
+            }
         }
         parent = (ViewGroup) container.getParent();
         if (parent != mContentView) {
@@ -354,15 +377,17 @@ public abstract class BaseUi implements UI {
         // Remove the container that contains the main WebView.
         WebView mainView = tab.getWebView();
         View container = tab.getViewContainer();
-        if (mainView == null) {
-            return;
-        }
+        NativeNewTabPage newTabPage = tab.getNativeNewTabPage();
         // Remove the container from the content and then remove the
         // WebView from the container. This will trigger a focus change
         // needed by WebView.
         FrameLayout wrapper =
                 (FrameLayout) container.findViewById(R.id.webview_wrapper);
-        wrapper.removeView(mainView);
+        if (null != mainView) {
+            wrapper.removeView(mainView);
+        } else {
+            wrapper.removeView(newTabPage);
+        }
         mContentView.removeView(container);
         mUiController.endActionMode();
         mUiController.removeSubWindow(tab);
@@ -387,6 +412,24 @@ public abstract class BaseUi implements UI {
             FrameLayout wrapper =
                     (FrameLayout) container.findViewById(R.id.webview_wrapper);
             wrapper.removeView(tab.getWebView());
+        }
+    }
+
+    @Override
+    public void onSetNewTabPage(Tab tab, NativeNewTabPage newTabPage) {
+        View container = tab.getViewContainer();
+        if (container == null) {
+            // The tab consists of a container view, which contains the main
+            // WebView, as well as any other UI elements associated with the tab.
+            container = mActivity.getLayoutInflater().inflate(R.layout.tab,
+                    mContentView, false);
+            tab.setViewContainer(container);
+        }
+        if (tab.getNativeNewTabPage() != newTabPage) {
+            // Just remove the old one.
+            FrameLayout wrapper =
+                    (FrameLayout) container.findViewById(R.id.webview_wrapper);
+            wrapper.removeView(tab.getNativeNewTabPage());
         }
     }
 

@@ -33,7 +33,7 @@ import android.webkit.WebView;
 /**
  * WebView aspect of the controller
  */
-public interface WebViewController {
+public interface NewPageController {
 
     Context getContext();
 
@@ -41,9 +41,11 @@ public interface WebViewController {
 
     TabControl getTabControl();
 
-    WebViewFactory getWebViewFactory();
+    NewPageFactory getNewPageFactory();
 
     void onSetWebView(Tab tab, WebView view);
+
+    void onSetNewTabPage(Tab tab, NativeNewTabPage newTabPage);
 
     void createSubWindow(Tab tab);
 
@@ -112,4 +114,5 @@ public interface WebViewController {
     void bookmarkedStatusHasChanged(Tab tab);
 
     boolean shouldCaptureThumbnails();
+
 }

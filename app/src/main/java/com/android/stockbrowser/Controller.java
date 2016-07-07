@@ -99,7 +99,7 @@ import java.util.Map;
  * Controller for browser
  */
 public class Controller
-        implements WebViewController, UiController, ActivityController {
+        implements NewPageController, UiController, ActivityController {
 
     private static final String LOGTAG = "Controller";
     private static final String SEND_APP_ID_EXTRA =
@@ -159,7 +159,7 @@ public class Controller
     private UI mUi;
     private TabControl mTabControl;
     private BrowserSettings mSettings;
-    private WebViewFactory mFactory;
+    private NewPageFactory mFactory;
 
     private WakeLock mWakeLock;
 
@@ -229,7 +229,7 @@ public class Controller
         mSettings.setController(this);
         mCrashRecoveryHandler = CrashRecoveryHandler.initialize(this);
         mCrashRecoveryHandler.preloadCrashState();
-        mFactory = new BrowserWebViewFactory(browser);
+        mFactory = new BrowserNewPageFactory(browser);
 
         mUrlHandler = new UrlHandler(this);
         mIntentHandler = new IntentHandler(mActivity, this);
@@ -295,7 +295,7 @@ public class Controller
             } else {
                 final Bundle extra = intent.getExtras();
                 // Create an initial tab.
-                // If the intent is ACTION_VIEW and data is not null, the Browser is
+                // If the intent is ACTION_VIEW and data is not null, the StockBrowser is
                 // invoked to view the content by another application. In this case,
                 // the tab will be close when exit.
                 UrlData urlData = IntentHandler.getUrlDataFromIntent(intent);
@@ -380,7 +380,7 @@ public class Controller
     }
 
     @Override
-    public WebViewFactory getWebViewFactory() {
+    public NewPageFactory getNewPageFactory() {
         return mFactory;
     }
 
@@ -389,6 +389,10 @@ public class Controller
         mUi.onSetWebView(tab, view);
     }
 
+    @Override
+    public void onSetNewTabPage(Tab tab, NativeNewTabPage newTabPage) {
+        mUi.onSetNewTabPage(tab, newTabPage);
+    }
     @Override
     public void createSubWindow(Tab tab) {
         endActionMode();
@@ -515,7 +519,7 @@ public class Controller
                     case RELEASE_WAKELOCK:
                         if (mWakeLock != null && mWakeLock.isHeld()) {
                             mWakeLock.release();
-                            // if we reach here, Browser should be still in the
+                            // if we reach here, StockBrowser should be still in the
                             // background loading after WAKELOCK_TIMEOUT (5-min).
                             // To avoid burning the battery, stop loading.
                             mTabControl.stopAllLoading();
@@ -627,7 +631,7 @@ public class Controller
                 if (mWakeLock == null) {
                     PowerManager pm = (PowerManager) mActivity
                             .getSystemService(Context.POWER_SERVICE);
-                    mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "Browser");
+                    mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "StockBrowser");
                 }
                 mWakeLock.acquire();
                 mHandler.sendMessageDelayed(mHandler
@@ -797,7 +801,7 @@ public class Controller
         return mLoadStopped;
     }
 
-    // WebViewController
+    // NewPageController
 
     @Override
     public void onPageStarted(Tab tab, WebView view, Bitmap favicon) {
@@ -1072,7 +1076,7 @@ public class Controller
         mUi.bookmarkedStatusHasChanged(tab);
     }
 
-    // end WebViewController
+    // end NewPageController
 
     protected void pageUp() {
         getCurrentTopWebView().pageUp(false);
@@ -1760,7 +1764,7 @@ public class Controller
         int id = item.getItemId();
         boolean result = true;
         switch (id) {
-            // -- Browser context menu
+            // -- StockBrowser context menu
             case R.id.open_context_menu_id:
             case R.id.save_link_context_menu_id:
             case R.id.copy_link_context_menu_id:
@@ -2217,14 +2221,18 @@ public class Controller
         }
     }
 
-    protected void reuseTab(Tab appTab, UrlData urlData) {
+    protected void reuseTab(Tab appTab, UrlData urlData){
+        reuseTab(appTab, urlData, false);
+    }
+
+    protected void reuseTab(Tab appTab, UrlData urlData, boolean nativeNewTab) {
         // Dismiss the subwindow if applicable.
         dismissSubWindow(appTab);
         // Since we might kill the WebView, remove it from the
         // content view first.
         mUi.detachTab(appTab);
         // Recreate the main WebView after destroying the old one.
-        mTabControl.recreateWebView(appTab);
+        mTabControl.recreateNewPage(appTab, nativeNewTab);
         // TODO: analyze why the remove and add are necessary
         mUi.attachTab(appTab);
         if (mTabControl.getCurrentTab() != appTab) {
@@ -2332,7 +2340,12 @@ public class Controller
 
     public Tab openTab(String url, boolean incognito, boolean setActive,
             boolean useCurrent, Tab parent) {
-        Tab tab = createNewTab(incognito, setActive, useCurrent);
+        Tab tab = null;
+        if (isNativePageUrl(url)) {
+            tab = createNewTab(incognito, setActive, useCurrent, true);
+        } else {
+            tab = createNewTab(incognito, setActive, useCurrent);
+        }
         if (tab != null) {
             if (parent != null && parent != tab) {
                 parent.addChildTab(tab);
@@ -2344,23 +2357,40 @@ public class Controller
         return tab;
     }
 
+    private boolean isNativePageUrl(String url) {
+        return null != url && url.startsWith(StockBrowser.NATIVE_PAGE_URL);
+    }
+
+    @Override
+    public boolean isNativePageShowing() {
+        if (null == getCurrentTab()) {
+            return true;
+        }
+        return isNativePageUrl(getCurrentTab().getUrl());
+
+    }
+
+    private Tab createNewTab(boolean incognito, boolean setActive,
+                             boolean useCurrent) {
+        return createNewTab(incognito, setActive, useCurrent, false);
+    }
     // this method will attempt to create a new tab
     // incognito: private browsing tab
     // setActive: ste tab as current tab
-    // useCurrent: if no new tab can be created, return current tab
+    // useCurrent: always return current tab
     private Tab createNewTab(boolean incognito, boolean setActive,
-            boolean useCurrent) {
+            boolean useCurrent, boolean nativeNewTab) {
         Tab tab = null;
-        if (mTabControl.canCreateNewTab()) {
-            tab = mTabControl.createNewTab(incognito);
-            addTab(tab);
-            if (setActive) {
-                setActiveTab(tab);
-            }
+        if (useCurrent) {
+            tab = mTabControl.getCurrentTab();
+            reuseTab(tab, null, nativeNewTab);
         } else {
-            if (useCurrent) {
-                tab = mTabControl.getCurrentTab();
-                reuseTab(tab, null);
+            if (mTabControl.canCreateNewTab()) {
+                tab = mTabControl.createNewTab(incognito, nativeNewTab);
+                addTab(tab);
+                if (setActive) {
+                    setActiveTab(tab);
+                }
             } else {
                 mUi.showMaxTabsWarning();
             }

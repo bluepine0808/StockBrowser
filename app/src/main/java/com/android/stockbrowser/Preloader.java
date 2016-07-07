@@ -29,7 +29,7 @@ import java.util.Map;
 public class Preloader {
 
     private final static String LOGTAG = "browser.preloader";
-    private final static boolean LOGD_ENABLED = com.android.stockbrowser.Browser.LOGD_ENABLED;
+    private final static boolean LOGD_ENABLED = StockBrowser.LOGD_ENABLED;
 
     private static final int PRERENDER_TIMEOUT_MILLIS = 30 * 1000; // 30s
 
@@ -37,7 +37,7 @@ public class Preloader {
 
     private final Context mContext;
     private final Handler mHandler;
-    private final BrowserWebViewFactory mFactory;
+    private final BrowserNewPageFactory mFactory;
     private volatile PreloaderSession mSession;
 
     public static void initialize(Context context) {
@@ -52,7 +52,7 @@ public class Preloader {
         mContext = context.getApplicationContext();
         mHandler = new Handler(Looper.getMainLooper());
         mSession = null;
-        mFactory = new BrowserWebViewFactory(context);
+        mFactory = new BrowserNewPageFactory(context);
 
     }
 

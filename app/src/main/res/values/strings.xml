@@ -273,7 +273,7 @@
             contextmenu_sharelink above -->
     <string name="choosertitle_sharevia">Share via</string>
 
-    <!-- Used as the title of dialogs in the Browser Settings confirming that
+    <!-- Used as the title of dialogs in the StockBrowser Settings confirming that
             the user wants to clear (cache, history, or cookie data) -->
     <string name="clear">Clear</string>
 
@@ -420,7 +420,7 @@
     <!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
     <string name="autofill_setup_dialog_message">The browser can automatically complete web forms like this one. Do you want to set up your auto-fill text?</string>
     <!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
-         it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
+         it through the StockBrowser Settings menu. [CHAR-LIMIT=NONE] -->
     <string name="autofill_setup_dialog_negative_toast">You can always set up your auto-fill text from the Browser &gt; Settings &gt; General screen.</string>
     <!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
          The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
@@ -802,7 +802,7 @@
 
     <!-- The default homepage. -->
     <string name="homepage_base" translatable="false">
-        http://www.hao123.com</string>
+        browser-native://newtab/</string>
 
     <!-- Bookmarks -->
     <string-array name="bookmarks" translatable="false">
@@ -822,7 +822,7 @@
     <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
     <string name="webstorage_outofspace_notification_title">Browser storage full</string>
     <string name="webstorage_outofspace_notification_text">Touch to free up space.</string>
-    <!-- Used in the Browser Settings -->
+    <!-- Used in the StockBrowser Settings -->
     <string name="webstorage_clear_data_title">Clear stored data</string>
     
     <!-- Confirmation dialog when the user ask to clear all data for an origin -->

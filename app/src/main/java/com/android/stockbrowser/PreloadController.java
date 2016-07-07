@@ -31,7 +31,7 @@ import android.webkit.WebChromeClient.CustomViewCallback;
 import android.webkit.WebChromeClient.FileChooserParams;
 import android.webkit.WebView;
 
-public class PreloadController implements WebViewController {
+public class PreloadController implements NewPageController {
 
     private static final boolean LOGD_ENABLED = false;
     private static final String LOGTAG = "PreloadController";
@@ -61,14 +61,19 @@ public class PreloadController implements WebViewController {
     }
 
     @Override
-    public WebViewFactory getWebViewFactory() {
-        if (LOGD_ENABLED) Log.d(LOGTAG, "getWebViewFactory()");
+    public NewPageFactory getNewPageFactory() {
+        if (LOGD_ENABLED) Log.d(LOGTAG, "getNewPageFactory()");
         return null;
     }
 
     @Override
     public void onSetWebView(Tab tab, WebView view) {
         if (LOGD_ENABLED) Log.d(LOGTAG, "onSetWebView()");
+    }
+
+    @Override
+    public void onSetNewTabPage(Tab tab, NativeNewTabPage newTabPage){
+        if (LOGD_ENABLED) Log.d(LOGTAG, "onSetNewTabPage()");
     }
 
     @Override

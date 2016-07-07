@@ -25,11 +25,11 @@ import android.webkit.WebView;
 /**
  * Web view factory class for creating {@link BrowserWebView}'s.
  */
-public class BrowserWebViewFactory implements WebViewFactory {
+public class BrowserNewPageFactory implements NewPageFactory {
 
     private final Context mContext;
 
-    public BrowserWebViewFactory(Context context) {
+    public BrowserNewPageFactory(Context context) {
         mContext = context;
     }
 
@@ -77,4 +77,8 @@ public class BrowserWebViewFactory implements WebViewFactory {
         }
     }
 
+    @Override
+    public NativeNewTabPage createNewTabPage(Controller controller, boolean privateBrowsing) {
+        return new NativeNewTabPage(mContext, controller);
+    }
 }

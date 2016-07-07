@@ -102,7 +102,7 @@ public class OpenSearchSearchEngine implements SearchEngine {
             Log.e(TAG, "Unable to get search URI for " + mSearchEngineInfo);
         } else {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
-            // Make sure the intent goes to the Browser itself
+            // Make sure the intent goes to the StockBrowser itself
             intent.setPackage(context.getPackageName());
             intent.addCategory(Intent.CATEGORY_DEFAULT);
             intent.putExtra(SearchManager.QUERY, query);

@@ -51,7 +51,7 @@ public class BrowserActivity extends Activity
 
     private final static String LOGTAG = "browser";
 
-    private final static boolean LOGV_ENABLED = Browser.LOGV_ENABLED;
+    private final static boolean LOGV_ENABLED = StockBrowser.LOGV_ENABLED;
 
     private ActivityController mController = NullController.INSTANCE;
 

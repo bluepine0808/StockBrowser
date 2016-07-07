@@ -33,7 +33,7 @@ import java.io.IOException;
 
 public class CrashRecoveryHandler {
 
-    private static final boolean LOGV_ENABLED = Browser.LOGV_ENABLED;
+    private static final boolean LOGV_ENABLED = StockBrowser.LOGV_ENABLED;
     private static final String LOGTAG = "BrowserCrashRecovery";
     private static final String STATE_FILE = "browser_state.parcel";
     private static final int BUFFER_SIZE = 4096;

@@ -82,7 +82,7 @@ public class IntentHandler {
 
         Tab current = mTabControl.getCurrentTab();
         // When a tab is closed on exit, the current tab index is set to -1.
-        // Reset before proceed as Browser requires the current tab to be set.
+        // Reset before proceed as StockBrowser requires the current tab to be set.
         if (current == null) {
             // Try to reset the tab in case the index was incorrect.
             current = mTabControl.getTab(0);
